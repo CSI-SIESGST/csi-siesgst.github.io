@@ -100,6 +100,7 @@ body {
 #about .stats {
   background-color: #191919;
   padding: 80px;
+  padding-bottom: 30px;
 }
 
 .stats .circle {
@@ -128,6 +129,7 @@ body {
   background-color: #272727;
   border-radius: 6px;
   padding: 20px;
+  font-size: 30px;
 }
 
 .registeration .lines {
@@ -136,9 +138,20 @@ body {
 
 /* Teams styles */
 
+#teams {
+  padding: 0px;
+  padding-top: 60px;
+}
+
+#teams .heading-text {
+  padding: 0px;
+}
+
 .teams {
   background-color: #111111;
   padding: 150px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .avatar {
@@ -190,10 +203,22 @@ body {
   .workshop-card .workshop-text {
     font-size: 30px;
   }
+  .registeration .registeration-text {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .registeration .registeration-text {
+    font-size: 20px;
+  }
 }
 
 @media screen and (max-width: 350px) {
   .workshop-card .workshop-text {
     font-size: 20px;
+  }
+  .registeration .registeration-text {
+    font-size: 15px;
   }
 }

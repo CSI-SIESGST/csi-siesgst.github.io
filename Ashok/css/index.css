@@ -65,12 +65,6 @@ body {
   height:  87.08272859216255vh;
 }
 
-@media screen and (max-width: 600px) {
-  .carousel-image-height {
-    height:  45.08272859216255vh;
-  }
-}
-
 
 /* About styles */
 
@@ -88,7 +82,7 @@ body {
 
 #about .workshops {
   background-color: #111111;
-  padding: 80px;
+  padding: 40px;
 }
 
 .workshops .workshop-card {
@@ -97,6 +91,10 @@ body {
   padding: 20px;
   background-color: #000000;
   margin: 30px;
+}
+
+.workshop-card .workshop-text {
+  font-size: 40px;
 }
 
 #about .stats {
@@ -152,9 +150,10 @@ body {
   margin-right: 20px;
 }
 
-.teams .right-image {
+.right-image {
   margin-top: 50px;
 }
+
 
 #teachers {
   background-color: #191919;
@@ -173,3 +172,28 @@ body {
   background-color: #111111;
 }
 
+
+@media screen and (max-width: 770px) {
+  .right-image {
+    margin-top: 0px;
+  }
+}
+
+
+@media screen and (max-width: 500px) {
+  .carousel-image-height {
+    height:  45.08272859216255vh;
+  }
+  .right-image {
+    margin-top: 0px;
+  }
+  .workshop-card .workshop-text {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .workshop-card .workshop-text {
+    font-size: 20px;
+  }
+}

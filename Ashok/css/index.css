@@ -74,13 +74,13 @@ body {
 
 /* About styles */
 
-#about .heading {
+.heading {
   text-align: center;
   padding: 50px;
   background-color: #191919;
 }
 
-#about .heading-text {
+.heading-text {
   display: inline-block;
   border-bottom: 3px solid #1D75FC;
   padding: 6px;
@@ -118,3 +118,58 @@ body {
 .stats .circle-text {
   text-align: center;
 }
+
+.registeration {
+  margin-top: 50px;
+  padding: 0px;
+}
+
+.registeration .registeration-text {
+  display: inline-block;
+  text-align: center;
+  background-color: #272727;
+  border-radius: 6px;
+  padding: 20px;
+}
+
+.registeration .lines {
+  border-top: 5px solid #1D75FC;
+}
+
+/* Teams styles */
+
+.teams {
+  background-color: #111111;
+  padding: 150px;
+}
+
+.avatar {
+  vertical-align: middle;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 3px solid #1D75FC;
+  margin-right: 20px;
+}
+
+.teams .right-image {
+  margin-top: 50px;
+}
+
+#teachers {
+  background-color: #191919;
+}
+
+.teachers-content {
+  background-color: #111111;
+}
+
+.blank-space {
+  height: 100px;
+  background-color: #191919;
+}
+
+#contact {
+  background-color: #111111;
+}
+

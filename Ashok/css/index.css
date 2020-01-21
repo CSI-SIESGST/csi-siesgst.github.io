@@ -65,22 +65,16 @@ body {
   height:  87.08272859216255vh;
 }
 
-@media screen and (max-width: 600px) {
-  .carousel-image-height {
-    height:  45.08272859216255vh;
-  }
-}
-
 
 /* About styles */
 
-#about .heading {
+.heading {
   text-align: center;
   padding: 50px;
   background-color: #191919;
 }
 
-#about .heading-text {
+.heading-text {
   display: inline-block;
   border-bottom: 3px solid #1D75FC;
   padding: 6px;
@@ -88,7 +82,7 @@ body {
 
 #about .workshops {
   background-color: #111111;
-  padding: 80px;
+  padding: 40px;
 }
 
 .workshops .workshop-card {
@@ -99,9 +93,14 @@ body {
   margin: 30px;
 }
 
+.workshop-card .workshop-text {
+  font-size: 40px;
+}
+
 #about .stats {
   background-color: #191919;
   padding: 80px;
+  padding-bottom: 30px;
 }
 
 .stats .circle {
@@ -117,4 +116,109 @@ body {
 
 .stats .circle-text {
   text-align: center;
+}
+
+.registeration {
+  margin-top: 50px;
+  padding: 0px;
+}
+
+.registeration .registeration-text {
+  display: inline-block;
+  text-align: center;
+  background-color: #272727;
+  border-radius: 6px;
+  padding: 20px;
+  font-size: 30px;
+}
+
+.registeration .lines {
+  border-top: 5px solid #1D75FC;
+}
+
+/* Teams styles */
+
+#teams {
+  padding: 0px;
+  padding-top: 60px;
+}
+
+#teams .heading-text {
+  padding: 0px;
+}
+
+.teams {
+  background-color: #111111;
+  padding: 150px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.avatar {
+  vertical-align: middle;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 3px solid #1D75FC;
+  margin-right: 20px;
+}
+
+.right-image {
+  margin-top: 50px;
+}
+
+
+#teachers {
+  background-color: #191919;
+}
+
+.teachers-content {
+  background-color: #111111;
+}
+
+.blank-space {
+  height: 100px;
+  background-color: #191919;
+}
+
+#contact {
+  background-color: #111111;
+}
+
+
+@media screen and (max-width: 770px) {
+  .right-image {
+    margin-top: 0px;
+  }
+}
+
+
+@media screen and (max-width: 500px) {
+  .carousel-image-height {
+    height:  45.08272859216255vh;
+  }
+  .right-image {
+    margin-top: 0px;
+  }
+  .workshop-card .workshop-text {
+    font-size: 30px;
+  }
+  .registeration .registeration-text {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .registeration .registeration-text {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .workshop-card .workshop-text {
+    font-size: 20px;
+  }
+  .registeration .registeration-text {
+    font-size: 15px;
+  }
 }

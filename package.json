@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "open html/index.html"
+    "start": "open index.html"
   },
   "repository": {
     "type": "git",

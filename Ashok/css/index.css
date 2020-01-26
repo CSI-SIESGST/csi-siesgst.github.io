@@ -101,20 +101,20 @@ body {
   padding: 6px;
 }
 
-#about .workshops {
+/* #about .workshops {
   padding: 40px;
-}
+} */
 
-.workshops .workshop-card {
+/* .workshops .workshop-card {
   border-right: 3px solid #1D75FC;
   border-bottom: 3px solid #1D75FC;
   padding: 20px;
   margin: 30px;
-}
+} */
 
-.workshop-card .workshop-text {
+/* .workshop-card .workshop-text {
   font-size: 40px;
-}
+} */
 
 .about-heading {
   padding: 20px;
@@ -127,13 +127,13 @@ body {
 
 .about-image img {
   border-radius: 8px;
-  box-shadow: 1px 1px 1px 1px #1D75FC;
-  filter: grayscale(50%);
+  /* box-shadow: 1px 1px 1px 1px #1D75FC; */
+  /* filter: grayscale(50%); */
 }
-
+/* 
 .about-image img:hover {
   filter: none;
-}
+} */
 
 .about-content {
   padding: 20px;
@@ -165,7 +165,7 @@ body {
   content: "+";
 }
 
-.registeration {
+/* .registeration {
   margin-top: 50px;
   padding: 0px;
 }
@@ -181,10 +181,10 @@ body {
 
 .registeration .lines {
   border-top: 5px solid #1D75FC;
-}
+} */
 
 /* Teams styles */
-
+/* 
 #teams {
   padding: 0px;
   padding-top: 60px;
@@ -207,18 +207,23 @@ body {
   border-radius: 50%;
   border: 3px solid #1D75FC;
   margin-right: 20px;
-}
+} */
 
-.right-image {
+/* .right-image {
   margin-top: 50px;
+} */
+
+.social img:hover {
+  transition: 0.7s;
+  transform: rotateY(360deg)
 }
 
 
 
 @media screen and (max-width: 770px) {
-  .right-image {
+  /* .right-image {
     margin-top: 0px;
-  }
+  } */
 }
 
 
@@ -226,15 +231,15 @@ body {
   .carousel-image-height {
     height:  45.08272859216255vh;
   }
-  .right-image {
+  /* .right-image {
     margin-top: 0px;
-  }
-  .workshop-card .workshop-text {
+  } */
+  /* .workshop-card .workshop-text {
     font-size: 30px;
-  }
-  .registeration .registeration-text {
+  } */
+  /* .registeration .registeration-text {
     font-size: 25px;
-  }
+  } */
   .about-heading {
     padding: 10px;
   }
@@ -249,16 +254,27 @@ body {
 }
 
 @media screen and (max-width: 400px) {
-  .registeration .registeration-text {
+  /* .registeration .registeration-text {
     font-size: 20px;
+  } */
+    .about-heading {
+    margin: 0px;
+  }
+
+  .about-image {
+    margin: 0px;
+  }
+
+  .about-content {
+    margin: 0px;
   }
 }
 
 @media screen and (max-width: 350px) {
-  .workshop-card .workshop-text {
+  /* .workshop-card .workshop-text {
     font-size: 20px;
-  }
-  .registeration .registeration-text {
+  } */
+  /* .registeration .registeration-text {
     font-size: 15px;
-  }
+  } */
 }

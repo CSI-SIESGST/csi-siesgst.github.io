@@ -1,16 +1,280 @@
-*,
-*::after,
-*::before{
+body {
+  color: #e4e4e4;
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
 }
 
-body {
-  margin: 1rem;
-  padding: 0;
-  box-sizing: border-box;
-  overflow: hidden;
-  scroll-behavior: smooth;
-  font-family: 'Poppins',
-  sans-serif;
+
+.medium-background {
+  background-color: #111111;
+}
+
+.light-background {
+  background-color: #191919;
+}
+
+.dark-background {
+  background-color: #000000;
+}
+
+.blue-text-color {
+  color: #1D75FC;
+}
+
+
+/* Navbar styles */
+
+.navbar {
+  background: #111111;
+  -o-transition: all .6s;
+  -moz-transition: all .6s;
+  -webkit-transition: all .6s;
+  -ms-transition: all .6s;
+  transition: all .6s;
+  backface-visibility: hidden;
+}
+
+.navbar-dark .navbar-nav {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.active {
+  color: #1D75FC !important;
+}
+
+.navbar-dark .navbar-nav .nav-link:visited { 
+  color: #e4e4e4;
+} 
+.navbar-dark .navbar-nav .nav-link:active {  
+  color: #e4e4e4;
+}
+.navbar-dark .navbar-nav .nav-link:focus { 
+  color: gray;
+} 
+.navbar-dark .navbar-nav .nav-link:hover {  
+  color: #1D75FC;
+}
+
+/* 
+.navbar-expand-md .navbar-nav .nav-link {
+  padding-left: 1rem;
+  padding-right: 1rem;
+} */
+
+
+
+/* Carousel styles */
+
+.carousel-padding {
+  padding-top: 56px;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  height: 50px;
+  width: 50px;
+  background-color: rgba(0, 0, 0, 0.3);
+  background-size: 60%, 60%;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.carousel-indicators .active{
+  background-color: #1D75FC;
+}
+
+.carousel-image-height {
+  height:  87.08272859216255vh;
+}
+
+
+/* About styles */
+
+.heading {
+  text-align: center;
+  padding: 50px;
+}
+
+.heading-text {
+  display: inline-block;
+  border-bottom: 3px solid #1D75FC;
+  padding: 6px;
+}
+
+/* #about .workshops {
+  padding: 40px;
+} */
+
+/* .workshops .workshop-card {
+  border-right: 3px solid #1D75FC;
+  border-bottom: 3px solid #1D75FC;
+  padding: 20px;
+  margin: 30px;
+} */
+
+/* .workshop-card .workshop-text {
+  font-size: 40px;
+} */
+
+.about-heading {
+  padding: 20px;
+  text-align: left;  
+}
+
+.about-image {
+  padding: 20px;
+}
+
+.about-image img {
+  border-radius: 8px;
+  /* box-shadow: 1px 1px 1px 1px #1D75FC; */
+  /* filter: grayscale(50%); */
+}
+/* 
+.about-image img:hover {
+  filter: none;
+} */
+
+.about-content {
+  padding: 20px;
+}
+
+.about-content-border {
+  border-left: 3px solid #1D75FC;
+  padding-left: 10px;
+}
+
+.content {
+  padding: 30px;
+}
+
+.stats .circle {
+  width: 150px;
+  height: 150px;
+  display: table-cell;
+  vertical-align: middle;
+  border: 10px solid #1D75FC;
+  border-radius: 50%;
+}
+
+.stats .circle-text {
+  text-align: center;
+}
+
+.stats .value::after {
+  content: "+";
+}
+
+/* .registeration {
+  margin-top: 50px;
+  padding: 0px;
+}
+
+.registeration .registeration-text {
+  display: inline-block;
+  text-align: center;
+  background-color: #272727;
+  border-radius: 6px;
+  padding: 20px;
+  font-size: 30px;
+}
+
+.registeration .lines {
+  border-top: 5px solid #1D75FC;
+} */
+
+/* Teams styles */
+/* 
+#teams {
+  padding: 0px;
+  padding-top: 60px;
+}
+
+#teams .heading-text {
+  padding: 0px;
+}
+
+.teams {
+  padding: 150px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.avatar {
+  vertical-align: middle;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 3px solid #1D75FC;
+  margin-right: 20px;
+} */
+
+/* .right-image {
+  margin-top: 50px;
+} */
+
+.social img:hover {
+  transition: 0.7s;
+  transform: rotateY(360deg)
+}
+
+
+
+@media screen and (max-width: 770px) {
+  /* .right-image {
+    margin-top: 0px;
+  } */
+}
+
+
+@media screen and (max-width: 500px) {
+  .carousel-image-height {
+    height:  45.08272859216255vh;
+  }
+  /* .right-image {
+    margin-top: 0px;
+  } */
+  /* .workshop-card .workshop-text {
+    font-size: 30px;
+  } */
+  /* .registeration .registeration-text {
+    font-size: 25px;
+  } */
+  .about-heading {
+    padding: 10px;
+  }
+
+  .about-image {
+    padding: 10px;
+  }
+
+  .about-content {
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  /* .registeration .registeration-text {
+    font-size: 20px;
+  } */
+    .about-heading {
+    margin: 0px;
+  }
+
+  .about-image {
+    margin: 0px;
+  }
+
+  .about-content {
+    margin: 0px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  /* .workshop-card .workshop-text {
+    font-size: 20px;
+  } */
+  /* .registeration .registeration-text {
+    font-size: 15px;
+  } */
 }

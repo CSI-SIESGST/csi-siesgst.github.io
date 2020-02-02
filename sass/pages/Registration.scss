@@ -1,0 +1,79 @@
+.Registration{
+    height: 80vh;
+}
+.reg-abs-main{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: center;
+
+    &__box1{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    &__reg-box{
+        width: 50vw;
+        border: none;
+
+        &--heading{
+            font-size: 2.5rem;
+            text-transform: uppercase;
+            font-weight: 600;
+            color: $color-blue-text-2 !important;
+            font-family: 'Poppins',
+            sans-serif;
+        }
+
+        &--list-collection{
+            padding: 1rem;
+        }
+
+        &--list{
+            list-style: circle;
+            font-size: 1.7rem;
+            line-height: 3rem;
+            font-weight: 500;
+            color: $color-dark-grey-2;
+        }
+
+        &--sentence{
+            font-size: 1.7rem;
+            font-weight: 500;
+            color: $color-dark-grey-2;
+
+        }
+
+        &--btn1,
+        &--btn2{
+            font-size: 1.5rem;
+            width: 20rem;
+            height: 4rem;
+            margin-bottom: 5rem;
+            text-transform: uppercase;
+            font-weight: 500;
+            border-radius: .3rem;
+        }
+
+        &--btn2{
+            margin-bottom: 0rem;
+            margin-top: 2rem;
+        }
+    }
+
+    &__box2{
+
+        &__img{
+            width: 95vw;
+
+            &--modifier{
+                height: 70rem;
+            }
+        }
+
+    }
+
+}

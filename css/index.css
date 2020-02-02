@@ -68,11 +68,15 @@ body {
   background-color: #fff;
   font-family: 'Poppins', sans-serif; }
 
-.navbar {
+.navbar,
+.navbar-reg {
   transition: all .6s;
   backface-visibility: hidden;
   margin: 0 2rem !important;
   background-color: #eee !important; }
+
+.navbar-reg {
+  margin: 0rem !important; }
 
 .navbar-brand {
   font-size: 2rem;
@@ -85,6 +89,21 @@ body {
     color: #1D75FC !important; }
   .navbar-brand:focus {
     color: #1D75FC !important; }
+  .navbar-brand__back-icon {
+    height: 4.5rem;
+    width: auto;
+    transition: all .3s; }
+    .navbar-brand__back-icon:hover {
+      transform: translateX(-5px); }
+
+.navbar-heading {
+  font-size: 3rem;
+  color: transparent;
+  background-image: linear-gradient(to right, #303f9f, #1D75FC);
+  -webkit-background-clip: text;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 3rem 0; }
 
 .navbar-brand-img {
   width: 8rem; }
@@ -173,6 +192,56 @@ body {
   height: 2.5rem;
   margin-bottom: 8px;
   margin-right: 5px; }
+
+.Registration {
+  height: 80vh; }
+
+.reg-abs-main {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: center; }
+  .reg-abs-main__box1 {
+    display: flex;
+    flex-direction: column; }
+  .reg-abs-main__reg-box {
+    width: 50vw;
+    border: none; }
+    .reg-abs-main__reg-box--heading {
+      font-size: 2.5rem;
+      text-transform: uppercase;
+      font-weight: 600;
+      color: #303f9f !important;
+      font-family: 'Poppins', sans-serif; }
+    .reg-abs-main__reg-box--list-collection {
+      padding: 1rem; }
+    .reg-abs-main__reg-box--list {
+      list-style: circle;
+      font-size: 1.7rem;
+      line-height: 3rem;
+      font-weight: 500;
+      color: #333; }
+    .reg-abs-main__reg-box--sentence {
+      font-size: 1.7rem;
+      font-weight: 500;
+      color: #333; }
+    .reg-abs-main__reg-box--btn1, .reg-abs-main__reg-box--btn2 {
+      font-size: 1.5rem;
+      width: 20rem;
+      height: 4rem;
+      margin-bottom: 5rem;
+      text-transform: uppercase;
+      font-weight: 500;
+      border-radius: .3rem; }
+    .reg-abs-main__reg-box--btn2 {
+      margin-bottom: 0rem;
+      margin-top: 2rem; }
+  .reg-abs-main__box2__img {
+    width: 95vw; }
+    .reg-abs-main__box2__img--modifier {
+      height: 70rem; }
 
 .innovation-content {
   display: flex;

@@ -4,9 +4,13 @@
 
     &__box{
         display: flex;
-        justify-content: center;
+        justify-content: space-evenly;
         align-items: center;
         height: 40vh;
+
+        &__address{
+            flex-basis: 53rem;
+        }
 
         &__icon{
             &--modifier{

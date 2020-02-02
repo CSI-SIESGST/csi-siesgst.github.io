@@ -1,0 +1,76 @@
+.navbar{
+    transition: all .6s;
+    backface-visibility: hidden;
+    margin: 0 2rem!important;
+    background-color: $color-white-2!important;
+}
+
+.navbar-brand{
+    font-size: 2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: $color-text!important;
+
+    &:hover {
+      color: $color-blue-text-1 !important;
+    }
+
+    &:active {
+      color: $color-blue-text-1 !important;
+    }
+
+    &:focus {
+      color: $color-blue-text-1 !important;
+    }
+
+    
+}
+
+.navbar-brand-img{
+    width: 8rem;
+}
+
+.navbar-nav {
+  font-size: 2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.nav-link{
+  margin-right: 1rem;
+  transition: all .3s;
+   
+  &:hover {
+     color: $color-blue-text-1 !important;
+     border-bottom: 1px solid $color-blue-light;
+   }
+
+   &:active{
+     color: $color-blue-text-1!important;
+   }
+
+   &:focus {
+     color: $color-blue-text-1 !important;
+   }
+
+    &:visited {
+      color: $color-blue-text-1 !important;
+    }
+}
+
+.active {
+  color: $color-blue-text-1 !important;
+}
+
+// .navbar-dark .navbar-nav .nav-link:visited { 
+//   color: #e4e4e4;
+// } 
+// .navbar-dark .navbar-nav .nav-link:active {  
+//   color: #e4e4e4;
+// }
+// .navbar-dark .navbar-nav .nav-link:focus { 
+//   color: gray;
+// } 
+// .navbar-dark .navbar-nav .nav-link:hover {  
+//   color: #1D75FC;
+// }

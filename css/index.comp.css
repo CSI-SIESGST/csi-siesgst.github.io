@@ -1,0 +1,83 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0; }
+
+html {
+  font-size: 62.50%;
+  overflow-x: hidden;
+  scroll-behavior: smooth; }
+
+body {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  padding: 1rem;
+  background-color: #fff;
+  font-family: 'Poppins', sans-serif; }
+
+.navbar {
+  -o-transition: all .6s;
+  -moz-transition: all .6s;
+  -webkit-transition: all .6s;
+  -ms-transition: all .6s;
+  transition: all .6s;
+  backface-visibility: hidden; }
+
+.navbar-brand {
+  font-size: 2rem; }
+
+.navbar-brand-img {
+  width: 8rem; }
+
+.navbar-dark, .navbar-nav {
+  font-size: 20px;
+  font-weight: 600; }
+
+.active {
+  color: #1D75FC !important; }
+
+.navbar-dark .navbar-nav .nav-link:visited {
+  color: #e4e4e4; }
+
+.navbar-dark .navbar-nav .nav-link:active {
+  color: #e4e4e4; }
+
+.navbar-dark .navbar-nav .nav-link:focus {
+  color: gray; }
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #1D75FC; }
+
+.Intro {
+  visibility: hidden;
+  display: none; }
+
+.About-Us {
+  visibility: hidden;
+  display: none; }
+
+.Past-memories {
+  visibility: hidden;
+  display: none; }
+
+.Workshop {
+  visibility: hidden;
+  display: none; }
+
+.Stats {
+  visibility: hidden;
+  display: none; }
+
+.Innovation {
+  visibility: hidden;
+  display: none; }
+
+.Events {
+  visibility: hidden;
+  display: none; }
+
+.Contact {
+  visibility: hidden;
+  display: none; }

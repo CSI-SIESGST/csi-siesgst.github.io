@@ -1,0 +1,46 @@
+.contact-content{
+    background-color: $color-blue-dark-2;
+    height: 40vh;
+
+    &__box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 40vh;
+
+        &__icon{
+            &--modifier{
+                height: 7rem;
+                width: auto;
+            }
+        }
+
+        &__logo{
+            display: flex;
+            justify-content: center;
+
+            &--modifier{
+                height: 8rem;
+                width: auto;
+            }
+        }
+
+        &__social-box{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            align-content: center;
+        }
+
+        &__phone{
+            margin-top: 1.5rem;
+        }
+
+    }
+}
+
+.footer-icon{
+    height: 2.5rem;
+    margin-bottom: 8px;
+    margin-right: 5px;
+}

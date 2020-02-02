@@ -1,0 +1,24 @@
+.innovation-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+    &__procedure{
+        margin: 0 3rem;
+    }
+
+    &__img{
+        margin: 2rem;
+        width: 45vw!important;
+        border-radius: 0.5rem!important;
+    }
+
+    &__btn{
+        font-size: 2.5rem;
+        font-weight: 600;
+        text-align: center;
+        margin-top: 1.5rem;
+        text-transform: uppercase;
+    }
+}

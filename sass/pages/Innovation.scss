@@ -4,21 +4,70 @@
     align-items: center;
     align-content: center;
 
+    @include respond(bp-5){
+        flex-direction: column;
+    }
+
     &__procedure{
         margin: 0 3rem;
+
+        @include respond(bp-2){
+            margin: 0 1rem;
+        }
     }
 
     &__img{
         margin: 2rem;
         width: 45vw!important;
         border-radius: 0.5rem!important;
+
+        @include respond(bp-5){
+           display: none;
+           visibility: hidden;
+           height: 0;
+           width: 0;
+        }
     }
 
     &__btn{
-        font-size: 2.5rem;
-        font-weight: 600;
-        text-align: center;
-        margin-top: 1.5rem;
-        text-transform: uppercase;
+
+        @include respond(bp-5){
+            display: block;
+            text-align: center;
+        }
+
+        &--modifier{
+            font-size: 2.5rem;
+            font-weight: 600;
+            text-align: center;
+            margin-top: 1.5rem;
+            text-transform: uppercase;
+
+            @include respond(bp-7) {
+                font-size: 2rem;
+                margin-top: 1.2rem;
+            }
+
+            @include respond(bp-6) {
+                font-size: 1.8rem;
+                margin-top: 1rem;
+            }
+
+            @include respond(bp-5) {
+                font-size: 2rem;
+                margin-top: 1rem;
+                align-self: center;
+            }
+
+            @include respond(bp-2){
+                font-size: 1.7rem;
+                margin-top: 0rem;
+            }
+
+            @include respond(bp-1) {
+                font-size: 1.4rem;
+                margin-top: 0rem;
+            }
+        }
     }
 }

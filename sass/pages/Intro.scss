@@ -6,6 +6,32 @@
     height: 80vh;
     margin-top: 8rem;
 
+    @include respond(bp-5){
+        background-image: linear-gradient(to right bottom, $color-white-2-opacity, $color-white-1-opacity),
+        url(/assets-original/Intro-img.jpg);
+        background-size: contain;
+        margin-top: 7rem;
+    }
+
+    @include respond(bp-3){
+        height: 70vh;
+    }
+
+    @include respond(bp-2) {
+        height: 60vh;
+    }
+
+    @include respond(bp-1) {
+        height: 50vh;
+        margin-top: 2rem;
+    }
+
+    @include respond(iphone-6/7/8plus) {
+        height: 40vh;
+        // margin-top: 9.5rem;
+    }
+
+
     &__heading-main{
         width: 100%;
         height: 40vh;
@@ -23,6 +49,43 @@
                 font-size: 7rem;
                 color: $color-blue-text-2;
                 text-align: center;
+
+                @include respond(bp-8){
+                    font-size: 5rem;
+                }
+
+                @include respond(bp-7){
+                    font-size: 5rem;
+                }
+
+                @include respond(bp-6){
+                    font-size: 4.5rem;
+                }
+
+                @include respond(bp-5){
+                    font-size: 6rem;
+                    font-weight: 600;
+                    color: $color-blue-text-2
+                }
+
+                @include respond(bp-4){
+                    font-weight: 600;
+                    font-size: 5rem;
+                }
+
+                @include respond(bp-2) {
+                    font-weight: 500;
+                    font-size: 5rem;
+                }
+
+                @include respond(bp-1) {
+                    font-weight: 500;
+                    font-size: 4rem;
+                }
+
+                @include respond(iphone-6/7/8/10) {
+                    font-size: 3rem;
+                }
             }
 
         }
@@ -33,6 +96,11 @@
         &__img{
             width: 50vw;
             margin: 1rem;
+
+            @include respond(bp-5){
+                display: none;
+                visibility: hidden;
+            }
         }
     }
 

@@ -1,21 +1,71 @@
 .contact-content{
     background-color: $color-blue-dark-2;
-    height: 40vh;
 
     &__box{
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-between;
         align-items: center;
-        height: 40vh;
+
+        @include respond(bp-8) {
+            justify-content: space-evenly;
+        }
+
+        @include respond(bp-7) {
+            justify-content: space-evenly;
+        }
+
+        @include respond(bp-6){
+            justify-content: space-evenly;
+        }
+
+        @include respond(bp-2){
+            padding: 2rem!important;
+        }
 
         &__address{
-            flex-basis: 53rem;
+            flex-basis: 45rem;
+
+            @include respond(bp-8){
+                flex-basis: 48rem;
+            }
+
+            @include respond(bp-5){
+                flex-basis: 50rem;
+                margin-bottom: 2rem;
+            }
+        }
+
+        &__CSI {
+            flex-basis: 45rem;
+
+            @include respond(bp-8){
+                display: none;
+                visibility: hidden;
+                height: 0;
+                width: 0;
+            }
+
+            @include respond(bp-7) {
+                display: none;
+                visibility: hidden;
+                height: 0;
+                width: 0;
+            }
         }
 
         &__icon{
             &--modifier{
                 height: 7rem;
                 width: auto;
+                margin-bottom: 1rem;
+
+                @include respond(bp-8){
+                    height: 6rem;
+                }
+
+                @include respond(bp-7) {
+                    height: 5rem;
+                }
             }
         }
 
@@ -26,15 +76,100 @@
             &--modifier{
                 height: 8rem;
                 width: auto;
+                margin-bottom: 1rem;
+
+                @include respond(bp-8){
+                    height: 7rem;
+                }
+
+                @include respond(bp-7) {
+                    height: 6rem;
+                }
             }
         }
 
         &__social-box{
+
+            flex-basis: 45rem;
+
+            @include respond(bp-8){
+                flex-basis: 48rem;
+            }
+
+            &__icons{
             display: flex;
-            justify-content: space-between;
+            justify-content: space-evenly;
             align-items: center;
             align-content: center;
-        }
+
+           
+                &--icon1 {
+                    height: 6rem;
+
+                    @include respond(bp-8) {
+                        height: 4rem;
+                    }
+
+                    @include respond(bp-7) {
+                        height: 3.5rem;
+                    }
+
+                }
+
+                &--icon2 {
+                    height: 8rem;
+
+                    @include respond(bp-8) {
+                        height: 5.6rem;
+                    }
+
+                    @include respond(bp-7) {
+                        height: 5rem;
+                    }
+
+                }
+
+                &--icon3 {
+                    height: 5.5rem;
+
+                    @include respond(bp-8) {
+                        height: 4rem;
+                    }
+
+                    @include respond(bp-7) {
+                        height: 3.5rem;
+                    }
+
+                }
+
+                &--icon4 {
+                    height: 5rem;
+
+                    @include respond(bp-8) {
+                        height: 4rem;
+                    }
+
+                    @include respond(bp-7) {
+                        height: 3.5rem;
+                    }
+
+                }
+
+                &--icon5 {
+                    height: 6rem;
+
+                    @include respond(bp-8) {
+                        height: 4.5rem;
+                    }
+
+                    @include respond(bp-7) {
+                        height: 3.5rem;
+                    }
+
+                }
+            }
+
+    }
 
         &__phone{
             margin-top: 1.5rem;

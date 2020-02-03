@@ -1,8 +1,19 @@
+.Workshop{
+
+    @include respond(bp-3){
+        margin: 5rem 0;
+    }
+}
+
 .card-content{
 
     border: 3px solid $color-blue-light;
     border-radius: 0.5rem;
     box-shadow: 0px 0px 2.7rem -0.6rem rgba(0, 0, 0, 0.48);
+
+    @include respond(bp-3){
+        box-shadow: none;
+    }
 
     &__img{
 
@@ -17,6 +28,23 @@
         font-weight: 600;
         text-align: center;
         color: $color-blue-text-1;
+        text-transform: uppercase;
+
+        @include respond(bp-8){
+            font-size: 1.8rem;
+        }
+
+        @include respond(bp-7) {
+            font-size: 1.7rem;
+        }
+
+        @include respond(bp-5) {
+            font-size: 1.9rem;
+        }
+
+        @include respond(galaxy-s5){
+            font-size: 1.5rem;
+        }
     }
 
     &__text{
@@ -27,15 +55,37 @@
         font-family: 'Muli',
         sans-serif;
 
+        @include respond(bp-8) {
+            font-size: 1.4rem;
+            letter-spacing: normal;
+        }
+
+        @include respond(bp-7) {
+            font-size: 1.3rem;
+            letter-spacing: normal;
+        }
+
+        @include respond(bp-5) {
+            font-size: 1.5rem;
+        }
+
+        @include respond(galaxy-s5) {
+            font-size: 1.3rem;
+        }
     }
 }
 
 .stats .circle {
-    width: 150px;
-    height: 150px;
+    width: 15rem;
+    height: 15rem;
     display: table-cell;
     vertical-align: middle;
     border-radius: 50%;
+
+    @include respond(galaxy-s5){
+        width: 13rem;
+        height: 13rem;
+    }
 }
 
 .stats .circle-text, .stats-text {
@@ -47,6 +97,25 @@
     color: $color-blue-text-2;
     text-transform: uppercase;
     margin-top: 2rem;
+
+    @include respond(bp-5){
+        font-size: 1.7rem;
+    }
+
+    @include respond(bp-2) {
+        font-size: 1.5rem;
+    }
+
+    @include respond(bp-1) {
+        font-size: 1.4rem;
+    }
+}
+
+.value{
+
+    @include respond(bp-5){
+        font-size: 2rem;
+    }
 }
 
 .stats .value::after {

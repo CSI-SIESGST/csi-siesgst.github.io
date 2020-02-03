@@ -3,6 +3,19 @@
     padding: 5rem;
     margin: 2rem 0;
 
+    @include respond(bp-8){
+        padding: 3rem;
+    }
+
+    @include respond(bp-6) {
+        padding: 3rem;
+    }
+
+    @include respond(bp-3) {
+        padding: 0rem;
+    }
+
+
     &__text{
         display: inline-block;
         padding: 0.5rem;
@@ -12,10 +25,31 @@
         background-image: linear-gradient(to right, $color-blue-text-2, $color-blue-text-1);
         -webkit-background-clip: text;
         text-transform: uppercase;
+
+        @include respond(bp-8) {
+            font-size: 3.5rem;
+        }
+
+        @include respond(bp-7) {
+            font-size: 3rem;
+        }
+
+        @include respond(iphone-6/7/8plus) {
+            font-size: 2.5rem;
+        }
+
+        @include respond(galaxy-s5) {
+            font-size: 2rem;
+        }
+
     }
 }
 
 .internal-heading{
+
+    @include respond(bp-5){
+        text-align: center;
+    }
 
     &__modifier{
         font-size: 3rem;
@@ -25,6 +59,38 @@
         display: inline-block;
         margin-bottom: 4.5rem;
         text-transform: uppercase;
+
+        @include respond(bp-8) {
+            font-size: 2.5rem;
+            margin-bottom: 3rem;
+            border-bottom: 3px solid $color-blue-light;
+        }
+
+        @include respond(bp-7) {
+            font-size: 2.5rem;
+            margin-bottom: 2rem;
+        }
+
+        @include respond(bp-6) {
+            font-size: 2.5rem;
+            margin-bottom: 1.7rem;
+        }
+
+        @include respond(bp-3){
+            font-size: 2.2rem;
+            margin-bottom: 1.5rem;
+        }
+
+        @include respond(bp-2) {
+            font-size: 2rem;
+            margin-bottom: 1.5rem;
+        }
+
+        @include respond(bp-1){
+            font-size: 1.8rem;
+            margin-bottom: 1.3rem;
+            border-bottom: 2px solid $color-blue-light;
+        }
     }
 }
 
@@ -34,6 +100,14 @@
         border-left: 3px solid $color-blue-light;
         font-family: 'Muli',
         sans-serif;
+
+        @include respond(bp-1){
+            border-left: 2px solid $color-blue-light;
+        }
+
+        @include respond(iphone-5se) {
+            border-left: none;
+        }
     }
 
     &__modifier{
@@ -43,6 +117,66 @@
         letter-spacing: 1px;
         padding-left: 1rem;
         text-align: justify;
+
+        @include respond(bp-8) {
+            font-size: 1.8rem;
+            font-weight: 300;
+            line-height: 2.2rem;
+            letter-spacing: normal;
+        }
+
+        @include respond(bp-7) {
+            font-size: 1.7rem;
+            line-height: 2.2rem;
+            letter-spacing: normal;
+        }
+
+        @include respond(bp-6) {
+            font-size: 1.5rem;
+            line-height: 2rem;
+            letter-spacing: normal;
+        }
+
+        @include respond(bp-5) {
+            font-size: 1.8rem;
+            line-height: 2.5rem;
+            letter-spacing: normal;
+        }
+
+        @include respond(bp-3) {
+            font-size: 1.5rem;
+            line-height: 2rem;
+            letter-spacing: normal;
+        }
+
+        @include respond(bp-2) {
+            font-size: 1.4rem;
+            line-height: 1.7rem;
+            letter-spacing: normal;
+        }
+
+        @include respond(bp-1){
+            font-size: 1.2rem;
+            line-height: 1.5rem;
+        }
+
+        @include respond(galaxy-s5){
+            font-size: 1.19rem;
+            line-height: 1.5rem;
+        }
+
+        @include respond(iphone-5se) {
+            padding-left: 0;
+        }
+
+    }
+}
+
+.followUs-text{
+    font-size: 2.5rem;
+
+    @include respond(bp-8){
+        font-size: 2.3rem;
     }
 }
 
@@ -56,6 +190,14 @@
     &:hover{
         color: $color-white-2;
     }
+
+    @include respond(bp-8){
+        font-size: 1.6rem;
+    }
+
+    @include respond(bp-7) {
+        font-size: 1.5rem;
+    }
 }
 
 .footer-text-sub{
@@ -64,4 +206,12 @@
     font-weight: 500;
     text-transform: uppercase;
     letter-spacing: 1px;
+
+    @include respond(bp-8) {
+        font-size: 1.4rem;
+    }
+
+    @include respond(bp-7) {
+        font-size: 1.3rem;
+    }
 }

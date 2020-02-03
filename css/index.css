@@ -289,13 +289,10 @@ body {
         height: 3.5rem; } }
     @media only screen and (max-width: 31.25em) {
       .navbar-brand__back-icon {
-        height: 3rem; } }
-    @media only screen and (max-width: 25.875em) {
-      .navbar-brand__back-icon {
-        height: 3.5rem; } }
-    @media only screen and (max-width: 23.4375em) {
-      .navbar-brand__back-icon {
-        height: 3rem; } }
+        display: none;
+        visibility: hidden;
+        width: 0;
+        height: 0; } }
 
 .navbar-heading {
   font-size: 3rem;

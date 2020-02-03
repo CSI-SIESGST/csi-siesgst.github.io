@@ -592,6 +592,10 @@ body {
   .Registration {
     padding: 1rem; } }
 
+@media only screen and (max-width: 50em) {
+  .Abstract {
+    padding: 1rem; } }
+
 .reg-abs-main {
   margin-top: 2rem;
   display: flex;

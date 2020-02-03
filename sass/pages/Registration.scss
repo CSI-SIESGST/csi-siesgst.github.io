@@ -3,6 +3,12 @@
         padding: 1rem;
     }
 }
+
+.Abstract{
+    @include respond(bp-4){
+        padding: 1rem;
+    }
+}
 .reg-abs-main{
     margin-top: 2rem;
     display: flex;

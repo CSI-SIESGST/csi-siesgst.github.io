@@ -284,6 +284,18 @@ body {
     transition: all .3s; }
     .navbar-brand__back-icon:hover {
       transform: translateX(-5px); }
+    @media only screen and (max-width: 56.25em) {
+      .navbar-brand__back-icon {
+        height: 3.5rem; } }
+    @media only screen and (max-width: 31.25em) {
+      .navbar-brand__back-icon {
+        height: 3rem; } }
+    @media only screen and (max-width: 25.875em) {
+      .navbar-brand__back-icon {
+        height: 3.5rem; } }
+    @media only screen and (max-width: 23.4375em) {
+      .navbar-brand__back-icon {
+        height: 3rem; } }
 
 .navbar-heading {
   font-size: 3rem;
@@ -293,6 +305,35 @@ body {
   text-transform: uppercase;
   font-weight: 700;
   padding: 3rem 0; }
+  @media only screen and (max-width: 56.25em) {
+    .navbar-heading {
+      font-size: 2.5rem;
+      padding: 1rem 0; } }
+  @media only screen and (max-width: 43.75em) {
+    .navbar-heading {
+      font-size: 2rem;
+      padding: 1rem 0; } }
+  @media only screen and (max-width: 31.25em) {
+    .navbar-heading {
+      font-size: 1.9rem;
+      padding: 1.7rem 0 1.5rem 0;
+      margin: 1rem; } }
+  @media only screen and (max-width: 25.875em) {
+    .navbar-heading {
+      font-size: 1.5rem;
+      padding: 1.5rem 0;
+      margin: 0rem; } }
+  @media only screen and (max-width: 23.4375em) {
+    .navbar-heading {
+      font-size: 1.4rem;
+      padding: 1.6rem 0; } }
+  @media only screen and (max-width: 22.5em) {
+    .navbar-heading {
+      font-size: 1.3rem;
+      padding: 1rem 0; } }
+  @media only screen and (max-width: 20em) {
+    .navbar-heading {
+      font-size: 1.15rem; } }
 
 .navbar-brand-img {
   width: 8rem; }
@@ -331,7 +372,9 @@ body {
   margin-top: 8rem; }
   @media only screen and (max-width: 56.25em) {
     .Intro {
-      background-image: linear-gradient(to right bottom, rgba(238, 238, 238, 0.616), rgba(255, 255, 255, 0.616)), url(/assets-original/Intro-img.jpg);
+      background-image: linear-gradient(to right bottom, rgba(238, 238, 238, 0.616), rgba(255, 255, 255, 0.616)), url("/assets-original/Intro-img.jpg");
+      -webkit-background-image: linear-gradient(to right bottom, rgba(238, 238, 238, 0.616), rgba(255, 255, 255, 0.616)), url("/assets-original/Intro-img.jpg");
+      -moz-background-image: linear-gradient(to right bottom, rgba(238, 238, 238, 0.616), rgba(255, 255, 255, 0.616)), url("/assets-original/Intro-img.jpg");
       background-size: contain;
       margin-top: 7rem; } }
   @media only screen and (max-width: 43.75em) {
@@ -532,8 +575,9 @@ body {
   margin-bottom: 8px;
   margin-right: 5px; }
 
-.Registration {
-  height: 80vh; }
+@media only screen and (max-width: 50em) {
+  .Registration {
+    padding: 1rem; } }
 
 .reg-abs-main {
   margin-top: 2rem;
@@ -541,31 +585,121 @@ body {
   flex-direction: row;
   justify-content: flex-start;
   align-items: flex-start;
-  align-content: center; }
+  align-content: center;
+  margin-bottom: 5rem; }
+  @media only screen and (max-width: 50em) {
+    .reg-abs-main {
+      margin-top: 0; } }
   .reg-abs-main__box1 {
     display: flex;
     flex-direction: column; }
   .reg-abs-main__reg-box, .reg-abs-main__abs-box {
     width: 50vw;
     border: none; }
+    @media only screen and (max-width: 37.5em) {
+      .reg-abs-main__reg-box, .reg-abs-main__abs-box {
+        width: 93vw; } }
+    @media only screen and (max-width: 25.875em) {
+      .reg-abs-main__reg-box, .reg-abs-main__abs-box {
+        width: 90vw; } }
     .reg-abs-main__reg-box--heading, .reg-abs-main__abs-box--heading {
       font-size: 2.5rem;
       text-transform: uppercase;
       font-weight: 600;
       color: #303f9f !important;
       font-family: 'Poppins', sans-serif; }
+      @media only screen and (max-width: 75em) {
+        .reg-abs-main__reg-box--heading, .reg-abs-main__abs-box--heading {
+          font-size: 2.3rem; } }
+      @media only screen and (max-width: 50em) {
+        .reg-abs-main__reg-box--heading, .reg-abs-main__abs-box--heading {
+          font-size: 2rem; } }
+      @media only screen and (max-width: 43.75em) {
+        .reg-abs-main__reg-box--heading, .reg-abs-main__abs-box--heading {
+          font-size: 1.8rem; } }
+      @media only screen and (max-width: 25.875em) {
+        .reg-abs-main__reg-box--heading, .reg-abs-main__abs-box--heading {
+          text-align: center;
+          font-size: 1.5rem; } }
     .reg-abs-main__reg-box--list-collection, .reg-abs-main__abs-box--list-collection {
       padding: 1rem; }
+      @media only screen and (min-width: 81.25em) and (max-width: 100em) {
+        .reg-abs-main__reg-box--list-collection, .reg-abs-main__abs-box--list-collection {
+          padding: 0; } }
+      @media only screen and (max-width: 56.25em) {
+        .reg-abs-main__reg-box--list-collection, .reg-abs-main__abs-box--list-collection {
+          padding: 0; } }
     .reg-abs-main__reg-box--list, .reg-abs-main__abs-box--list {
       list-style: circle;
       font-size: 1.7rem;
       line-height: 3rem;
       font-weight: 500;
       color: #333; }
+      @media only screen and (min-width: 81.25em) and (max-width: 100em) {
+        .reg-abs-main__reg-box--list, .reg-abs-main__abs-box--list {
+          font-size: 1.5rem; } }
+      @media only screen and (max-width: 75em) {
+        .reg-abs-main__reg-box--list, .reg-abs-main__abs-box--list {
+          font-size: 1.5rem; } }
+      @media only screen and (max-width: 68.75em) {
+        .reg-abs-main__reg-box--list, .reg-abs-main__abs-box--list {
+          font-size: 1.4rem;
+          line-height: 2.3rem; } }
+      @media only screen and (max-width: 56.25em) {
+        .reg-abs-main__reg-box--list, .reg-abs-main__abs-box--list {
+          font-size: 1.2rem;
+          line-height: 2.1rem;
+          list-style-type: disc; } }
+      @media only screen and (max-width: 50em) {
+        .reg-abs-main__reg-box--list, .reg-abs-main__abs-box--list {
+          font-size: 1.1rem;
+          line-height: 2rem; } }
+      @media only screen and (max-width: 43.75em) {
+        .reg-abs-main__reg-box--list, .reg-abs-main__abs-box--list {
+          font-size: 1.1rem;
+          line-height: 1.8rem;
+          text-align: justify; } }
+      @media only screen and (max-width: 37.5em) {
+        .reg-abs-main__reg-box--list, .reg-abs-main__abs-box--list {
+          font-size: 1.3rem;
+          line-height: 2rem; } }
+      @media only screen and (max-width: 31.25em) {
+        .reg-abs-main__reg-box--list, .reg-abs-main__abs-box--list {
+          line-height: 2.1rem;
+          text-align: justify; } }
+      @media only screen and (max-width: 23.4375em) {
+        .reg-abs-main__reg-box--list, .reg-abs-main__abs-box--list {
+          font-size: 1.2rem;
+          line-height: 1.8rem; } }
+      @media only screen and (max-width: 20em) {
+        .reg-abs-main__reg-box--list, .reg-abs-main__abs-box--list {
+          font-size: 1.1rem;
+          line-height: 1.7rem; } }
     .reg-abs-main__reg-box--sentence, .reg-abs-main__abs-box--sentence {
       font-size: 1.7rem;
       font-weight: 500;
       color: #333; }
+      @media only screen and (min-width: 81.25em) and (max-width: 100em) {
+        .reg-abs-main__reg-box--sentence, .reg-abs-main__abs-box--sentence {
+          font-size: 1.5rem; } }
+      @media only screen and (max-width: 75em) {
+        .reg-abs-main__reg-box--sentence, .reg-abs-main__abs-box--sentence {
+          font-size: 1.5rem; } }
+      @media only screen and (max-width: 56.25em) {
+        .reg-abs-main__reg-box--sentence, .reg-abs-main__abs-box--sentence {
+          font-size: 1.3rem; } }
+      @media only screen and (max-width: 50em) {
+        .reg-abs-main__reg-box--sentence, .reg-abs-main__abs-box--sentence {
+          font-size: 1.1rem; } }
+      @media only screen and (max-width: 43.75em) {
+        .reg-abs-main__reg-box--sentence, .reg-abs-main__abs-box--sentence {
+          font-size: 1.1rem; } }
+      @media only screen and (max-width: 37.5em) {
+        .reg-abs-main__reg-box--sentence, .reg-abs-main__abs-box--sentence {
+          font-size: 1.3rem; } }
+      @media only screen and (max-width: 20em) {
+        .reg-abs-main__reg-box--sentence, .reg-abs-main__abs-box--sentence {
+          font-size: 1.1rem; } }
     .reg-abs-main__reg-box--btn1, .reg-abs-main__reg-box--btn2, .reg-abs-main__abs-box--btn1, .reg-abs-main__abs-box--btn2 {
       font-size: 1.5rem;
       width: 20rem;
@@ -574,13 +708,63 @@ body {
       text-transform: uppercase;
       font-weight: 500;
       border-radius: .3rem; }
+      @media only screen and (min-width: 81.25em) and (max-width: 100em) {
+        .reg-abs-main__reg-box--btn1, .reg-abs-main__reg-box--btn2, .reg-abs-main__abs-box--btn1, .reg-abs-main__abs-box--btn2 {
+          margin-bottom: 2rem; } }
+      @media only screen and (max-width: 75em) {
+        .reg-abs-main__reg-box--btn1, .reg-abs-main__reg-box--btn2, .reg-abs-main__abs-box--btn1, .reg-abs-main__abs-box--btn2 {
+          margin-bottom: 2rem; } }
+      @media only screen and (max-width: 56.25em) {
+        .reg-abs-main__reg-box--btn1, .reg-abs-main__reg-box--btn2, .reg-abs-main__abs-box--btn1, .reg-abs-main__abs-box--btn2 {
+          font-size: 1.3rem;
+          width: 17rem; } }
+      @media only screen and (max-width: 25.875em) {
+        .reg-abs-main__reg-box--btn1, .reg-abs-main__reg-box--btn2, .reg-abs-main__abs-box--btn1, .reg-abs-main__abs-box--btn2 {
+          font-size: 1.2rem;
+          width: 16rem;
+          align-self: center; } }
+      @media only screen and (max-width: 20em) {
+        .reg-abs-main__reg-box--btn1, .reg-abs-main__reg-box--btn2, .reg-abs-main__abs-box--btn1, .reg-abs-main__abs-box--btn2 {
+          font-size: 1.1rem;
+          width: 14rem;
+          height: 3rem; } }
     .reg-abs-main__reg-box--btn2, .reg-abs-main__abs-box--btn2 {
       margin-bottom: 0rem;
       margin-top: 2rem; }
+      @media only screen and (min-width: 81.25em) and (max-width: 100em) {
+        .reg-abs-main__reg-box--btn2, .reg-abs-main__abs-box--btn2 {
+          margin-top: 1rem; } }
+      @media only screen and (max-width: 75em) {
+        .reg-abs-main__reg-box--btn2, .reg-abs-main__abs-box--btn2 {
+          margin-top: 1rem; } }
   .reg-abs-main__box2__img {
     width: 95vw; }
     .reg-abs-main__box2__img--modifier {
-      height: 70rem; }
+      height: 63rem; }
+      @media only screen and (min-width: 81.25em) and (max-width: 100em) {
+        .reg-abs-main__box2__img--modifier {
+          height: 45rem; } }
+      @media only screen and (max-width: 75em) {
+        .reg-abs-main__box2__img--modifier {
+          height: 42rem; } }
+      @media only screen and (max-width: 68.75em) {
+        .reg-abs-main__box2__img--modifier {
+          height: 38rem; } }
+      @media only screen and (max-width: 56.25em) {
+        .reg-abs-main__box2__img--modifier {
+          height: 30rem; } }
+      @media only screen and (max-width: 50em) {
+        .reg-abs-main__box2__img--modifier {
+          height: 28rem; } }
+      @media only screen and (max-width: 43.75em) {
+        .reg-abs-main__box2__img--modifier {
+          height: 25rem; } }
+      @media only screen and (max-width: 37.5em) {
+        .reg-abs-main__box2__img--modifier {
+          display: none;
+          visibility: hidden;
+          width: 0;
+          height: 0; } }
 
 .innovation-content {
   display: flex;

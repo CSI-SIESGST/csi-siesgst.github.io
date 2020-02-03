@@ -39,6 +39,22 @@
       &:hover{
         transform: translateX(-5px);
       }
+
+      @include respond(bp-5){
+        height: 3.5rem;
+      }
+
+      @include respond(bp-1){
+        height: 3rem;
+      }
+
+      @include respond(iphone-6/7/8plus){
+        height: 3.5rem;
+      }
+
+      @include respond(iphone-6/7/8/10){
+        height: 3rem;
+      }
     }
     
 }
@@ -51,6 +67,42 @@
   text-transform: uppercase;
   font-weight: 700;
   padding: 3rem 0;
+
+  @include respond(bp-5){
+    font-size: 2.5rem;
+    padding: 1rem 0;
+  }
+
+  @include respond(bp-3) {
+    font-size: 2rem;
+    padding: 1rem 0;
+  }
+
+  @include respond(bp-1) {
+    font-size: 1.9rem;
+    padding: 1.7rem 0 1.5rem 0;
+    margin: 1rem;
+  }
+
+  @include respond(iphone-6/7/8plus){
+    font-size: 1.5rem;
+    padding: 1.5rem 0;
+    margin: 0rem;
+  }
+
+   @include respond(iphone-6/7/8/10) {
+     font-size: 1.4rem;
+     padding: 1.6rem 0;
+   }
+
+   @include respond(galaxy-s5){
+     font-size: 1.3rem;
+     padding: 1rem 0;
+   }
+
+   @include respond(iphone-5se){
+     font-size: 1.15rem;
+   }
 }
 
 .navbar-brand-img{

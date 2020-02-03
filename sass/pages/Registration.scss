@@ -1,5 +1,7 @@
 .Registration{
-    height: 80vh;
+    @include respond(bp-4){
+        padding: 1rem;
+    }
 }
 .reg-abs-main{
     margin-top: 2rem;
@@ -8,6 +10,13 @@
     justify-content: flex-start;
     align-items: flex-start;
     align-content: center;
+    margin-bottom: 5rem;
+
+    @include respond(bp-4){
+        margin-top: 0;
+    }
+
+    
 
     &__box1{
         display: flex;
@@ -20,6 +29,14 @@
         width: 50vw;
         border: none;
 
+         @include respond(bp-2) {
+             width: 93vw;
+         }
+
+         @include respond(iphone-6/7/8plus) {
+             width: 90vw;
+         }
+
         &--heading{
             font-size: 2.5rem;
             text-transform: uppercase;
@@ -27,10 +44,36 @@
             color: $color-blue-text-2 !important;
             font-family: 'Poppins',
             sans-serif;
+
+            @include respond(bp-7){
+                font-size: 2.3rem;
+            }
+
+            @include respond(bp-4) {
+                font-size: 2rem;
+            }
+
+            @include respond(bp-3) {
+                font-size: 1.8rem;
+            }
+
+            @include respond(iphone-6/7/8plus){
+                text-align: center;
+                font-size: 1.5rem;
+            }
+
         }
 
         &--list-collection{
             padding: 1rem;
+
+            @include respond(bp-8){
+                padding: 0;
+            }
+
+            @include respond(bp-5){
+                padding: 0;
+            }
         }
 
         &--list{
@@ -39,12 +82,90 @@
             line-height: 3rem;
             font-weight: 500;
             color: $color-dark-grey-2;
+
+            @include respond(bp-8){
+                font-size: 1.5rem;
+            }
+
+            @include respond(bp-7){
+                font-size: 1.5rem;
+            }
+
+            @include respond(bp-6){
+                font-size: 1.4rem;
+                line-height: 2.3rem;
+            }
+
+            @include respond(bp-5){
+                font-size: 1.2rem;
+                line-height: 2.1rem;
+                list-style-type: disc;
+            }
+
+            @include respond(bp-4){
+                font-size: 1.1rem;
+                line-height: 2rem;
+            }
+
+            @include respond(bp-3){
+                font-size: 1.1rem;
+                line-height: 1.8rem;
+                text-align: justify;
+            }
+
+            @include respond(bp-2) {
+                font-size: 1.3rem;
+                line-height: 2rem;
+            }
+
+            @include respond(bp-1){
+                line-height: 2.1rem;
+                text-align: justify;
+            }
+
+            @include respond(iphone-6/7/8/10){
+                font-size: 1.2rem;
+                line-height: 1.8rem;
+            }
+
+            @include respond(iphone-5se){
+                font-size: 1.1rem;
+                line-height: 1.7rem;
+            }
         }
 
         &--sentence{
             font-size: 1.7rem;
             font-weight: 500;
             color: $color-dark-grey-2;
+
+            @include respond(bp-8){
+                font-size: 1.5rem;
+            }
+
+            @include respond(bp-7){
+                font-size: 1.5rem;
+            }
+
+            @include respond(bp-5) {
+                font-size: 1.3rem;
+            }
+
+             @include respond(bp-4) {
+                 font-size: 1.1rem;
+             }
+
+             @include respond(bp-3){
+                font-size: 1.1rem;
+             }
+
+             @include respond(bp-2) {
+                 font-size: 1.3rem;
+             }
+
+            @include respond(iphone-5se) {
+                font-size: 1.1rem;
+            }
 
         }
 
@@ -57,11 +178,44 @@
             text-transform: uppercase;
             font-weight: 500;
             border-radius: .3rem;
+
+            @include respond(bp-8){
+                margin-bottom: 2rem;
+            }
+
+            @include respond(bp-7) {
+                margin-bottom: 2rem;
+            }
+
+            @include respond(bp-5){
+                font-size: 1.3rem;
+                width: 17rem;
+            }
+
+            @include respond(iphone-6/7/8plus){
+                font-size: 1.2rem;
+                width: 16rem;
+                align-self: center;
+            }
+
+            @include respond(iphone-5se){
+                font-size: 1.1rem;
+                width: 14rem;
+                height: 3rem;
+            }
         }
 
         &--btn2{
             margin-bottom: 0rem;
             margin-top: 2rem;
+
+            @include respond(bp-8){
+                margin-top: 1rem;
+            }
+
+            @include respond(bp-7) {
+                margin-top: 1rem;
+            }
         }
     }
 
@@ -71,7 +225,38 @@
             width: 95vw;
 
             &--modifier{
-                height: 70rem;
+                height: 63rem;
+
+                @include respond(bp-8){
+                    height: 45rem;
+                }
+
+                @include respond(bp-7){
+                    height: 42rem;
+                }
+
+                @include respond(bp-6){
+                    height: 38rem;
+                }
+
+                @include respond(bp-5){
+                    height: 30rem;
+                }
+
+                @include respond(bp-4) {
+                    height: 28rem;
+                }
+
+                @include respond(bp-3) {
+                    height: 25rem;
+                }
+
+                @include respond(bp-2){
+                    display: none;
+                    visibility: hidden;
+                    width: 0;
+                    height: 0;
+                }
             }
         }
 

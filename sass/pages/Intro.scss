@@ -8,7 +8,11 @@
 
     @include respond(bp-5){
         background-image: linear-gradient(to right bottom, $color-white-2-opacity, $color-white-1-opacity),
-        url(/assets-original/Intro-img.jpg);
+        url("/assets-original/Intro-img.jpg");
+        -webkit-background-image: linear-gradient(to right bottom, $color-white-2-opacity, $color-white-1-opacity),
+        url("/assets-original/Intro-img.jpg");
+        -moz-background-image: linear-gradient(to right bottom, $color-white-2-opacity, $color-white-1-opacity),
+        url("/assets-original/Intro-img.jpg");
         background-size: contain;
         margin-top: 7rem;
     }

@@ -186,6 +186,12 @@ bp-9 [1800+]=>[112.5em]
     .footer-text-sub {
       font-size: 1.3rem; } }
 
+.footer-contact {
+  text-decoration: none;
+  border-bottom: none; }
+  .footer-contact:hover {
+    color: #eee; }
+
 *,
 *::after,
 *::before {
@@ -368,22 +374,6 @@ body {
   height: 80vh;
   margin-top: 8rem; }
   @media only screen and (max-width: 56.25em) {
-    .Intro::before {
-      content: "";
-      display: block;
-      position: fixed;
-      left: 0;
-      top: 0;
-      width: 100%;
-      height: 100%;
-      z-index: -10;
-      background: url("/assets-original/Intro-img.jpg") no-repeat center center;
-      background-image: linear-gradient(to right bottom, rgba(238, 238, 238, 0.616), rgba(255, 255, 255, 0.616));
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      -o-background-size: cover;
-      background-size: cover; } }
-  @media only screen and (max-width: 56.25em) {
     .Intro {
       background-image: linear-gradient(to right bottom, rgba(238, 238, 238, 0.616), rgba(255, 255, 255, 0.616)), url("/assets-original/Intro-img.jpg");
       -webkit-background-image: linear-gradient(to right bottom, rgba(238, 238, 238, 0.616), rgba(255, 255, 255, 0.616)), url("/assets-original/Intro-img.jpg");
@@ -391,7 +381,21 @@ body {
       -o-background-image: linear-gradient(to right bottom, rgba(238, 238, 238, 0.616), rgba(255, 255, 255, 0.616)), url("/assets-original/Intro-img.jpg");
       background-size: contain;
       background-attachment: fixed;
-      margin-top: 7rem; } }
+      margin-top: 7rem; }
+      .Intro .Intro::before {
+        content: "";
+        display: block;
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -10;
+        background: linear-gradient(to right bottom, rgba(238, 238, 238, 0.616), rgba(255, 255, 255, 0.616)), url("/assets-original/Intro-img.jpg") no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover; } }
   @media only screen and (max-width: 43.75em) {
     .Intro {
       height: 70vh; } }

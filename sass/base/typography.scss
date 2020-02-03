@@ -215,3 +215,12 @@
         font-size: 1.3rem;
     }
 }
+
+.footer-contact{
+    text-decoration: none;
+    border-bottom: none;
+
+    &:hover{
+        color: $color-white-2;
+    }
+}

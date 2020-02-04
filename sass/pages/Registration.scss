@@ -1,4 +1,5 @@
 .Registration{
+    background-color: $black;
     @include respond(bp-4){
         padding: 1rem;
     }
@@ -27,14 +28,13 @@
     &__box1{
         display: flex;
         flex-direction: column;
-
     }
 
     &__reg-box,
     &__abs-box{
         width: 50vw;
         border: none;
-
+        background-color: $black;
          @include respond(bp-2) {
              width: 93vw;
          }
@@ -47,7 +47,7 @@
             font-size: 2.5rem;
             text-transform: uppercase;
             font-weight: 600;
-            color: $color-blue-text-2 !important;
+            color: $primary-1!important;
             font-family: 'Poppins',
             sans-serif;
 
@@ -92,7 +92,7 @@
             font-size: 1.7rem;
             line-height: 3rem;
             font-weight: 500;
-            color: $color-dark-grey-2;
+            color: $white-1;
 
             @include respond(bp-8){
                 font-size: 1.5rem;
@@ -148,7 +148,7 @@
         &--sentence{
             font-size: 1.7rem;
             font-weight: 500;
-            color: $color-dark-grey-2;
+            color: $white-1;
 
             @include respond(bp-8){
                 font-size: 1.5rem;

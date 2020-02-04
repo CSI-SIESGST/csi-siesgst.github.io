@@ -3,7 +3,7 @@
     transition: all .6s;
     backface-visibility: hidden;
     margin: 0 2rem!important;
-    background-color: $color-white-2!important;
+    background-color: $black-1 !important;
 
     @include respond(bp-4){
       margin: 0!important;
@@ -17,7 +17,7 @@
     font-size: 2rem;
     font-weight: 600;
     text-transform: uppercase;
-    color: $color-text!important;
+    color: $white-1!important;
 
     &:hover {
       color: $color-blue-text-1 !important;
@@ -63,9 +63,9 @@
 }
 
 .navbar-heading{
-  font-size: 3rem;
+  font-size: 3.5rem;
   color: transparent;
-  background-image: linear-gradient(to right, $color-blue-text-2, $color-blue-text-1);
+  background-image: linear-gradient(to right, $white, $white-2);
   -webkit-background-clip: text;
   text-transform: uppercase;
   font-weight: 700;
@@ -126,23 +126,16 @@
 .nav-link{
   margin-right: 1rem;
   transition: all .3s;
+  color: $white-1!important;
    
   &:hover {
-     color: $color-blue-text-1 !important;
-     border-bottom: 1px solid $color-blue-light;
-   }
-
-   &:active{
-     color: $color-blue-text-1!important;
+     color: $primary !important;
    }
 
    &:focus {
      color: $color-blue-text-1 !important;
    }
 
-    &:visited {
-      color: $color-blue-text-1 !important;
-    }
 }
 
 .active {

@@ -9,7 +9,6 @@
 
     border: 3px solid $color-blue-light;
     border-radius: 0.5rem;
-    box-shadow: 0px 0px 2.7rem -0.6rem rgba(0, 0, 0, 0.48);
 
     @include respond(bp-3){
         box-shadow: none;
@@ -20,6 +19,8 @@
     }
 
     &__text-box{
+
+        background-color: $black-1;
 
     }
 
@@ -54,6 +55,7 @@
         letter-spacing: 1px;
         font-family: 'Muli',
         sans-serif;
+        color: $white-1;
 
         @include respond(bp-8) {
             font-size: 1.4rem;
@@ -94,7 +96,7 @@
     font-family: 'Muli',
     sans-serif;
     font-weight: 600;
-    color: $color-blue-text-2;
+    color: $primary-1;
     text-transform: uppercase;
     margin-top: 2rem;
 
@@ -112,6 +114,7 @@
 }
 
 .value{
+    color: $primary-1;
 
     @include respond(bp-5){
         font-size: 2rem;

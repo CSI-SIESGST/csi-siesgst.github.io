@@ -255,7 +255,7 @@ body {
   font-family: 'Poppins', sans-serif; }
   body::-webkit-scrollbar {
     display: none; }
-  @media only screen and (max-width: 25.875em) {
+  @media only screen and (max-width: 50em) {
     body {
       margin: 0; } }
 
@@ -265,7 +265,7 @@ body {
   backface-visibility: hidden;
   margin: 0 2rem !important;
   background-color: #eee !important; }
-  @media only screen and (max-width: 25.875em) {
+  @media only screen and (max-width: 50em) {
     .navbar,
     .navbar-reg {
       margin: 0 !important; } }
@@ -372,7 +372,12 @@ body {
   justify-content: flex-end;
   align-items: center;
   height: 80vh;
-  margin-top: 8rem; }
+  margin-top: 8rem;
+  background-image: none;
+  background-size: cover;
+  background-position: top;
+  background-attachment: fixed;
+  -webkit-background-attachment: fixed; }
   @media only screen and (max-width: 56.25em) {
     .Intro {
       background-image: linear-gradient(to right bottom, rgba(238, 238, 238, 0.616), rgba(255, 255, 255, 0.616)), url("/assets-original/Intro-img.jpg");
@@ -640,6 +645,10 @@ body {
       @media only screen and (max-width: 43.75em) {
         .reg-abs-main__reg-box--heading, .reg-abs-main__abs-box--heading {
           font-size: 1.8rem; } }
+      @media only screen and (max-width: 31.25em) {
+        .reg-abs-main__reg-box--heading, .reg-abs-main__abs-box--heading {
+          text-align: center;
+          font-size: 1.6rem; } }
       @media only screen and (max-width: 25.875em) {
         .reg-abs-main__reg-box--heading, .reg-abs-main__abs-box--heading {
           text-align: center;

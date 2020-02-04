@@ -5,7 +5,7 @@
     margin: 0 2rem!important;
     background-color: $color-white-2!important;
 
-    @include respond(iphone-6/7/8plus){
+    @include respond(bp-4){
       margin: 0!important;
     }
 }

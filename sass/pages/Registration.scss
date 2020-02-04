@@ -63,6 +63,11 @@
                 font-size: 1.8rem;
             }
 
+            @include respond(bp-1) {
+                text-align: center;
+                font-size: 1.6rem;
+            }
+
             @include respond(iphone-6/7/8plus){
                 text-align: center;
                 font-size: 1.5rem;

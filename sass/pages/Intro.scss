@@ -76,9 +76,10 @@
             &-content {
                 font-family: 'Graduate',
                     cursive;
-                font-size: 7rem;
+                font-size: 5.2rem;
                 color: $color-blue-text-2;
                 text-align: center;
+                font-weight: 600;
 
                 @include respond(bp-8){
                     font-size: 5rem;

@@ -1,34 +1,18 @@
         $(function () {
             new TypeIt('.Intro__heading-main__box-content', {
                     speed: 100,
-                    loop: false
+                    loop: false,
+                    waitUntilVisible: true
                 })
                 .type('CSI-SIESGST')
-                .pause(600)
-                .options({
-                    speed: 500
-                })
-                .delete(11)
-                .options({
-                    speed: 50
-                })
-                .pause(300)
-                .type('Welcome To Innovation 2020!')
                 .pause(500)
-                .options({
-                    speed: 300
-                })
-                .delete(27)
-                .options({
-                    speed: 50
-                })
+                .break()
+                .type('Welcome To Innovation 2k19!')
+                .pause(400)
+                .delete(3)
+                .type('20!')
+                .pause(500)
+                .break()
                 .type('Register Your Team!')
                 .pause(500)
-                .options({
-                    speed: 300
-                })
-                // .delete(69)
-                // .options({
-                //     speed: 60
-                // })
         });

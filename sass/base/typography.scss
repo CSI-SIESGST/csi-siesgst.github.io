@@ -22,9 +22,7 @@
         padding: 0.5rem;
         font-size: 4.3rem;
         font-weight: 700;
-        color: transparent;
-        background-image: linear-gradient(to right, $white, $white-2);
-        -webkit-background-clip: text;
+        color: $white-2;
         text-transform: uppercase;
 
         @include respond(bp-8) {

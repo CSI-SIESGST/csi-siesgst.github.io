@@ -34,9 +34,7 @@ bp-9 [1800+]=>[112.5em]
     padding: 0.5rem;
     font-size: 4.3rem;
     font-weight: 700;
-    color: transparent;
-    background-image: linear-gradient(to right, #fff, #eae9e9);
-    -webkit-background-clip: text;
+    color: #eae9e9;
     text-transform: uppercase; }
     @media only screen and (min-width: 80em) and (max-width: 100em) {
       .heading-main__text {
@@ -265,7 +263,7 @@ body {
   font-family: 'Poppins', sans-serif; }
   body::-webkit-scrollbar {
     display: none; }
-  @media only screen and (max-width: 50em) {
+  @media only screen and (max-width: 31.25em) {
     body {
       padding: 0rem; } }
 
@@ -275,7 +273,7 @@ body {
   backface-visibility: hidden;
   margin: 0 2rem !important;
   background-color: #1f1f1f !important; }
-  @media only screen and (max-width: 50em) {
+  @media only screen and (max-width: 31.25em) {
     .navbar,
     .navbar-reg {
       margin: 0 !important; } }
@@ -312,9 +310,7 @@ body {
 
 .navbar-heading {
   font-size: 3.5rem;
-  color: transparent;
-  background-image: linear-gradient(to right, #fff, #eae9e9);
-  -webkit-background-clip: text;
+  color: #eae9e9;
   text-transform: uppercase;
   font-weight: 700;
   padding: 3rem 0; }
@@ -385,28 +381,16 @@ body {
       box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3; } }
 
 .Intro {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  align-content: center;
   margin-top: 8rem;
-  height: 90vh;
+  height: 100vh;
   background: transparent; }
   @media only screen and (max-width: 56.25em) {
     .Intro {
       height: 80vh; } }
-  @media only screen and (max-width: 50em) {
-    .Intro {
-      height: 80vh; } }
   @media only screen and (max-width: 31.25em) {
     .Intro {
-      height: 75vh; } }
-  @media only screen and (max-width: 20em) {
-    .Intro {
-      height: 68vh; } }
+      height: 70vh; } }
   .Intro__heading-main__box {
-    display: flex;
     background: transparent; }
     .Intro__heading-main__box-content {
       font-family: 'Roboto Mono', monospace;
@@ -414,30 +398,48 @@ body {
       color: #eee;
       text-align: center;
       font-weight: 500;
-      width: 100vw;
-      z-index: 20; }
+      width: 90vw;
+      z-index: 20;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%); }
       @media only screen and (min-width: 80em) and (max-width: 100em) {
         .Intro__heading-main__box-content {
           font-size: 5.5rem; } }
       @media only screen and (max-width: 75em) {
         .Intro__heading-main__box-content {
-          font-size: 5rem;
-          width: 100vw; } }
+          font-size: 5rem; } }
       @media only screen and (max-width: 56.25em) {
         .Intro__heading-main__box-content {
-          font-size: 5rem; } }
+          font-size: 5rem;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%); } }
       @media only screen and (max-width: 50em) {
         .Intro__heading-main__box-content {
           font-size: 4.3rem; } }
+      @media only screen and (max-width: 43.75em) {
+        .Intro__heading-main__box-content {
+          font-size: 4rem; } }
       @media only screen and (max-width: 37.5em) {
         .Intro__heading-main__box-content {
-          font-size: 3.5rem; } }
+          font-size: 3rem;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%); } }
       @media only screen and (max-width: 31.25em) {
         .Intro__heading-main__box-content {
           font-size: 2.7rem; } }
+      @media only screen and (max-width: 25.875em) {
+        .Intro__heading-main__box-content {
+          font-size: 2.3rem; } }
       @media only screen and (max-width: 23.4375em) {
         .Intro__heading-main__box-content {
-          font-size: 2.5rem; } }
+          font-size: 2rem; } }
+      @media only screen and (max-width: 20em) {
+        .Intro__heading-main__box-content {
+          font-size: 1.8rem; } }
 
 .bg-video {
   position: absolute;
@@ -447,25 +449,54 @@ body {
   width: 100%;
   z-index: 10;
   opacity: 0.70;
-  overflow: hidden !important;
-  padding: 2rem 2rem 9.5rem 2rem;
+  overflow: hidden;
+  padding: 0rem 2rem;
   margin-top: 10rem; }
   .bg-video__content {
     height: 100%;
     width: 100%;
     object-fit: cover; }
-  @media only screen and (min-width: 80em) and (max-width: 100em) {
-    .bg-video {
-      padding: 2rem 2rem 8rem 2rem; } }
-  @media only screen and (max-width: 75em) {
-    .bg-video {
-      padding: 2rem 2rem 8rem 2rem; } }
+    @media only screen and (max-width: 31.25em) {
+      .bg-video__content {
+        height: 70%; } }
   @media only screen and (max-width: 56.25em) {
     .bg-video {
       padding: 2rem 2rem 16rem 2rem; } }
   @media only screen and (max-width: 50em) {
     .bg-video {
-      padding: 2rem 2rem 18.5rem 2rem; } }
+      padding: 2rem 2rem 16.5rem 2rem; } }
+  @media only screen and (max-width: 31.25em) {
+    .bg-video {
+      height: 0;
+      width: 0;
+      display: none;
+      visibility: hidden; } }
+
+.bg-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 0%;
+  width: 0%;
+  overflow: hidden;
+  z-index: 10;
+  opacity: 0;
+  padding: 1rem;
+  margin-top: 10rem;
+  visibility: hidden; }
+  @media only screen and (max-width: 31.25em) {
+    .bg-img {
+      height: 100%;
+      width: 100%;
+      opacity: 0.70;
+      visibility: visible; } }
+  .bg-img__content {
+    height: 100%;
+    width: 100%;
+    object-fit: cover; }
+    @media only screen and (max-width: 31.25em) {
+      .bg-img__content {
+        height: 69%; } }
 
 .about-content {
   display: flex;
@@ -722,7 +753,7 @@ body {
         .reg-abs-main__reg-box--sentence, .reg-abs-main__abs-box--sentence {
           font-size: 1.1rem; } }
     .reg-abs-main__reg-box--btn1, .reg-abs-main__reg-box--btn2, .reg-abs-main__abs-box--btn1, .reg-abs-main__abs-box--btn2 {
-      font-size: 1.5rem;
+      font-size: 1.6rem;
       width: 20rem;
       height: 4rem;
       margin-bottom: 5rem;
@@ -758,34 +789,32 @@ body {
       @media only screen and (max-width: 75em) {
         .reg-abs-main__reg-box--btn2, .reg-abs-main__abs-box--btn2 {
           margin-top: 1rem; } }
-  .reg-abs-main__box2__img {
-    width: 95vw; }
-    .reg-abs-main__box2__img--modifier {
-      height: 63rem; }
-      @media only screen and (min-width: 80em) and (max-width: 100em) {
-        .reg-abs-main__box2__img--modifier {
-          height: 45rem; } }
-      @media only screen and (max-width: 75em) {
-        .reg-abs-main__box2__img--modifier {
-          height: 42rem; } }
-      @media only screen and (max-width: 68.75em) {
-        .reg-abs-main__box2__img--modifier {
-          height: 38rem; } }
-      @media only screen and (max-width: 56.25em) {
-        .reg-abs-main__box2__img--modifier {
-          height: 30rem; } }
-      @media only screen and (max-width: 50em) {
-        .reg-abs-main__box2__img--modifier {
-          height: 28rem; } }
-      @media only screen and (max-width: 43.75em) {
-        .reg-abs-main__box2__img--modifier {
-          height: 25rem; } }
-      @media only screen and (max-width: 37.5em) {
-        .reg-abs-main__box2__img--modifier {
-          display: none;
-          visibility: hidden;
-          width: 0;
-          height: 0; } }
+  .reg-abs-main__box2__img--modifier {
+    height: 63rem; }
+    @media only screen and (min-width: 80em) and (max-width: 100em) {
+      .reg-abs-main__box2__img--modifier {
+        height: 45rem; } }
+    @media only screen and (max-width: 75em) {
+      .reg-abs-main__box2__img--modifier {
+        height: 42rem; } }
+    @media only screen and (max-width: 68.75em) {
+      .reg-abs-main__box2__img--modifier {
+        height: 38rem; } }
+    @media only screen and (max-width: 56.25em) {
+      .reg-abs-main__box2__img--modifier {
+        height: 30rem; } }
+    @media only screen and (max-width: 50em) {
+      .reg-abs-main__box2__img--modifier {
+        height: 28rem; } }
+    @media only screen and (max-width: 43.75em) {
+      .reg-abs-main__box2__img--modifier {
+        height: 25rem; } }
+    @media only screen and (max-width: 37.5em) {
+      .reg-abs-main__box2__img--modifier {
+        display: none;
+        visibility: hidden;
+        width: 0;
+        height: 0; } }
 
 .innovation-content {
   display: flex;

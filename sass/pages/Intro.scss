@@ -126,7 +126,44 @@
     }
 
     @include respond(bp-1){
-        padding: 0;
-        margin-top: 9.8rem;
+        // padding: 0;
+        // margin-top: 9.8rem;
+        height: 0;
+        width: 0;
+        display: none;
+        visibility: hidden;
+
+    }
+}
+
+.bg-img{
+
+     position: absolute;
+     top: 0;
+     left: 0;
+     height: 0%;
+     width: 0%;
+     overflow: hidden;
+     z-index: 10;
+     opacity: 0;
+     padding: 1rem;
+     margin-top: 10rem;
+     visibility: hidden;
+
+     @include respond(bp-1){
+         height: 100%;
+         width: 100%;
+         opacity: 0.70;
+        visibility: visible;
+     }
+     
+    &__content{
+       height: 100%;
+       width: 100%;
+       object-fit: cover;
+
+       @include respond(bp-1){
+           height: 69%;
+       }
     }
 }

@@ -64,9 +64,7 @@
 
 .navbar-heading{
   font-size: 3.5rem;
-  color: transparent;
-  background-image: linear-gradient(to right, $white, $white-2);
-  -webkit-background-clip: text;
+  color: $white-2;
   text-transform: uppercase;
   font-weight: 700;
   padding: 3rem 0;

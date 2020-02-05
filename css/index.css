@@ -34,9 +34,7 @@ bp-9 [1800+]=>[112.5em]
     padding: 0.5rem;
     font-size: 4.3rem;
     font-weight: 700;
-    color: transparent;
-    background-image: linear-gradient(to right, #fff, #eae9e9);
-    -webkit-background-clip: text;
+    color: #eae9e9;
     text-transform: uppercase; }
     @media only screen and (min-width: 80em) and (max-width: 100em) {
       .heading-main__text {
@@ -312,9 +310,7 @@ body {
 
 .navbar-heading {
   font-size: 3.5rem;
-  color: transparent;
-  background-image: linear-gradient(to right, #fff, #eae9e9);
-  -webkit-background-clip: text;
+  color: #eae9e9;
   text-transform: uppercase;
   font-weight: 700;
   padding: 3rem 0; }
@@ -471,8 +467,36 @@ body {
       padding: 2rem 2rem 16.5rem 2rem; } }
   @media only screen and (max-width: 31.25em) {
     .bg-video {
-      padding: 0;
-      margin-top: 9.8rem; } }
+      height: 0;
+      width: 0;
+      display: none;
+      visibility: hidden; } }
+
+.bg-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 0%;
+  width: 0%;
+  overflow: hidden;
+  z-index: 10;
+  opacity: 0;
+  padding: 1rem;
+  margin-top: 10rem;
+  visibility: hidden; }
+  @media only screen and (max-width: 31.25em) {
+    .bg-img {
+      height: 100%;
+      width: 100%;
+      opacity: 0.70;
+      visibility: visible; } }
+  .bg-img__content {
+    height: 100%;
+    width: 100%;
+    object-fit: cover; }
+    @media only screen and (max-width: 31.25em) {
+      .bg-img__content {
+        height: 69%; } }
 
 .about-content {
   display: flex;
@@ -729,7 +753,7 @@ body {
         .reg-abs-main__reg-box--sentence, .reg-abs-main__abs-box--sentence {
           font-size: 1.1rem; } }
     .reg-abs-main__reg-box--btn1, .reg-abs-main__reg-box--btn2, .reg-abs-main__abs-box--btn1, .reg-abs-main__abs-box--btn2 {
-      font-size: 1.5rem;
+      font-size: 1.6rem;
       width: 20rem;
       height: 4rem;
       margin-bottom: 5rem;
@@ -765,34 +789,32 @@ body {
       @media only screen and (max-width: 75em) {
         .reg-abs-main__reg-box--btn2, .reg-abs-main__abs-box--btn2 {
           margin-top: 1rem; } }
-  .reg-abs-main__box2__img {
-    width: 95vw; }
-    .reg-abs-main__box2__img--modifier {
-      height: 63rem; }
-      @media only screen and (min-width: 80em) and (max-width: 100em) {
-        .reg-abs-main__box2__img--modifier {
-          height: 45rem; } }
-      @media only screen and (max-width: 75em) {
-        .reg-abs-main__box2__img--modifier {
-          height: 42rem; } }
-      @media only screen and (max-width: 68.75em) {
-        .reg-abs-main__box2__img--modifier {
-          height: 38rem; } }
-      @media only screen and (max-width: 56.25em) {
-        .reg-abs-main__box2__img--modifier {
-          height: 30rem; } }
-      @media only screen and (max-width: 50em) {
-        .reg-abs-main__box2__img--modifier {
-          height: 28rem; } }
-      @media only screen and (max-width: 43.75em) {
-        .reg-abs-main__box2__img--modifier {
-          height: 25rem; } }
-      @media only screen and (max-width: 37.5em) {
-        .reg-abs-main__box2__img--modifier {
-          display: none;
-          visibility: hidden;
-          width: 0;
-          height: 0; } }
+  .reg-abs-main__box2__img--modifier {
+    height: 63rem; }
+    @media only screen and (min-width: 80em) and (max-width: 100em) {
+      .reg-abs-main__box2__img--modifier {
+        height: 45rem; } }
+    @media only screen and (max-width: 75em) {
+      .reg-abs-main__box2__img--modifier {
+        height: 42rem; } }
+    @media only screen and (max-width: 68.75em) {
+      .reg-abs-main__box2__img--modifier {
+        height: 38rem; } }
+    @media only screen and (max-width: 56.25em) {
+      .reg-abs-main__box2__img--modifier {
+        height: 30rem; } }
+    @media only screen and (max-width: 50em) {
+      .reg-abs-main__box2__img--modifier {
+        height: 28rem; } }
+    @media only screen and (max-width: 43.75em) {
+      .reg-abs-main__box2__img--modifier {
+        height: 25rem; } }
+    @media only screen and (max-width: 37.5em) {
+      .reg-abs-main__box2__img--modifier {
+        display: none;
+        visibility: hidden;
+        width: 0;
+        height: 0; } }
 
 .innovation-content {
   display: flex;

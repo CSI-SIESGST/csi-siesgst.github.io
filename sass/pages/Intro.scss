@@ -13,6 +13,14 @@
         height: 89vh;
     }
 
+    @include respond(bp-1){
+        height: 74vh;
+    }
+
+    @include respond(iphone-5se) {
+        height: 69vh;
+    }
+
     // @include respond(bp-3){
     //     height: 70vh;
     // }
@@ -40,6 +48,12 @@
         &__box{
             background: transparent;
             height: 80vh;
+
+            @include respond(bp-2){
+                height: 60vh;
+            }
+
+
 
             &-content {
                 font-family: 'Graduate',
@@ -93,9 +107,11 @@
     left: 0;
     margin: 0 2rem;
     margin-top: 7rem;
-    width: 90.6vw!important;
+    width: 97.5vw!important;
     height: 90vh!important;
     overflow-x: hidden;
+    opacity: 0.5;
+
 
     @include respond(bp-8){
         width: 96.6vw !important;
@@ -122,7 +138,7 @@
      }
 
      @include respond(bp-1){
-         display: none;
-         visibility: hidden;
+         height: 85vh !important;
      }
+
 }

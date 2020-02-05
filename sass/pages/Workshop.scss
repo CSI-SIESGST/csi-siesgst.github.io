@@ -114,7 +114,7 @@
 }
 
 .value{
-    color: $primary-1;
+    color: $white-2;
 
     @include respond(bp-5){
         font-size: 2rem;

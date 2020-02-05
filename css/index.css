@@ -372,6 +372,19 @@ body {
 .active {
   color: #1d75fc !important; }
 
+.neon-btn {
+  position: relative;
+  display: inline-block;
+  color: #2196f3;
+  letter-spacing: 4px;
+  overflow: hidden;
+  transition: 0.2s;
+  border: 2px solid #2196f3; }
+  .neon-btn:hover {
+    color: #2e628f;
+    background: #2196f3;
+    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3; }
+
 .Intro {
   margin-top: 8rem;
   background: transparent;
@@ -816,29 +829,35 @@ canvas {
     font-size: 2.5rem;
     font-weight: 600;
     text-align: center;
-    margin-top: 1.5rem;
-    text-transform: uppercase; }
+    padding: 10px 20px;
+    margin-top: 1rem;
+    text-transform: uppercase;
+    text-decoration: none !important; }
+    @media only screen and (min-width: 81.25em) and (max-width: 100em) {
+      .innovation-content__btn--modifier {
+        padding: 7px 18px; } }
     @media only screen and (max-width: 75em) {
       .innovation-content__btn--modifier {
-        font-size: 2rem;
+        padding: 7px 17px;
+        font-size: 1.8rem;
         margin-top: 1.2rem; } }
     @media only screen and (max-width: 68.75em) {
       .innovation-content__btn--modifier {
-        font-size: 1.8rem;
         margin-top: 1rem; } }
     @media only screen and (max-width: 56.25em) {
       .innovation-content__btn--modifier {
-        font-size: 2rem;
-        margin-top: 1rem;
+        margin-top: 1.3rem;
         align-self: center; } }
-    @media only screen and (max-width: 37.5em) {
+    @media only screen and (max-width: 43.75em) {
       .innovation-content__btn--modifier {
         font-size: 1.7rem;
-        margin-top: 0rem; } }
+        padding: 5px 15px; } }
+    @media only screen and (max-width: 37.5em) {
+      .innovation-content__btn--modifier {
+        font-size: 1.7rem; } }
     @media only screen and (max-width: 31.25em) {
       .innovation-content__btn--modifier {
-        font-size: 1.4rem;
-        margin-top: 0rem; } }
+        font-size: 1.4rem; } }
 
 @media only screen and (max-width: 37.5em) {
   .Past-memories {
@@ -978,7 +997,7 @@ canvas {
       font-size: 1.4rem; } }
 
 .value {
-  color: #1d75fc; }
+  color: #eae9e9; }
   @media only screen and (max-width: 56.25em) {
     .value {
       font-size: 2rem; } }

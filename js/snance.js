@@ -1,7 +1,7 @@
 
 var textarea = $('.term');
 var speed = 40; //Writing speed in milliseconds
-var text = './CSI_SIESGST';
+var text = './CSI_SIESGST Presents Innovation 2k20!';
 
 var i = 0;
 

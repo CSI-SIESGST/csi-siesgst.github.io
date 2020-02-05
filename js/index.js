@@ -22,7 +22,7 @@ window.addEventListener('scroll', (e) => {
 
     $('.circle').each(function () {
       $(this).css({"border": "0px solid #1D75FC"}).animate({
-        'borderWidth': '1rem'
+        'borderWidth': '10px'
       },
       {
         duration: 4000,

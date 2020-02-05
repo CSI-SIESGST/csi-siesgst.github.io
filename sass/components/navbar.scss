@@ -20,15 +20,15 @@
     color: $white-1!important;
 
     &:hover {
-      color: $color-blue-text-1 !important;
+      color: $primary-1 !important;
     }
 
     &:active {
-      color: $color-blue-text-1 !important;
+      color: $primary-1 !important;
     }
 
     &:focus {
-      color: $color-blue-text-1 !important;
+      color: $primary-1 !important;
     }
 
     &__back-icon{
@@ -112,8 +112,9 @@
     width: 8rem;
 
     @include respond(bp-1) {
-      display: none;
-      visibility: hidden;
+      width: 6rem;
+      // display: none;
+      // visibility: hidden;
     }
 }
 
@@ -129,15 +130,15 @@
   color: $white-1!important;
    
   &:hover {
-     color: $primary !important;
+     color: $primary-1 !important;
    }
 
    &:focus {
-     color: $color-blue-text-1 !important;
+     color: $secondary !important;
    }
 
 }
 
 .active {
-  color: $color-blue-text-1 !important;
+  color: $primary-1 !important;
 }

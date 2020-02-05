@@ -192,16 +192,16 @@ bp-9 [1800+]=>[112.5em]
     color: #eee; }
 
 .glow {
-  color: #eeee;
+  color: #eee;
   -webkit-animation: glow 1s ease-in-out infinite alternate;
   -moz-animation: glow 1s ease-in-out infinite alternate;
   animation: glow 1s ease-in-out infinite alternate; }
 
 @keyframes glow {
   from {
-    text-shadow: 0 0 10px #eeee, 0 0 20px #eeee, 0 0 30px #303f9f, 0 0 40px #303f9f, 0 0 50px #303f9f, 0 0 60px #303f9f, 0 0 70px #303f9f; }
+    text-shadow: 0 0 5px #eee, 0 0 10px #eee, 0 0 15px #1d75fc, 0 0 20px #1d75fc, 0 0 25px #1d75fc, 0 0 30px #1d75fc, 0 0 35px #1d75fc; }
   to {
-    text-shadow: 0 0 20px #eeee, 0 0 30px #1d75fc, 0 0 40px #1d75fc, 0 0 50px #4286f4, 0 0 60px #1d75fc, 0 0 70px #1d75fc, 0 0 80px #1d75fc; } }
+    text-shadow: 0 0 5px #eee, 0 0 10px #eee, 0 0 15px #1d75fc, 0 0 20px #4286f4, 0 0 25px #1d75fc, 0 0 30px #1d75fc, 0 0 35px #1d75fc; } }
 
 *,
 *::after,
@@ -288,13 +288,13 @@ body {
   font-size: 2rem;
   font-weight: 600;
   text-transform: uppercase;
-  color: #eeee !important; }
+  color: #eee !important; }
   .navbar-brand:hover {
-    color: #1D75FC !important; }
+    color: #1d75fc !important; }
   .navbar-brand:active {
-    color: #1D75FC !important; }
+    color: #1d75fc !important; }
   .navbar-brand:focus {
-    color: #1D75FC !important; }
+    color: #1d75fc !important; }
   .navbar-brand__back-icon {
     height: 4.5rem;
     width: auto;
@@ -353,8 +353,7 @@ body {
   width: 8rem; }
   @media only screen and (max-width: 31.25em) {
     .navbar-brand-img {
-      display: none;
-      visibility: hidden; } }
+      width: 6rem; } }
 
 .navbar-nav {
   font-size: 2rem;
@@ -364,14 +363,14 @@ body {
 .nav-link {
   margin-right: 1rem;
   transition: all .3s;
-  color: #eeee !important; }
+  color: #eee !important; }
   .nav-link:hover {
-    color: #4286f4 !important; }
+    color: #1d75fc !important; }
   .nav-link:focus {
-    color: #1D75FC !important; }
+    color: #303f9f !important; }
 
 .active {
-  color: #1D75FC !important; }
+  color: #1d75fc !important; }
 
 .Intro {
   margin-top: 8rem;
@@ -393,7 +392,7 @@ body {
       .Intro__heading-main__box-content {
         font-family: 'Graduate', cursive;
         font-size: 8rem;
-        color: #eeee;
+        color: #eee;
         text-align: center;
         font-weight: 600; }
         @media only screen and (min-width: 81.25em) and (max-width: 100em) {
@@ -654,7 +653,7 @@ canvas {
       font-size: 1.7rem;
       line-height: 3rem;
       font-weight: 500;
-      color: #eeee; }
+      color: #eee; }
       @media only screen and (min-width: 81.25em) and (max-width: 100em) {
         .reg-abs-main__reg-box--list, .reg-abs-main__abs-box--list {
           font-size: 1.5rem; } }
@@ -698,7 +697,7 @@ canvas {
     .reg-abs-main__reg-box--sentence, .reg-abs-main__abs-box--sentence {
       font-size: 1.7rem;
       font-weight: 500;
-      color: #eeee; }
+      color: #eee; }
       @media only screen and (min-width: 81.25em) and (max-width: 100em) {
         .reg-abs-main__reg-box--sentence, .reg-abs-main__abs-box--sentence {
           font-size: 1.5rem; } }
@@ -895,14 +894,14 @@ canvas {
     width: 20% !important; } }
 
 .carousel-indicators .active {
-  background-color: #1D75FC; }
+  background-color: #1d75fc; }
 
 @media only screen and (max-width: 43.75em) {
   .Workshop {
     margin: 5rem 0; } }
 
 .card-content {
-  border: 3px solid #4286f4;
+  border: 0.4rem solid #303f9f;
   border-radius: 0.5rem; }
   @media only screen and (max-width: 43.75em) {
     .card-content {
@@ -913,7 +912,7 @@ canvas {
     font-size: 2rem;
     font-weight: 600;
     text-align: center;
-    color: #1D75FC;
+    color: #1d75fc;
     text-transform: uppercase; }
     @media only screen and (min-width: 81.25em) and (max-width: 100em) {
       .card-content__title {
@@ -933,7 +932,7 @@ canvas {
     text-align: justify;
     letter-spacing: 1px;
     font-family: 'Muli', sans-serif;
-    color: #eeee; }
+    color: #eee; }
     @media only screen and (min-width: 81.25em) and (max-width: 100em) {
       .card-content__text {
         font-size: 1.4rem;
@@ -986,40 +985,3 @@ canvas {
 
 .stats .value::after {
   content: "+"; }
-
-pre {
-  padding: 0;
-  margin: 0; }
-
-.load {
-  margin: 0 auto;
-  min-height: 100%;
-  width: 100%;
-  background: black; }
-
-.term {
-  font-family: monospace;
-  color: #fff;
-  opacity: 0.8;
-  font-size: 2em;
-  overflow-y: auto;
-  overflow-x: hidden;
-  padding-top: 10px;
-  padding-left: 20px; }
-
-.term:after {
-  content: "_";
-  opacity: 1;
-  animation: cursor 1s infinite; }
-
-@keyframes cursor {
-  0% {
-    opacity: 0; }
-  40% {
-    opacity: 0; }
-  50% {
-    opacity: 1; }
-  90% {
-    opacity: 1; }
-  100% {
-    opacity: 0; } }

@@ -56,7 +56,7 @@
         font-size: 3rem;
         color: $white-2;
         font-weight: 600;
-        border-bottom: 4px solid $color-blue-light;
+        border-bottom: 4px solid $primary;
         display: inline-block;
         margin-bottom: 4.5rem;
         text-transform: uppercase;
@@ -64,7 +64,7 @@
         @include respond(bp-8) {
             font-size: 2.5rem;
             margin-bottom: 3rem;
-            border-bottom: 3px solid $color-blue-light;
+            border-bottom: 3px solid $primary;
         }
 
         @include respond(bp-7) {
@@ -90,7 +90,7 @@
         @include respond(bp-1){
             font-size: 1.8rem;
             margin-bottom: 1.3rem;
-            border-bottom: 2px solid $color-blue-light;
+            border-bottom: 2px solid $primary;
         }
     }
 }
@@ -98,12 +98,12 @@
 .para-box{
 
     &__border{
-        border-left: 3px solid $color-blue-light;
+        border-left: 3px solid $primary;
         font-family: 'Muli',
         sans-serif;
 
         @include respond(bp-1){
-            border-left: 2px solid $color-blue-light;
+            border-left: 2px solid $primary;
         }
 
         @include respond(iphone-5se) {
@@ -184,13 +184,13 @@
 
 .footer-text-main{
     font-size: 1.7rem;
-    color: $color-white-2;
+    color: $white-1;
     font-weight: 600;
     text-transform: uppercase;
     text-decoration: none!important;
 
     &:hover{
-        color: $color-white-2;
+        color: $white-1;
     }
 
     @include respond(bp-8){
@@ -204,7 +204,7 @@
 
 .footer-text-sub{
     font-size: 1.5rem;
-    color: $color-white-2;
+    color: $white-1;
     font-weight: 500;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -223,7 +223,7 @@
     border-bottom: none;
 
     &:hover{
-        color: $color-white-2;
+        color: $white-1;
     }
 }
 
@@ -237,10 +237,10 @@
 //GlowText Animation
 @keyframes glow {
     from {
-        text-shadow: 0 0 10px $white-1, 0 0 20px $white-1, 0 0 30px $secondary, 0 0 40px $secondary, 0 0 50px $secondary, 0 0 60px $secondary, 0 0 70px $secondary;
+        text-shadow: 0 0 5px $white-1, 0 0 10px $white-1, 0 0 15px $primary-1, 0 0 20px $primary-1, 0 0 25px $primary-1, 0 0 30px $primary-1, 0 0 35px $primary-1;
     }
 
     to {
-        text-shadow: 0 0 20px $white-1, 0 0 30px $primary-1, 0 0 40px $primary-1, 0 0 50px $primary, 0 0 60px $primary-1, 0 0 70px $primary-1, 0 0 80px $primary-1;
+        text-shadow: 0 0 5px $white-1, 0 0 10px $white-1, 0 0 15px $primary-1, 0 0 20px $primary, 0 0 25px $primary-1, 0 0 30px $primary-1, 0 0 35px $primary-1;
     }
 }

@@ -7,7 +7,7 @@
 
 .card-content{
 
-    border: 3px solid $color-blue-light;
+    border: .4rem solid $secondary;
     border-radius: 0.5rem;
 
     @include respond(bp-3){
@@ -28,7 +28,7 @@
         font-size: 2rem;
         font-weight: 600;
         text-align: center;
-        color: $color-blue-text-1;
+        color: $primary-1;
         text-transform: uppercase;
 
         @include respond(bp-8){

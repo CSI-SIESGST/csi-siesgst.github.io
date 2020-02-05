@@ -23,7 +23,7 @@ bp-9 [1800+]=>[112.5em]
   padding: 5rem;
   margin: 2rem 0;
   background-color: #1f1f1f; }
-  @media only screen and (min-width: 81.25em) and (max-width: 100em) {
+  @media only screen and (min-width: 80em) and (max-width: 100em) {
     .heading-main {
       padding: 3rem; } }
   @media only screen and (max-width: 68.75em) {
@@ -38,7 +38,7 @@ bp-9 [1800+]=>[112.5em]
     background-image: linear-gradient(to right, #fff, #eae9e9);
     -webkit-background-clip: text;
     text-transform: uppercase; }
-    @media only screen and (min-width: 81.25em) and (max-width: 100em) {
+    @media only screen and (min-width: 80em) and (max-width: 100em) {
       .heading-main__text {
         font-size: 3.5rem; } }
     @media only screen and (max-width: 75em) {
@@ -63,7 +63,7 @@ bp-9 [1800+]=>[112.5em]
   display: inline-block;
   margin-bottom: 4.5rem;
   text-transform: uppercase; }
-  @media only screen and (min-width: 81.25em) and (max-width: 100em) {
+  @media only screen and (min-width: 80em) and (max-width: 100em) {
     .internal-heading__modifier {
       font-size: 2.5rem;
       margin-bottom: 3rem;
@@ -92,7 +92,7 @@ bp-9 [1800+]=>[112.5em]
 
 .para-box__border {
   border-left: 3px solid #4286f4;
-  font-family: 'Muli', sans-serif; }
+  font-family: 'Muli', sans-serif; }
   @media only screen and (max-width: 31.25em) {
     .para-box__border {
       border-left: 2px solid #4286f4; } }
@@ -108,7 +108,7 @@ bp-9 [1800+]=>[112.5em]
   padding-left: 1rem;
   text-align: justify;
   color: #fff; }
-  @media only screen and (min-width: 81.25em) and (max-width: 100em) {
+  @media only screen and (min-width: 80em) and (max-width: 100em) {
     .para-box__modifier {
       font-size: 1.8rem;
       font-weight: 300;
@@ -153,7 +153,7 @@ bp-9 [1800+]=>[112.5em]
 
 .followUs-text {
   font-size: 2.5rem; }
-  @media only screen and (min-width: 81.25em) and (max-width: 100em) {
+  @media only screen and (min-width: 80em) and (max-width: 100em) {
     .followUs-text {
       font-size: 2.3rem; } }
 
@@ -165,7 +165,7 @@ bp-9 [1800+]=>[112.5em]
   text-decoration: none !important; }
   .footer-text-main:hover {
     color: #eee; }
-  @media only screen and (min-width: 81.25em) and (max-width: 100em) {
+  @media only screen and (min-width: 80em) and (max-width: 100em) {
     .footer-text-main {
       font-size: 1.6rem; } }
   @media only screen and (max-width: 75em) {
@@ -178,7 +178,7 @@ bp-9 [1800+]=>[112.5em]
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 1px; }
-  @media only screen and (min-width: 81.25em) and (max-width: 100em) {
+  @media only screen and (min-width: 80em) and (max-width: 100em) {
     .footer-text-sub {
       font-size: 1.4rem; } }
   @media only screen and (max-width: 75em) {
@@ -250,7 +250,7 @@ html {
   @media only screen and (max-width: 75em) {
     html {
       font-size: 62.5% !important; } }
-  @media only screen and (min-width: 81.25em) and (max-width: 100em) {
+  @media only screen and (min-width: 80em) and (max-width: 100em) {
     html {
       font-size: 62.5% !important; } }
   @media only screen and (min-width: 112.5em) {
@@ -263,7 +263,7 @@ body {
   overflow-x: hidden;
   margin: 2rem;
   background-color: #000;
-  font-family: 'Poppins', sans-serif; }
+  font-family: 'Poppins', sans-serif; }
   body::-webkit-scrollbar {
     display: none; }
   @media only screen and (max-width: 50em) {
@@ -398,12 +398,12 @@ body {
       background: transparent;
       height: 80vh; }
       .Intro__heading-main__box-content {
-        font-family: 'Graduate', cursive;
+        font-family: 'Graduate', cursive;
         font-size: 8rem;
         color: #eee;
         text-align: center;
         font-weight: 600; }
-        @media only screen and (min-width: 81.25em) and (max-width: 100em) {
+        @media only screen and (min-width: 80em) and (max-width: 100em) {
           .Intro__heading-main__box-content {
             font-size: 6rem; } }
         @media only screen and (max-width: 75em) {
@@ -437,7 +437,7 @@ canvas {
   width: 97.6vw !important;
   height: 90vh !important;
   overflow-x: hidden; }
-  @media only screen and (min-width: 81.25em) and (max-width: 100em) {
+  @media only screen and (min-width: 80em) and (max-width: 100em) {
     canvas {
       width: 96.6vw !important;
       height: 91vh !important; } }
@@ -475,7 +475,7 @@ canvas {
     display: flex;
     justify-content: space-between;
     align-items: center; }
-    @media only screen and (min-width: 81.25em) and (max-width: 100em) {
+    @media only screen and (min-width: 80em) and (max-width: 100em) {
       .contact-content__box {
         justify-content: space-evenly; } }
     @media only screen and (max-width: 75em) {
@@ -489,7 +489,7 @@ canvas {
         padding: 2rem !important; } }
     .contact-content__box__address {
       flex-basis: 45rem; }
-      @media only screen and (min-width: 81.25em) and (max-width: 100em) {
+      @media only screen and (min-width: 80em) and (max-width: 100em) {
         .contact-content__box__address {
           flex-basis: 48rem; } }
       @media only screen and (max-width: 56.25em) {
@@ -498,7 +498,7 @@ canvas {
           margin-bottom: 2rem; } }
     .contact-content__box__CSI {
       flex-basis: 45rem; }
-      @media only screen and (min-width: 81.25em) and (max-width: 100em) {
+      @media only screen and (min-width: 80em) and (max-width: 100em) {
         .contact-content__box__CSI {
           display: none;
           visibility: hidden;
@@ -514,7 +514,7 @@ canvas {
       height: 7rem;
       width: auto;
       margin-bottom: 1rem; }
-      @media only screen and (min-width: 81.25em) and (max-width: 100em) {
+      @media only screen and (min-width: 80em) and (max-width: 100em) {
         .contact-content__box__icon--modifier {
           height: 6rem; } }
       @media only screen and (max-width: 75em) {
@@ -527,7 +527,7 @@ canvas {
         height: 8rem;
         width: auto;
         margin-bottom: 1rem; }
-        @media only screen and (min-width: 81.25em) and (max-width: 100em) {
+        @media only screen and (min-width: 80em) and (max-width: 100em) {
           .contact-content__box__logo--modifier {
             height: 7rem; } }
         @media only screen and (max-width: 75em) {
@@ -535,7 +535,7 @@ canvas {
             height: 6rem; } }
     .contact-content__box__social-box {
       flex-basis: 45rem; }
-      @media only screen and (min-width: 81.25em) and (max-width: 100em) {
+      @media only screen and (min-width: 80em) and (max-width: 100em) {
         .contact-content__box__social-box {
           flex-basis: 48rem; } }
       .contact-content__box__social-box__icons {
@@ -545,7 +545,7 @@ canvas {
         align-content: center; }
         .contact-content__box__social-box__icons--icon1 {
           height: 6rem; }
-          @media only screen and (min-width: 81.25em) and (max-width: 100em) {
+          @media only screen and (min-width: 80em) and (max-width: 100em) {
             .contact-content__box__social-box__icons--icon1 {
               height: 4rem; } }
           @media only screen and (max-width: 75em) {
@@ -553,7 +553,7 @@ canvas {
               height: 3.5rem; } }
         .contact-content__box__social-box__icons--icon2 {
           height: 8rem; }
-          @media only screen and (min-width: 81.25em) and (max-width: 100em) {
+          @media only screen and (min-width: 80em) and (max-width: 100em) {
             .contact-content__box__social-box__icons--icon2 {
               height: 5.6rem; } }
           @media only screen and (max-width: 75em) {
@@ -561,7 +561,7 @@ canvas {
               height: 5rem; } }
         .contact-content__box__social-box__icons--icon3 {
           height: 5.5rem; }
-          @media only screen and (min-width: 81.25em) and (max-width: 100em) {
+          @media only screen and (min-width: 80em) and (max-width: 100em) {
             .contact-content__box__social-box__icons--icon3 {
               height: 4rem; } }
           @media only screen and (max-width: 75em) {
@@ -569,7 +569,7 @@ canvas {
               height: 3.5rem; } }
         .contact-content__box__social-box__icons--icon4 {
           height: 5rem; }
-          @media only screen and (min-width: 81.25em) and (max-width: 100em) {
+          @media only screen and (min-width: 80em) and (max-width: 100em) {
             .contact-content__box__social-box__icons--icon4 {
               height: 4rem; } }
           @media only screen and (max-width: 75em) {
@@ -577,7 +577,7 @@ canvas {
               height: 3.5rem; } }
         .contact-content__box__social-box__icons--icon5 {
           height: 6rem; }
-          @media only screen and (min-width: 81.25em) and (max-width: 100em) {
+          @media only screen and (min-width: 80em) and (max-width: 100em) {
             .contact-content__box__social-box__icons--icon5 {
               height: 4.5rem; } }
           @media only screen and (max-width: 75em) {
@@ -630,7 +630,7 @@ canvas {
       text-transform: uppercase;
       font-weight: 600;
       color: #1d75fc !important;
-      font-family: 'Poppins', sans-serif; }
+      font-family: 'Poppins', sans-serif; }
       @media only screen and (max-width: 75em) {
         .reg-abs-main__reg-box--heading, .reg-abs-main__abs-box--heading {
           font-size: 2.3rem; } }
@@ -650,7 +650,7 @@ canvas {
           font-size: 1.5rem; } }
     .reg-abs-main__reg-box--list-collection, .reg-abs-main__abs-box--list-collection {
       padding: 1rem; }
-      @media only screen and (min-width: 81.25em) and (max-width: 100em) {
+      @media only screen and (min-width: 80em) and (max-width: 100em) {
         .reg-abs-main__reg-box--list-collection, .reg-abs-main__abs-box--list-collection {
           padding: 0; } }
       @media only screen and (max-width: 56.25em) {
@@ -662,7 +662,7 @@ canvas {
       line-height: 3rem;
       font-weight: 500;
       color: #eee; }
-      @media only screen and (min-width: 81.25em) and (max-width: 100em) {
+      @media only screen and (min-width: 80em) and (max-width: 100em) {
         .reg-abs-main__reg-box--list, .reg-abs-main__abs-box--list {
           font-size: 1.5rem; } }
       @media only screen and (max-width: 75em) {
@@ -706,7 +706,7 @@ canvas {
       font-size: 1.7rem;
       font-weight: 500;
       color: #eee; }
-      @media only screen and (min-width: 81.25em) and (max-width: 100em) {
+      @media only screen and (min-width: 80em) and (max-width: 100em) {
         .reg-abs-main__reg-box--sentence, .reg-abs-main__abs-box--sentence {
           font-size: 1.5rem; } }
       @media only screen and (max-width: 75em) {
@@ -735,7 +735,7 @@ canvas {
       text-transform: uppercase;
       font-weight: 500;
       border-radius: .3rem; }
-      @media only screen and (min-width: 81.25em) and (max-width: 100em) {
+      @media only screen and (min-width: 80em) and (max-width: 100em) {
         .reg-abs-main__reg-box--btn1, .reg-abs-main__reg-box--btn2, .reg-abs-main__abs-box--btn1, .reg-abs-main__abs-box--btn2 {
           margin-bottom: 2rem; } }
       @media only screen and (max-width: 75em) {
@@ -758,7 +758,7 @@ canvas {
     .reg-abs-main__reg-box--btn2, .reg-abs-main__abs-box--btn2 {
       margin-bottom: 0rem;
       margin-top: 2rem; }
-      @media only screen and (min-width: 81.25em) and (max-width: 100em) {
+      @media only screen and (min-width: 80em) and (max-width: 100em) {
         .reg-abs-main__reg-box--btn2, .reg-abs-main__abs-box--btn2 {
           margin-top: 1rem; } }
       @media only screen and (max-width: 75em) {
@@ -768,7 +768,7 @@ canvas {
     width: 95vw; }
     .reg-abs-main__box2__img--modifier {
       height: 63rem; }
-      @media only screen and (min-width: 81.25em) and (max-width: 100em) {
+      @media only screen and (min-width: 80em) and (max-width: 100em) {
         .reg-abs-main__box2__img--modifier {
           height: 45rem; } }
       @media only screen and (max-width: 75em) {
@@ -828,7 +828,7 @@ canvas {
     margin-top: 1rem;
     text-transform: uppercase;
     text-decoration: none !important; }
-    @media only screen and (min-width: 81.25em) and (max-width: 100em) {
+    @media only screen and (min-width: 80em) and (max-width: 100em) {
       .innovation-content__btn--modifier {
         padding: 7px 18px; } }
     @media only screen and (max-width: 75em) {
@@ -928,7 +928,7 @@ canvas {
     text-align: center;
     color: #1d75fc;
     text-transform: uppercase; }
-    @media only screen and (min-width: 81.25em) and (max-width: 100em) {
+    @media only screen and (min-width: 80em) and (max-width: 100em) {
       .card-content__title {
         font-size: 1.8rem; } }
     @media only screen and (max-width: 75em) {
@@ -945,9 +945,9 @@ canvas {
     font-weight: 600;
     text-align: justify;
     letter-spacing: 1px;
-    font-family: 'Muli', sans-serif;
+    font-family: 'Muli', sans-serif;
     color: #eee; }
-    @media only screen and (min-width: 81.25em) and (max-width: 100em) {
+    @media only screen and (min-width: 80em) and (max-width: 100em) {
       .card-content__text {
         font-size: 1.4rem;
         letter-spacing: normal; } }
@@ -976,7 +976,7 @@ canvas {
 .stats .circle-text, .stats-text {
   text-align: center;
   font-size: 2rem;
-  font-family: 'Muli', sans-serif;
+  font-family: 'Muli', sans-serif;
   font-weight: 600;
   color: #1d75fc;
   text-transform: uppercase;

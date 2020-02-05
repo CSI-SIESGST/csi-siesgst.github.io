@@ -3,7 +3,6 @@
     transition: all .6s;
     backface-visibility: hidden;
     margin: 0 2rem!important;
-    background-color: $black-1 !important;
 
     @include respond(bp-4){
       margin: 0!important;
@@ -128,14 +127,10 @@
   margin-right: 1rem;
   transition: all .3s;
   color: $white-1!important;
-   
-  &:hover {
-     color: $primary-1 !important;
-   }
-
-   &:focus {
-     color: $secondary !important;
-   }
+  
+  &:hover {  
+    color: $primary-1;
+  }
 
 }
 

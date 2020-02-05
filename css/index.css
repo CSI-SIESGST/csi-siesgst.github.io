@@ -92,7 +92,7 @@ bp-9 [1800+]=>[112.5em]
 
 .para-box__border {
   border-left: 3px solid #4286f4;
-  font-family: 'Muli', sans-serif; }
+  font-family: 'Muli', sans-serif; }
   @media only screen and (max-width: 31.25em) {
     .para-box__border {
       border-left: 2px solid #4286f4; } }
@@ -263,7 +263,7 @@ body {
   overflow-x: hidden;
   margin: 2rem;
   background-color: #000;
-  font-family: 'Poppins', sans-serif; }
+  font-family: 'Poppins', sans-serif; }
   body::-webkit-scrollbar {
     display: none; }
   @media only screen and (max-width: 50em) {
@@ -274,8 +274,7 @@ body {
 .navbar-reg {
   transition: all .6s;
   backface-visibility: hidden;
-  margin: 0 2rem !important;
-  background-color: #1f1f1f !important; }
+  margin: 0 2rem !important; }
   @media only screen and (max-width: 50em) {
     .navbar,
     .navbar-reg {
@@ -365,9 +364,7 @@ body {
   transition: all .3s;
   color: #eee !important; }
   .nav-link:hover {
-    color: #1d75fc !important; }
-  .nav-link:focus {
-    color: #303f9f !important; }
+    color: #1d75fc; }
 
 .active {
   color: #1d75fc !important; }
@@ -403,7 +400,7 @@ body {
       background: transparent;
       height: 80vh; }
       .Intro__heading-main__box-content {
-        font-family: 'Graduate', cursive;
+        font-family: 'Graduate', cursive;
         font-size: 8rem;
         color: #eee;
         text-align: center;
@@ -635,7 +632,7 @@ canvas {
       text-transform: uppercase;
       font-weight: 600;
       color: #1d75fc !important;
-      font-family: 'Poppins', sans-serif; }
+      font-family: 'Poppins', sans-serif; }
       @media only screen and (max-width: 75em) {
         .reg-abs-main__reg-box--heading, .reg-abs-main__abs-box--heading {
           font-size: 2.3rem; } }
@@ -950,7 +947,7 @@ canvas {
     font-weight: 600;
     text-align: justify;
     letter-spacing: 1px;
-    font-family: 'Muli', sans-serif;
+    font-family: 'Muli', sans-serif;
     color: #eee; }
     @media only screen and (min-width: 81.25em) and (max-width: 100em) {
       .card-content__text {
@@ -981,7 +978,7 @@ canvas {
 .stats .circle-text, .stats-text {
   text-align: center;
   font-size: 2rem;
-  font-family: 'Muli', sans-serif;
+  font-family: 'Muli', sans-serif;
   font-weight: 600;
   color: #1d75fc;
   text-transform: uppercase;

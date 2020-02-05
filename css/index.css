@@ -351,9 +351,6 @@ body {
 
 .navbar-brand-img {
   width: 8rem; }
-  @media only screen and (max-width: 31.25em) {
-    .navbar-brand-img {
-      width: 6rem; } }
 
 .navbar-nav {
   font-size: 2rem;

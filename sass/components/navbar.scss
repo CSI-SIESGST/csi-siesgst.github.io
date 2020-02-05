@@ -112,7 +112,7 @@
     width: 8rem;
 
     @include respond(bp-1) {
-      width: 6rem;
+      // width: 6rem;
       // display: none;
       // visibility: hidden;
     }

@@ -120,4 +120,9 @@ canvas {
          height: 100vh!important;
          margin: 0!important;
      }
+
+     @include respond(bp-1){
+         display: none;
+         visibility: hidden;
+     }
 }

@@ -456,6 +456,10 @@ canvas {
       width: 100vw !important;
       height: 100vh !important;
       margin: 0 !important; } }
+  @media only screen and (max-width: 31.25em) {
+    canvas {
+      display: none;
+      visibility: hidden; } }
 
 .about-content {
   display: flex;
@@ -540,7 +544,7 @@ canvas {
           flex-basis: 48rem; } }
       .contact-content__box__social-box__icons {
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-around;
         align-items: center;
         align-content: center; }
         .contact-content__box__social-box__icons--icon1 {

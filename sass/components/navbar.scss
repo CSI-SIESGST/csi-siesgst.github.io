@@ -5,7 +5,7 @@
     margin: 0 2rem!important;
     background-color: $black-1 !important;
 
-    @include respond(bp-4){
+    @include respond(bp-1){
       margin: 0!important;
     }
 }

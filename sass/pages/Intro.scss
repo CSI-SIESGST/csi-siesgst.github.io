@@ -1,98 +1,92 @@
 .Intro{
     margin-top: 8rem;
+    height: 100vh;
     background: transparent;
-    height: 85vh;
     
 
     @include respond(bp-5){
-        margin-top: 7rem;
+        height: 80vh;
 
     }
 
-    @include respond(bp-4){
-        height: 89vh;
+    @include respond(bp-1) {
+        height: 70vh;
     }
 
-    @include respond(bp-1){
-        height: 74vh;
-    }
-
-    @include respond(iphone-5se) {
-        height: 69vh;
-    }
-
-    // @include respond(bp-3){
-    //     height: 70vh;
+    // @include respond(bp-1){
+    //     height: 75vh;
     // }
 
-    // @include respond(bp-2) {
-    //     height: 60vh;
-    // }
-
-    // @include respond(bp-1) {
-    //     height: 50vh;
-    //     margin-top: 2rem;
-    // }
-
-    // @include respond(iphone-6/7/8plus) {
-    //     height: 40vh;
+    // @include respond(iphone-5se) {
+    //     height: 68vh;
     // }
 
 
     &__heading-main{
 
-        position: relative;
-        top: 50%;
-        transform: translateY(-25%);
-
         &__box{
+            // width: 73vw;
+            // display: flex;
             background: transparent;
-            height: 80vh;
-
-            @include respond(bp-2){
-                height: 60vh;
-            }
-
-
 
             &-content {
-                font-family: 'Graduate',
-                    cursive;
-                font-size: 8rem;
+                font-family: 'Roboto Mono',
+                monospace;
+                font-size: 7rem;
                 color: $white-1;
                 text-align: center;
-                font-weight: 600;
+                font-weight: 500;
+                width: 90vw;
+                z-index: 20;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
 
                 @include respond(bp-8){
-                    font-size: 6rem;
+                    font-size: 5.5rem;
                 }
 
                 @include respond(bp-7){
-                    font-size: 6rem;
-                }
-
-                @include respond(bp-6){
-                    font-size: 6rem;
+                    font-size: 5rem;
                 }
 
                 @include respond(bp-5){
                     font-size: 5rem;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
                 }
 
                 @include respond(bp-4){
-                    font-size: 4.5rem;
+                    font-size: 4.3rem;
+                }
+
+                @include respond(bp-3) {
+                    font-size: 4rem;
                 }
 
                 @include respond(bp-2) {
-                    font-size: 3.5rem;
+                    font-size: 3rem;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
                 }
 
                 @include respond(bp-1) {
                     font-size: 2.7rem;
                 }
 
+                @include respond(iphone-6/7/8plus) {
+                    font-size: 2.3rem;
+                }
+
                 @include respond(iphone-6/7/8/10) {
-                    font-size: 2.4rem;
+                    font-size: 2rem;
+                }
+
+                @include respond(iphone-5se){
+                    font-size: 1.8rem;
                 }
             }
 
@@ -101,44 +95,38 @@
 
 }
 
-.canvas {
+.bg-video{
     position: absolute;
     top: 0;
     left: 0;
-    margin: 0 2rem;
-    margin-top: 7rem;
-    width: 97.5vw!important;
-    height: 90vh!important;
-    overflow-x: hidden;
-    opacity: 0.5;
+    height: 100%;
+    width: 100%;
+    z-index: 10;
+    opacity: 0.70;
+    overflow: hidden;
+    padding: 0rem 2rem;
+    margin-top: 10rem;
 
+    &__content{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
 
-    @include respond(bp-8){
-        width: 96.6vw !important;
-        height: 91vh !important;
+        @include respond(bp-1){
+            height: 70%;
+        }
     }
 
-    @include respond(bp-7){
-        width: 96.6vw !important;
-        height: 91vh !important;
+    @include respond(bp-5){
+        padding:2rem 2rem 16rem 2rem;
     }
 
-    @include respond(bp-6) {
-        width: 96.2vw !important;
+    @include respond(bp-4){
+        padding:2rem 2rem 16.5rem 2rem;
     }
 
-     @include respond(bp-5) {
-         width: 95vw !important;
-     }
-
-     @include respond(bp-4){
-         width: 100vw!important;
-         height: 100vh!important;
-         margin: 0!important;
-     }
-
-     @include respond(bp-1){
-         height: 85vh !important;
-     }
-
+    @include respond(bp-1){
+        padding: 0;
+        margin-top: 9.8rem;
+    }
 }

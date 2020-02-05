@@ -104,69 +104,69 @@
 
            
                 &--icon1 {
-                    height: 6rem;
+                    height: 7rem;
 
                     @include respond(bp-8) {
-                        height: 4rem;
+                        height: 5rem;
                     }
 
                     @include respond(bp-7) {
-                        height: 3.5rem;
+                        height: 4.5rem;
                     }
 
                 }
 
                 &--icon2 {
-                    height: 8rem;
+                    height: 9rem;
 
                     @include respond(bp-8) {
-                        height: 5.6rem;
+                        height: 6.6rem;
                     }
 
                     @include respond(bp-7) {
-                        height: 5rem;
+                        height: 6rem;
                     }
 
                 }
 
                 &--icon3 {
-                    height: 5.5rem;
+                    height: 6.5rem;
 
                     @include respond(bp-8) {
-                        height: 4rem;
+                        height: 5rem;
                     }
 
                     @include respond(bp-7) {
-                        height: 3.5rem;
-                    }
-
-                }
-
-                &--icon4 {
-                    height: 5rem;
-
-                    @include respond(bp-8) {
-                        height: 4rem;
-                    }
-
-                    @include respond(bp-7) {
-                        height: 3.5rem;
-                    }
-
-                }
-
-                &--icon5 {
-                    height: 6rem;
-
-                    @include respond(bp-8) {
                         height: 4.5rem;
                     }
 
-                    @include respond(bp-7) {
-                        height: 3.5rem;
-                    }
-
                 }
+
+                // &--icon4 {
+                //     height: 5rem;
+
+                //     @include respond(bp-8) {
+                //         height: 4rem;
+                //     }
+
+                //     @include respond(bp-7) {
+                //         height: 3.5rem;
+                //     }
+
+                // }
+
+                // &--icon5 {
+                //     height: 6rem;
+
+                //     @include respond(bp-8) {
+                //         height: 4.5rem;
+                //     }
+
+                //     @include respond(bp-7) {
+                //         height: 3.5rem;
+                //     }
+
+                // }
             }
 
     }

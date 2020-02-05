@@ -70,7 +70,7 @@ bp-9 [1800+]=>[112.5em]
     }
 
     @if $breakpoint == bp-8{
-        @media only screen and (min-width: 81.25em) and (max-width:100em){@content};
+        @media only screen and (min-width: 80em) and (max-width:100em){@content};
     }
 
     @if $breakpoint == bp-9{

@@ -13,21 +13,11 @@
         height: 70vh;
     }
 
-    // @include respond(bp-1){
-    //     height: 75vh;
-    // }
-
-    // @include respond(iphone-5se) {
-    //     height: 68vh;
-    // }
-
 
     &__heading-main{
 
         &__box{
-            // width: 73vw;
-            // display: flex;
-            background: transparent;
+            // background: transparent;
 
             &-content {
                 font-family: 'Roboto Mono',
@@ -75,18 +65,25 @@
 
                 @include respond(bp-1) {
                     font-size: 2.7rem;
+                    font-weight: 400;
+                    font-family: 'Graduate',
+                    cursive;
                 }
 
                 @include respond(iphone-6/7/8plus) {
-                    font-size: 2.3rem;
+                    font-size: 2rem;
                 }
 
                 @include respond(iphone-6/7/8/10) {
                     font-size: 2rem;
                 }
 
-                @include respond(iphone-5se){
+                @include respond(galaxy-s5){
                     font-size: 1.8rem;
+                }
+
+                @include respond(iphone-5se){
+                    font-size: 1.5rem;
                 }
             }
 

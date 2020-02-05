@@ -428,36 +428,36 @@ body {
           .Intro__heading-main__box-content {
             font-size: 2.4rem; } }
 
-canvas {
+.canvas {
   position: absolute;
   top: 0;
   left: 0;
   margin: 0 2rem;
   margin-top: 7rem;
-  width: 97.6vw !important;
+  width: 90.6vw !important;
   height: 90vh !important;
   overflow-x: hidden; }
   @media only screen and (min-width: 80em) and (max-width: 100em) {
-    canvas {
+    .canvas {
       width: 96.6vw !important;
       height: 91vh !important; } }
   @media only screen and (max-width: 75em) {
-    canvas {
+    .canvas {
       width: 96.6vw !important;
       height: 91vh !important; } }
   @media only screen and (max-width: 68.75em) {
-    canvas {
+    .canvas {
       width: 96.2vw !important; } }
   @media only screen and (max-width: 56.25em) {
-    canvas {
+    .canvas {
       width: 95vw !important; } }
   @media only screen and (max-width: 50em) {
-    canvas {
+    .canvas {
       width: 100vw !important;
       height: 100vh !important;
       margin: 0 !important; } }
   @media only screen and (max-width: 31.25em) {
-    canvas {
+    .canvas {
       display: none;
       visibility: hidden; } }
 

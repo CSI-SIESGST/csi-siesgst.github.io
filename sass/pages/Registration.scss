@@ -154,10 +154,6 @@
                 font-size: 1.2rem;
             }
 
-            @include respond(iphone-6/7/8/10){
-                text-align: start;
-            }
-
             @include respond(iphone-5se){
                 font-size: 1.1rem;
             }

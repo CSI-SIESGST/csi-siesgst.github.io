@@ -22,7 +22,7 @@
                 font-family: 'Graduate',
                 cursive;
                 font-size: 7rem;
-                color: $white-1;
+                color: $white-2;
                 text-align: center;
                 font-weight: 600;
                 width: 90vw;
@@ -32,6 +32,7 @@
                 left: 50%;
                 transform: translate(-50%, -50%);
                 line-height: 15rem;
+                opacity: 0.80;
 
                 @include respond(bp-8){
                     font-size: 5.5rem;
@@ -72,7 +73,6 @@
                 }
 
                 @include respond(iphone-6/7/8plus) {
-                    // font-size: 2.8rem;
                     font-size: 4rem;
                     line-height: 6.5rem;
                     font-weight: 500;
@@ -102,41 +102,39 @@
     position: absolute;
     top: 0;
     left: 0;
-    height: 98.5%;
+    height: 100%;
     width: 100%;
     z-index: 10;
-    opacity: 0.70;
+    opacity: 0.80;
     overflow: hidden;
-    // padding: 0rem 2rem;
-    margin-top: 9.5rem;
+    margin-top: 8rem;
 
     &__content{
         height: 100%;
         width: 100%;
         object-fit: cover;
 
+        @include respond(bp-5) {
+            height: 80%;
+        }
+
         @include respond(bp-1){
-            height: 71.5%;
+            height: 70%;
         }
     }
 
-    @include respond(bp-5){
-        padding:2rem 2rem 16rem 2rem;
-    }
+    // @include respond(bp-5){
+    //     padding:2rem 2rem 16rem 2rem;
+    // }
 
-    @include respond(bp-4){
-        padding:2rem 2rem 16.5rem 2rem;
-    }
+    // @include respond(bp-4){
+    //     padding:2rem 2rem 16.5rem 2rem;
+    // }
 
-    @include respond(bp-1){
-        padding: 0;
-        margin-top: 9.7rem;
-        // height: 0;
-        // width: 0;
-        // display: none;
-        // visibility: hidden;
-
-    }
+    // @include respond(bp-1){
+    //     padding: 0;
+    //     margin-top: 9.7rem;
+    // }
 }
 
 // .bg-img{

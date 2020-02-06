@@ -12,9 +12,9 @@
         padding: 3rem;
     }
 
-    // @include respond(bp-3) {
-    //     padding: 3rem;
-    // }
+    @include respond(bp-1) {
+        padding: 2rem;
+    }
 
 
     &__text{
@@ -34,7 +34,7 @@
         }
 
         @include respond(iphone-6/7/8plus) {
-            font-size: 2.5rem;
+            font-size: 2.3rem;
         }
 
         @include respond(galaxy-s5) {
@@ -211,11 +211,24 @@
     @include respond(bp-7) {
         font-size: 1.3rem;
     }
+
+    @include respond(iphone-6/7/8plus){
+        font-size: 1.1rem;
+    }
 }
 
 .footer-contact{
     text-decoration: none;
     border-bottom: none;
+    font-size: 1.4rem;
+
+    @include respond(iphone-6/7/8plus) {
+        font-size: 1.1rem;
+    }
+
+    &:not(:last-child){
+        margin-bottom: 10px;
+    }
 
     &:hover{
         color: $white-1;
@@ -237,10 +250,10 @@
 //GlowText Animation
 @keyframes glow {
     from {
-        text-shadow: 0 0 5px $white-1, 0 0 10px $white-1, 0 0 15px $primary-1, 0 0 20px $primary-1, 0 0 25px $primary-1, 0 0 30px $primary-1, 0 0 35px $primary-1;
+        text-shadow: 0 0 3px $white-2, 0 0 6px $white-2, 0 0 9px $primary-1, 0 0 12px $primary-1, 0 0 15px $primary-1, 0 0 18px $primary-1, 0 0 21px $primary-1;
     }
 
     to {
-        text-shadow: 0 0 5px $white-1, 0 0 10px $white-1, 0 0 15px $primary-1, 0 0 20px $primary, 0 0 25px $primary-1, 0 0 30px $primary-1, 0 0 35px $primary-1;
+        text-shadow: 0 0 3px $white-2, 0 0 6px $white-2, 0 0 9px $primary-1, 0 0 12px $primary, 0 0 15px $primary-1, 0 0 18px $primary-1, 0 0 21px $primary-1;
     }
 }

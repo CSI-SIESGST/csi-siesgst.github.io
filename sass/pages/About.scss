@@ -5,7 +5,9 @@
     align-items: center;
 
     &__box1{
-        
+        @include respond(bp-5){
+            margin-top: 0rem!important;
+        }
         &__video{
 
             &__modifier{

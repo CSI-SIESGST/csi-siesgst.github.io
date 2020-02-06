@@ -572,7 +572,8 @@ body {
         display: flex;
         justify-content: space-around;
         align-items: center;
-        align-content: center; }
+        align-content: center;
+        margin-bottom: 1rem; }
         .contact-content__box__social-box__icons--icon1 {
           height: 7rem; }
           @media only screen and (min-width: 80em) and (max-width: 100em) {
@@ -598,7 +599,9 @@ body {
             .contact-content__box__social-box__icons--icon3 {
               height: 4.5rem; } }
     .contact-content__box__phone {
-      margin-top: 1.5rem; }
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly; }
 
 .footer-icon {
   height: 2.5rem;

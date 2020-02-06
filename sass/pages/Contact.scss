@@ -51,6 +51,7 @@
                 height: 0;
                 width: 0;
             }
+
         }
 
         &__icon{
@@ -101,6 +102,7 @@
             justify-content: space-around;
             align-items: center;
             align-content: center;
+            margin-bottom: 1rem;
 
            
                 &--icon1 {
@@ -172,7 +174,17 @@
     }
 
         &__phone{
-            margin-top: 1.5rem;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+
+            &__contact-1{
+
+            }
+
+            &__contact-2{
+
+            }
         }
 
     }

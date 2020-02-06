@@ -2,7 +2,7 @@
 .navbar-reg{
     transition: all .6s;
     backface-visibility: hidden;
-    margin: 0 2rem!important;
+    // margin: 0 2rem!important;
     background-color: $black-1 !important;
 
     @include respond(bp-1){

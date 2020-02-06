@@ -113,7 +113,7 @@
         font-size: 2rem;
         font-weight: 400;
         line-height: 3rem;
-        letter-spacing: 1px;
+        letter-spacing: normal;
         padding-left: 1rem;
         text-align: justify;
         color: $white;
@@ -134,30 +134,27 @@
         @include respond(bp-6) {
             font-size: 1.5rem;
             line-height: 2rem;
-            letter-spacing: normal;
         }
 
         @include respond(bp-5) {
             font-size: 1.8rem;
             line-height: 2.5rem;
-            letter-spacing: normal;
         }
 
         @include respond(bp-3) {
-            font-size: 1.5rem;
-            line-height: 2rem;
-            letter-spacing: normal;
+            font-size: 1.4rem;
+            line-height: 2.1rem;
         }
 
         @include respond(bp-2) {
-            font-size: 1.4rem;
-            line-height: 1.7rem;
-            letter-spacing: normal;
+            font-size: 1.3rem;
+            line-height: 1.8rem;
         }
 
         @include respond(bp-1){
-            font-size: 1.2rem;
+            font-size: 1.1rem;
             line-height: 1.5rem;
+            font-weight: 100;
         }
 
         @include respond(galaxy-s5){
@@ -230,6 +227,11 @@
     -webkit-animation: glow 1s ease-in-out infinite alternate;
     -moz-animation: glow 1s ease-in-out infinite alternate;
     animation: glow 1s ease-in-out infinite alternate;
+
+    @include respond(bp-1){
+        animation: none;
+        color: $white-1;
+    }
 }
 
 //GlowText Animation

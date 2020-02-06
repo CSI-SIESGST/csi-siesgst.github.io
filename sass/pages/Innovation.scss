@@ -76,6 +76,8 @@
 
             @include respond(bp-1) {
                 font-size: 1.4rem;
+                padding: 7px 13px;
+                
             }
         }
     }

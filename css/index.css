@@ -1012,3 +1012,9 @@ body {
     padding-right: 3vw;
     padding-bottom: 3vw;
 }
+.con {
+    font-size: 2.5vh;
+  text-align: justify;}
+  @media only screen and (max-width: 56.25em) {
+    .con {
+      text-align: center; } }

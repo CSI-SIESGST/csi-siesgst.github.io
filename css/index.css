@@ -399,9 +399,6 @@ body {
   @media only screen and (max-width: 56.25em) {
     .Intro {
       height: 80vh; } }
-  @media only screen and (max-width: 31.25em) {
-    .Intro {
-      height: 70vh; } }
   .Intro__heading-main__box-content {
     font-family: 'Graduate', cursive;
     font-size: 7rem;
@@ -473,16 +470,19 @@ body {
   opacity: 0.80;
   overflow: hidden;
   margin-top: 8rem; }
+  @media only screen and (max-width: 56.25em) {
+    .bg-video {
+      height: 80%; } }
+  @media only screen and (max-width: 31.25em) {
+    .bg-video {
+      height: 82.5%; } }
+  @media only screen and (max-width: 25.875em) {
+    .bg-video {
+      height: 83%; } }
   .bg-video__content {
     height: 100%;
     width: 100%;
     object-fit: cover; }
-    @media only screen and (max-width: 56.25em) {
-      .bg-video__content {
-        height: 80%; } }
-    @media only screen and (max-width: 31.25em) {
-      .bg-video__content {
-        height: 70%; } }
 
 .about-content {
   display: flex;

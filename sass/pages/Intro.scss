@@ -9,9 +9,9 @@
 
     }
 
-    @include respond(bp-1) {
-        height: 70vh;
-    }
+    // @include respond(bp-1) {
+    //     height: 70vh;
+    // }
 
 
     &__heading-main{
@@ -109,18 +109,30 @@
     overflow: hidden;
     margin-top: 8rem;
 
+    @include respond(bp-5){
+        height: 80%;
+    }
+
+    @include respond(bp-1){
+        height: 82.5%;
+    }
+
+    @include respond(iphone-6/7/8plus) {
+        height: 83%;
+    }
+
     &__content{
         height: 100%;
         width: 100%;
         object-fit: cover;
 
-        @include respond(bp-5) {
-            height: 80%;
-        }
+        // @include respond(bp-5) {
+        //     height: 80%;
+        // }
 
-        @include respond(bp-1){
-            height: 70%;
-        }
+        // @include respond(bp-1){
+        //     height: 70%;
+        // }
     }
 
     // @include respond(bp-5){

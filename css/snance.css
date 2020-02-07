@@ -1,0 +1,68 @@
+html,
+body {
+    margin: 0 auto;
+    height: 100%;
+}
+
+div {
+    padding: 0;
+    margin: 0;
+}
+
+.load {
+    margin: 0 auto;
+    min-height: 100%;
+    width: 100%;
+    background: black;
+}
+
+.term {
+    font-family: monospace;
+    color: #39ff14;
+    opacity: 0.8;
+    font-size: 1.8rem;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.term:after {
+    content: "|";
+    opacity: 1;
+    animation: cursor 1s infinite;
+}
+
+@keyframes cursor {
+    0% {
+        opacity: 0;
+    }
+
+    40% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    90% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@media only screen and (max-width:500px){
+    .term{
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width:375px) {
+    .term {
+        font-size: 0.8rem;
+    }
+}

@@ -1,0 +1,259 @@
+.heading-main {
+    text-align: center;
+    padding: 5rem;
+    margin: 2rem 0;
+    background-color: $black-1;
+
+    @include respond(bp-8){
+        padding: 3rem;
+    }
+
+    @include respond(bp-6) {
+        padding: 3rem;
+    }
+
+    @include respond(bp-1) {
+        padding: 2rem;
+    }
+
+
+    &__text{
+        display: inline-block;
+        padding: 0.5rem;
+        font-size: 4.3rem;
+        font-weight: 700;
+        color: $white-2;
+        text-transform: uppercase;
+
+        @include respond(bp-8) {
+            font-size: 3.5rem;
+        }
+
+        @include respond(bp-7) {
+            font-size: 3rem;
+        }
+
+        @include respond(iphone-6/7/8plus) {
+            font-size: 2.3rem;
+        }
+
+        @include respond(galaxy-s5) {
+            font-size: 2rem;
+        }
+
+    }
+}
+
+.internal-heading{
+
+    @include respond(bp-5){
+        text-align: center;
+    }
+
+    &__modifier{
+        font-size: 3rem;
+        color: $white-2;
+        font-weight: 600;
+        border-bottom: 4px solid $primary;
+        display: inline-block;
+        margin-bottom: 4.5rem;
+        text-transform: uppercase;
+
+        @include respond(bp-8) {
+            font-size: 2.5rem;
+            margin-bottom: 3rem;
+            border-bottom: 3px solid $primary;
+        }
+
+        @include respond(bp-7) {
+            font-size: 2.5rem;
+            margin-bottom: 2rem;
+        }
+
+        @include respond(bp-6) {
+            font-size: 2.5rem;
+            margin-bottom: 1.7rem;
+        }
+
+        @include respond(bp-3){
+            font-size: 2.2rem;
+            margin-bottom: 1.5rem;
+        }
+
+        @include respond(bp-2) {
+            font-size: 2rem;
+            margin-bottom: 1.5rem;
+        }
+
+        @include respond(bp-1){
+            font-size: 1.8rem;
+            margin-bottom: 1.3rem;
+            border-bottom: 2px solid $primary;
+        }
+    }
+}
+
+.para-box{
+
+    &__border{
+        border-left: 3px solid $primary;
+        font-family: 'Muli',
+        sans-serif;
+
+        @include respond(bp-1){
+            border-left: 2px solid $primary;
+        }
+
+        @include respond(iphone-5se) {
+            border-left: none;
+        }
+    }
+
+    &__modifier{
+        font-size: 2rem;
+        font-weight: 400;
+        line-height: 3rem;
+        letter-spacing: normal;
+        padding-left: 1rem;
+        text-align: justify;
+        color: $white;
+
+        @include respond(bp-8) {
+            font-size: 1.8rem;
+            font-weight: 300;
+            line-height: 2.2rem;
+            letter-spacing: normal;
+        }
+
+        @include respond(bp-7) {
+            font-size: 1.6rem;
+            line-height: 2.2rem;
+            letter-spacing: normal;
+        }
+
+        @include respond(bp-6) {
+            font-size: 1.5rem;
+            line-height: 2rem;
+        }
+
+        @include respond(bp-5) {
+            font-size: 1.8rem;
+            line-height: 2.5rem;
+        }
+
+        @include respond(bp-3) {
+            font-size: 1.4rem;
+            line-height: 2.1rem;
+        }
+
+        @include respond(bp-2) {
+            font-size: 1.3rem;
+            line-height: 1.8rem;
+        }
+
+        @include respond(bp-1){
+            font-size: 1.1rem;
+            line-height: 1.5rem;
+            font-weight: 100;
+        }
+
+        @include respond(galaxy-s5){
+            font-size: 1.19rem;
+            line-height: 1.5rem;
+        }
+
+        @include respond(iphone-5se) {
+            padding-left: 0;
+        }
+
+    }
+}
+
+.followUs-text{
+    font-size: 2.5rem;
+
+    @include respond(bp-8){
+        font-size: 2.3rem;
+    }
+}
+
+.footer-text-main{
+    font-size: 1.7rem;
+    color: $white-1;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none!important;
+
+    &:hover{
+        color: $white-1;
+    }
+
+    @include respond(bp-8){
+        font-size: 1.6rem;
+    }
+
+    @include respond(bp-7) {
+        font-size: 1.5rem;
+    }
+}
+
+.footer-text-sub{
+    font-size: 1.5rem;
+    color: $white-1;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+    @include respond(bp-8) {
+        font-size: 1.4rem;
+    }
+
+    @include respond(bp-7) {
+        font-size: 1.3rem;
+    }
+
+    @include respond(iphone-6/7/8plus){
+        font-size: 1.1rem;
+    }
+}
+
+.footer-contact{
+    text-decoration: none;
+    border-bottom: none;
+    font-size: 1.4rem;
+
+    @include respond(iphone-6/7/8plus) {
+        font-size: 1.1rem;
+    }
+
+    &:not(:last-child){
+        margin-bottom: 10px;
+    }
+
+    &:hover{
+        color: $white-1;
+    }
+}
+
+.glow {
+    color: $white-1;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+
+    @include respond(bp-1){
+        animation: none;
+        color: $white-1;
+    }
+}
+
+//GlowText Animation
+@keyframes glow {
+    from {
+        text-shadow: 0 0 3px $white-2, 0 0 6px $white-2, 0 0 9px $primary-1, 0 0 12px $primary-1, 0 0 15px $primary-1, 0 0 18px $primary-1, 0 0 21px $primary-1;
+    }
+
+    to {
+        text-shadow: 0 0 3px $white-2, 0 0 6px $white-2, 0 0 9px $primary-1, 0 0 12px $primary, 0 0 15px $primary-1, 0 0 18px $primary-1, 0 0 21px $primary-1;
+    }
+}

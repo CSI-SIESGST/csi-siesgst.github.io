@@ -399,9 +399,6 @@ body {
   @media only screen and (max-width: 56.25em) {
     .Intro {
       height: 80vh; } }
-  @media only screen and (max-width: 31.25em) {
-    .Intro {
-      height: 70vh; } }
   .Intro__heading-main__box-content {
     font-family: 'Graduate', cursive;
     font-size: 7rem;
@@ -473,16 +470,19 @@ body {
   opacity: 0.80;
   overflow: hidden;
   margin-top: 8rem; }
+  @media only screen and (max-width: 56.25em) {
+    .bg-video {
+      height: 80%; } }
+  @media only screen and (max-width: 31.25em) {
+    .bg-video {
+      height: 82.5%; } }
+  @media only screen and (max-width: 25.875em) {
+    .bg-video {
+      height: 83%; } }
   .bg-video__content {
     height: 100%;
     width: 100%;
     object-fit: cover; }
-    @media only screen and (max-width: 56.25em) {
-      .bg-video__content {
-        height: 80%; } }
-    @media only screen and (max-width: 31.25em) {
-      .bg-video__content {
-        height: 70%; } }
 
 .about-content {
   display: flex;
@@ -638,10 +638,15 @@ body {
   .reg-abs-main__reg-box, .reg-abs-main__abs-box {
     width: 50vw;
     border: none;
-    background-color: #000; }
+    background-color: #000;
+    margin-left: 2rem; }
+    @media only screen and (max-width: 50em) {
+      .reg-abs-main__reg-box, .reg-abs-main__abs-box {
+        margin-left: 1rem; } }
     @media only screen and (max-width: 43.75em) {
       .reg-abs-main__reg-box, .reg-abs-main__abs-box {
-        width: 100%; } }
+        width: 100%;
+        margin-left: auto; } }
     .reg-abs-main__reg-box--heading, .reg-abs-main__abs-box--heading {
       font-size: 2.5rem;
       text-transform: uppercase;
@@ -677,7 +682,8 @@ body {
       list-style: disc;
       font-size: 1.8rem;
       font-weight: 500;
-      color: #eee; }
+      color: #eee;
+      text-align: justify; }
       .reg-abs-main__reg-box--list:not(:last-child), .reg-abs-main__abs-box--list:not(:last-child) {
         margin-bottom: 1rem; }
       @media only screen and (min-width: 80em) and (max-width: 100em) {

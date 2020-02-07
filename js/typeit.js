@@ -13,6 +13,6 @@
                 .type('20!')
                 .pause(300)
                 .break()
-                .type('Register Your Team Soon!')
+                .type('Register Your Team Now!')
                 .pause(300)
         });

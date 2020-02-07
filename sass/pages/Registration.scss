@@ -40,15 +40,22 @@
         flex-direction: column;
     }
 
+
     &__reg-box,
     &__abs-box{
         width: 50vw;
         border: none;
         background-color: $black;
+        margin-left: 2rem;
 
-         @include respond(bp-3) {
-             width: 100%;
+         @include respond(bp-4){
+             margin-left: 1rem;
          }
+
+        @include respond(bp-3) {
+            width: 100%;
+            margin-left: auto;
+        }
 
         //  @include respond(iphone-6/7/8plus) {
         //      width: 90vw;
@@ -88,7 +95,7 @@
 
         &--list-collection{
             padding: 1rem;
-
+            
             @include respond(bp-8){
                 padding: 0;
             }
@@ -103,6 +110,7 @@
             font-size: 1.8rem;
             font-weight: 500;
             color: $white-1;
+            text-align: justify;
 
             &:not(:last-child){
                 margin-bottom: 1rem;

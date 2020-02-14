@@ -93,7 +93,7 @@ bp-9 [1800+]=>[112.5em]
 
 .para-box__border {
   border-left: 3px solid #4286f4;
-  font-family: 'Muli', sans-serif; }
+  font-family: 'Muli', sans-serif; }
   @media only screen and (max-width: 31.25em) {
     .para-box__border {
       border-left: 2px solid #4286f4; } }
@@ -272,7 +272,7 @@ body {
   box-sizing: border-box;
   scroll-behavior: smooth;
   background-color: #000;
-  font-family: 'Poppins', sans-serif; }
+  font-family: 'Poppins', sans-serif; }
   body::-webkit-scrollbar {
     display: none; }
   @media only screen and (max-width: 31.25em) {
@@ -385,12 +385,12 @@ body {
   .neon-btn:hover {
     color: #2e628f;
     background: #5aabee;
-    box-shadow: 0 0 10px #5aabee, 0 0 40px #5aabee, 0 0 80px #5aabee; }
+    box-shadow: 0 0 10px #5aabee, 0 0 40px #5aabee, 0 0 80px #5aabee; }
   @media only screen and (max-width: 50em), only screen and (hover: none) {
     .neon-btn {
       color: #2e628f;
       background: #2196f3;
-      box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3; } }
+      box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3; } }
 
 .Intro {
   margin-top: 8rem;
@@ -400,7 +400,7 @@ body {
     .Intro {
       height: 80vh; } }
   .Intro__heading-main__box-content {
-    font-family: 'Graduate', cursive;
+    font-family: 'Graduate', cursive;
     font-size: 7rem;
     color: #eae9e9;
     text-align: center;
@@ -441,7 +441,7 @@ body {
       .Intro__heading-main__box-content {
         font-size: 2.7rem;
         font-weight: 700;
-        font-family: 'Graduate', cursive;
+        font-family: 'Graduate', cursive;
         line-height: 6rem; } }
     @media only screen and (max-width: 25.875em) {
       .Intro__heading-main__box-content {
@@ -652,7 +652,7 @@ body {
       text-transform: uppercase;
       font-weight: 600;
       color: #1d75fc !important;
-      font-family: 'Poppins', sans-serif; }
+      font-family: 'Poppins', sans-serif; }
       @media only screen and (max-width: 75em) {
         .reg-abs-main__reg-box--heading, .reg-abs-main__abs-box--heading {
           font-size: 2.3rem; } }
@@ -954,7 +954,7 @@ body {
     font-weight: 600;
     text-align: justify;
     letter-spacing: 1px;
-    font-family: 'Muli', sans-serif;
+    font-family: 'Muli', sans-serif;
     color: #eee; }
     @media only screen and (min-width: 80em) and (max-width: 100em) {
       .card-content__text {
@@ -992,7 +992,7 @@ body {
 .stats .circle-text, .stats-text {
   text-align: center;
   font-size: 2rem;
-  font-family: 'Muli', sans-serif;
+  font-family: 'Muli', sans-serif;
   font-weight: 600;
   color: #1d75fc;
   text-transform: uppercase;

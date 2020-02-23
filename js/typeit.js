@@ -7,7 +7,7 @@
                 .type('CSI-SIESGST')
                 .pause(500)
                 .break()
-                .type('Welcomes You To Innovations 2k19!')
+                .type('Welcomes You To Innovation 2k19!')
                 .pause(400)
                 .delete(3)
                 .type('20!')

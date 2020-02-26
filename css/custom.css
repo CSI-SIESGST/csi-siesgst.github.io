@@ -1,6 +1,7 @@
 .sponsor-logo {
   width: 15em;
   border-radius: 50%;
+  border: 1px solid white;
 }
 /* @media only screen and (min-width: 56.25em) {
   .sponsor-logo {
@@ -22,7 +23,7 @@
 
 @media only screen and (max-width: 22.5em) {
   .sponsor-logo {
-    width: 7em;
+    width: 6.5em;
   }
 }
 

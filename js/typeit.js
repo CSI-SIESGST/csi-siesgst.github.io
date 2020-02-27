@@ -12,7 +12,4 @@
                 .delete(3)
                 .type('20!')
                 .pause(300)
-                .break()
-                .type('Register Your Team Now!')
-                .pause(300)
         });

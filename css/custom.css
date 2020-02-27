@@ -19,6 +19,9 @@
   .sponsor-logo {
     width: 8em;
   }
+  .schedule {
+    font-size: .6em;
+  }
 }
 
 @media only screen and (max-width: 22.5em) {

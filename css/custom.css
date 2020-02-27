@@ -32,3 +32,38 @@
       font-size: 0.8rem;
   }
 } */
+
+.schedule {
+  border: 1px solid #1D75FC;
+  border-radius: 2em;
+  background-color: rgb(31, 31, 31);
+}
+
+
+.table-heading {
+  background-color: #1D75FC;
+  font-size: 2em;
+}
+
+.table-row {
+  font-size: 2em;
+  color: white;
+  background-color: rgb(31, 31, 31);
+}
+
+.table-heading th {
+  padding: 1em;
+}
+
+.table-row td {
+  padding: 1em;
+  border-bottom: 1px solid #1D75FC;
+}
+
+/* .table-row td:first-child {
+  color: #1D75FC;
+} */
+
+.table-row:last-child td {
+  border-bottom: none;
+}

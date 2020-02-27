@@ -25,6 +25,9 @@
   .sponsor-logo {
     width: 6.5em;
   }
+  .schedule {
+    font-size: .5em;
+  }
 }
 
 /* @media only screen and (max-width:) {

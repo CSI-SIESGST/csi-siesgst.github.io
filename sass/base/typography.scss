@@ -119,9 +119,9 @@
         color: $white;
 
         @include respond(bp-8) {
-            font-size: 1.8rem;
+            font-size: 1.6rem;
             font-weight: 300;
-            line-height: 2.2rem;
+            line-height: 2.5rem;
             letter-spacing: normal;
         }
 

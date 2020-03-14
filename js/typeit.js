@@ -4,15 +4,12 @@
                     loop: false,
                 //     waitUntilVisible: true
                 })
-                .type('CSI-SIESGST')
+                .type('CSI Campus Chapter')
                 .pause(500)
                 .break()
-                .type('Welcomes You To Innovation 2k19!')
+                .type('SIESGST')
                 .pause(400)
-                .delete(3)
-                .type('20!')
-                .pause(300)
-                .break()
-                .type('Register Your Team Now!')
-                .pause(300)
+                // .delete(3)
+                // .type('20!')
+                // .pause(300)
         });

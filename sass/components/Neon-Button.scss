@@ -2,7 +2,6 @@
     position: relative;
     display: inline-block;
     color: #2196f3;
-    letter-spacing: 4px;
     overflow: hidden;
     transition: 0.2s;
     border: 2px solid #2196f3;
@@ -16,6 +15,30 @@
         0 0 80px #5aabee;
         // transition-delay: 1s;
     }
+
+    &--read-more{
+        padding: 1.2rem;
+        border-radius: 0.4rem;
+        -webkit-border-radius: 0.4rem;
+        -moz-border-radius: 0.4rem;
+        -ms-border-radius: 0.4rem;
+        -o-border-radius: 0.4rem;
+
+        margin: 2rem;
+        font-style: inherit;
+        font-size: 1.6rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-family: 'Poppins', sans-serif;
+        letter-spacing: 0.1rem;
+
+        @include respond(bp-1){
+            font-size: 1.3rem;
+            padding: 1rem;
+        }
+
+
+}
 
     @media only screen and (max-width: 50em),
     only screen and (hover: none){

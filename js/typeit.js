@@ -4,12 +4,12 @@
                     loop: false,
                 //     waitUntilVisible: true
                 })
-                .type('CSI-SIESGST')
+                .type('Welcome to')
                 .pause(500)
                 .break()
-                .type('Welcomes You To Innovations 2k19!')
-                .pause(400)
-                .delete(3)
-                .type('20!')
-                .pause(300)
+                .type('CSI-SIESGST')
+                // .pause(400)
+                // .delete(3)
+                // .type('20!')
+                // .pause(300)
         });

@@ -4,11 +4,11 @@
                     loop: false,
                 //     waitUntilVisible: true
                 })
-                .type('CSI Campus Chapter')
+                .type('Welcome to')
                 .pause(500)
                 .break()
-                .type('SIESGST')
-                .pause(400)
+                .type('CSI-SIESGST')
+                // .pause(400)
                 // .delete(3)
                 // .type('20!')
                 // .pause(300)

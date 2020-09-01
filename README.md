@@ -1,8 +1,29 @@
-# csi-website
-* bootstrap timer increased to 3s.
-* removed glowing effect from heaading text since it causes lag during hosting.
-* register button glow in mobile view changed to same as that of desktop.
-* favicon replaced by logo.
-* corrected contact area in reg page.
-* changed navigation in abs page to reg(back button redirects to reg.html).
-* stats posted under about us.
+# CSI-SIESGST
+
+## About The Project
+
+This is the repository of the offical [CSI-SIESGST](http://csi.siesgst.ac.in/) website. 
+
+## Getting started
+
+- Fork the repository on GitHub.
+- Navigate to the folder of the repository.
+- To run this project, you should have node.js and npm installed on your system.
+  If you don't have node.js and npm, you can visit [The official site of node.js](https://nodejs.org/en/)
+  to install them on your system.
+- Install NPM dependencies.
+  ```
+  npm install
+  ```
+- Run the development server to view the changes you are making by typing the following
+  command:
+  ```
+  npm start
+  ```
+
+## Making the production build
+
+- Build all the CSS files from SASS by typing the following command:
+  ```
+  npm run build:css
+  ```

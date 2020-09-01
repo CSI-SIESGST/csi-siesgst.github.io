@@ -52,7 +52,7 @@ function feedbacker() {
 
             }
         }, time);
-    window.open("main.html", "_self")
+    window.open("html/main.html", "_self")
 
 }
 

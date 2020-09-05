@@ -1,4 +1,8 @@
-on: push
+on:
+  push:
+    branches:
+      - master
+
 name: Build and Publish The Website
 jobs:
   FTP-Deploy-Action:

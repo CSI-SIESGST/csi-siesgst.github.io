@@ -25,5 +25,5 @@ This is the repository of the offical [CSI-SIESGST](http://csi.siesgst.ac.in/) w
 
 - Build all the CSS files from SASS by typing the following command:
   ```
-  npm run build:css
+  npm run build
   ```

@@ -10,7 +10,7 @@
     "compile:sass": "node-sass sass/main.scss css/index.comp.css",
     "prefix:css": "postcss --use autoprefixer -b 'last 10 versions' css/index.comp.css -o css/index.prefix.css",
     "compress:css": "node-sass css/index.prefix.css css/index.css --output-index compressed",
-    "build:css": "npm-run-all compile:sass prefix:css compress:css"
+    "build": "npm-run-all compile:sass prefix:css compress:css"
   },
   "author": "CSI",
   "license": "ISC",

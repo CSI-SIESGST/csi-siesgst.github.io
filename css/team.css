@@ -1,0 +1,40 @@
+.team-member
+{
+	background: #222;
+}
+
+.member-name
+{
+	font-size: 20px;
+}
+
+.member-desg
+{
+	font-size: 13px;
+}
+
+@media(max-width: 991px)
+{
+	.member-name
+	{
+		font-size: 14px;
+	}
+
+	.member-desg
+	{
+		font-size: 11px;
+	}
+}
+
+@media(max-width: 356px)
+{
+	.member-name
+	{
+		font-size: 12px;
+	}
+
+	.member-desg
+	{
+		font-size: 9px;
+	}
+}

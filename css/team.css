@@ -1,6 +1,13 @@
 .team-member
 {
-	background: #222;
+	background: #1f1f1f;
+	border: 0.2rem solid #303f9f;
+    border-radius: 0.5rem;
+}
+
+.member-img
+{
+	border-radius: 0.5rem;
 }
 
 .member-name
@@ -11,6 +18,7 @@
 .member-desg
 {
 	font-size: 13px;
+	color: #1d75fc;
 }
 
 @media(max-width: 991px)

@@ -10,8 +10,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2.1.0
-      with:
-        fetch-depth: 2
 
     - name: Use Node.js 12.x
       uses: actions/setup-node@v1
@@ -27,8 +25,8 @@ jobs:
       run: ls
       
     - name: FTP-Deploy-Action
-      uses: SamKirkland/FTP-Deploy-Action@3.1.1
+      uses: sebastianpopp/ftp-action@releases/v2
       with:
-        ftp-server: ftp://csi.siesgst.ac.in/
-        ftp-username: csi@siesgst.ac.in
-        ftp-password: ${{ secrets.FTP_PASSWORD }}
+        host: ftp://csi.siesgst.ac.in/
+        user: csi@siesgst.ac.in
+        password: ${{ secrets.FTP_PASSWORD }}

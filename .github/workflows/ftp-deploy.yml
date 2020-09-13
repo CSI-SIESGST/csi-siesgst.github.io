@@ -25,8 +25,8 @@ jobs:
       run: ls
       
     - name: FTP-Deploy-Action
-      uses: sebastianpopp/ftp-action@releases/v2
+      uses: SamKirkland/FTP-Deploy-Action@3.1.1
       with:
-        host: ftp://csi.siesgst.ac.in/
-        user: csi@siesgst.ac.in
-        password: ${{ secrets.FTP_PASSWORD }}
+        ftp-server: ftp://csi.siesgst.ac.in/
+        ftp-username: csi@siesgst.ac.in
+        ftp-password: ${{ secrets.FTP_PASSWORD }}

@@ -4,7 +4,6 @@
     backface-visibility: hidden;
     // margin: 0 2rem!important;
     background-color: $black-1 !important;
-
     @include respond(bp-1){
       margin: 0!important;
     }
@@ -129,6 +128,8 @@
   color: $white-1!important;
   
   &:hover {  
+    @extend .glow;
+    transform: scale(1.08);
     color: $primary-1;
   }
 
@@ -136,4 +137,47 @@
 
 .active {
   color: $primary-1 !important;
+}
+
+.glow {
+  color: #eee;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate; }
+  @media only screen and (max-width: 31.25em) {
+    .glow {
+      animation: none;
+      color: #eee; } }
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 3px #eae9e9, 0 0 6px #eae9e9, 0 0 9px #1d75fc, 0 0 12px #1d75fc, 0 0 15px #1d75fc, 0 0 18px #1d75fc, 0 0 21px #1d75fc; }
+  to {
+    text-shadow: 0 0 3px #eae9e9, 0 0 6px #eae9e9, 0 0 9px #1d75fc, 0 0 12px #4286f4, 0 0 15px #1d75fc, 0 0 18px #1d75fc, 0 0 21px #1d75fc; } }
+
+.sub-menu {
+  float: left;
+  overflow: hidden;
+}
+.sub-menu-container {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  opacity: 1;
+}
+.sub-menu-container a:hover {
+  @extend .glow;
+}
+.sub-menu:hover .sub-menu-container {
+  display: block;
+}
+
+ul:hover li a {
+  opacity: .2;
+  filter: blur(2px);
+}
+ul li a:hover {
+  transform: scale(1.1);
+  opacity: 1;
+  filter: blur(0px);
 }

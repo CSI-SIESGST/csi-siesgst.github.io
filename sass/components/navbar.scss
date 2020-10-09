@@ -162,8 +162,10 @@
 .sub-menu-container {
   display: none;
   position: absolute;
-  min-width: 160px;
+  min-width: 200px;
+  text-align: center;
   opacity: 1;
+  background-color: #1f1f1f;
 }
 .sub-menu-container a:hover {
   @extend .glow;
@@ -173,8 +175,7 @@
 }
 
 ul:hover li a {
-  opacity: .2;
-  filter: blur(2px);
+  opacity: .5;
 }
 ul li a:hover {
   transform: scale(1.1);

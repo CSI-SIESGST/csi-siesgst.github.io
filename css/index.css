@@ -93,7 +93,8 @@ bp-9 [1800+]=>[112.5em]
 
 .para-box__border {
   border-left: 3px solid #4286f4;
-  font-family: 'Muli', sans-serif; }
+  font-family: 'Muli',
+ sans-serif; }
   @media only screen and (max-width: 31.25em) {
     .para-box__border {
       border-left: 2px solid #4286f4; } }
@@ -198,13 +199,13 @@ bp-9 [1800+]=>[112.5em]
   .footer-contact:hover {
     color: #eee; }
 
-.glow, .nav-link:hover, .sub-menu-container a:hover {
+.glow, ul li a:hover {
   color: #eee;
   -webkit-animation: glow 1s ease-in-out infinite alternate;
   -moz-animation: glow 1s ease-in-out infinite alternate;
   animation: glow 1s ease-in-out infinite alternate; }
   @media only screen and (max-width: 31.25em) {
-    .glow, .nav-link:hover, .sub-menu-container a:hover {
+    .glow, ul li a:hover {
       animation: none;
       color: #eee; } }
 
@@ -272,7 +273,8 @@ body {
   box-sizing: border-box;
   scroll-behavior: smooth;
   background-color: #000;
-  font-family: 'Poppins', sans-serif; }
+  font-family: 'Poppins',
+ sans-serif; }
   body::-webkit-scrollbar {
     display: none; }
   @media only screen and (max-width: 31.25em) {
@@ -364,25 +366,25 @@ body {
   font-weight: 600;
   text-transform: uppercase; }
 
-.nav-link {
+.nav-link, .dropdown-content {
   margin-right: 1rem;
-  transition: all .3s;
+  transition: all .1s;
   color: #eee !important; }
-  .nav-link:hover {
+  .nav-link:hover, .dropdown-content:hover {
     transform: scale(1.08);
     color: #1d75fc; }
 
 .active {
   color: #1d75fc !important; }
 
-.glow, .nav-link:hover, .sub-menu-container a:hover {
+.glow, ul li a:hover {
   color: #eee;
   -webkit-animation: glow 1s ease-in-out infinite alternate;
   -moz-animation: glow 1s ease-in-out infinite alternate;
   animation: glow 1s ease-in-out infinite alternate; }
 
 @media only screen and (max-width: 31.25em) {
-  .glow, .nav-link:hover, .sub-menu-container a:hover {
+  .glow, ul li a:hover {
     animation: none;
     color: #eee; } }
 
@@ -392,23 +394,18 @@ body {
   to {
     text-shadow: 0 0 3px #eae9e9, 0 0 6px #eae9e9, 0 0 9px #1d75fc, 0 0 12px #4286f4, 0 0 15px #1d75fc, 0 0 18px #1d75fc, 0 0 21px #1d75fc; } }
 
-.sub-menu {
-  float: left;
-  overflow: hidden; }
-
-.sub-menu-container {
-  display: none;
-  position: absolute;
-  min-width: 200px;
-  text-align: center;
-  opacity: 1;
-  background-color: #1f1f1f; }
-
-.sub-menu:hover .sub-menu-container {
+.dropdown:hover > .dropdown-menu {
   display: block; }
 
+.dropdown-content {
+  background-color: #1f1f1f !important;
+  font-size: 2rem;
+  font-weight: 600;
+  text-transform: uppercase; }
+
 ul:hover li a {
-  opacity: .5; }
+  opacity: .5;
+  filter: blur(1px); }
 
 ul li a:hover {
   transform: scale(1.1);
@@ -425,7 +422,9 @@ ul li a:hover {
   .neon-btn:hover {
     color: #2e628f;
     background: #5aabee;
-    box-shadow: 0 0 10px #5aabee, 0 0 40px #5aabee, 0 0 80px #5aabee; }
+    box-shadow: 0 0 10px #5aabee,
+ 0 0 40px #5aabee,
+ 0 0 80px #5aabee; }
   .neon-btn--read-more {
     padding: 1.2rem;
     border-radius: 0.4rem;
@@ -448,7 +447,9 @@ ul li a:hover {
     .neon-btn {
       color: #2e628f;
       background: #2196f3;
-      box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3; } }
+      box-shadow: 0 0 10px #2196f3,
+ 0 0 40px #2196f3,
+ 0 0 80px #2196f3; } }
 
 .Intro {
   margin-top: 8rem;
@@ -458,7 +459,8 @@ ul li a:hover {
     .Intro {
       height: 80vh; } }
   .Intro__heading-main__box-content {
-    font-family: 'Graduate', cursive;
+    font-family: 'Graduate',
+ cursive;
     font-size: 7rem;
     color: #eae9e9;
     text-align: center;
@@ -499,7 +501,8 @@ ul li a:hover {
       .Intro__heading-main__box-content {
         font-size: 2.7rem;
         font-weight: 700;
-        font-family: 'Graduate', cursive;
+        font-family: 'Graduate',
+ cursive;
         line-height: 6rem; } }
     @media only screen and (max-width: 25.875em) {
       .Intro__heading-main__box-content {
@@ -710,7 +713,8 @@ ul li a:hover {
       text-transform: uppercase;
       font-weight: 600;
       color: #1d75fc !important;
-      font-family: 'Poppins', sans-serif; }
+      font-family: 'Poppins',
+ sans-serif; }
       @media only screen and (max-width: 75em) {
         .reg-abs-main__reg-box--heading, .reg-abs-main__abs-box--heading {
           font-size: 2.3rem; } }
@@ -1012,7 +1016,8 @@ ul li a:hover {
     font-weight: 600;
     text-align: justify;
     letter-spacing: 1px;
-    font-family: 'Muli', sans-serif;
+    font-family: 'Muli',
+ sans-serif;
     color: #eee; }
     @media only screen and (min-width: 80em) and (max-width: 100em) {
       .card-content__text {
@@ -1050,7 +1055,8 @@ ul li a:hover {
 .stats .circle-text, .stats-text {
   text-align: center;
   font-size: 2rem;
-  font-family: 'Muli', sans-serif;
+  font-family: 'Muli',
+ sans-serif;
   font-weight: 600;
   color: #1d75fc;
   text-transform: uppercase;

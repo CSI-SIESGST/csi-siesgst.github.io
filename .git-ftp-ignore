@@ -1,4 +1,0 @@
-.gitignore
-.git-ftp-ignore
-.git-ftp-include
-/node_modules

@@ -1,15 +1,15 @@
 .heading-main {
     text-align: center;
-    padding: 5rem;
+    padding: 2.5rem;
     margin: 2rem 0;
     background-color: $black-1;
 
     @include respond(bp-8){
-        padding: 3rem;
+        padding: 2rem;
     }
 
     @include respond(bp-6) {
-        padding: 3rem;
+        padding: 2rem;
     }
 
     @include respond(bp-1) {
@@ -250,10 +250,10 @@
 //GlowText Animation
 @keyframes glow {
     from {
-        text-shadow: 0 0 3px $white-2, 0 0 6px $white-2, 0 0 9px $primary-1, 0 0 12px $primary-1, 0 0 15px $primary-1, 0 0 18px $primary-1, 0 0 21px $primary-1;
+        text-shadow: 0 0 3px $white-2, 0 0 6px $white-2, 0 0 9px $primary-2, 0 0 12px $primary-2, 0 0 15px $primary-2, 0 0 18px $primary-2, 0 0 21px $primary-2;
     }
 
     to {
-        text-shadow: 0 0 3px $white-2, 0 0 6px $white-2, 0 0 9px $primary-1, 0 0 12px $primary, 0 0 15px $primary-1, 0 0 18px $primary-1, 0 0 21px $primary-1;
+        text-shadow: 0 0 3px $white-2, 0 0 6px $white-2, 0 0 9px $primary-2, 0 0 12px $primary-2, 0 0 15px $primary-2, 0 0 18px $primary-2, 0 0 21px $primary-2;
     }
 }

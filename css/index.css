@@ -272,7 +272,7 @@ body {
   box-sizing: border-box;
   scroll-behavior: smooth;
   background-color: #000;
-  font-family: 'Poppins', sans-serif; }
+  font-family: 'Electrolize', sans-serif; }
   body::-webkit-scrollbar {
     display: none; }
   @media only screen and (max-width: 31.25em) {
@@ -281,7 +281,7 @@ body {
 
 .navbar,
 .navbar-reg {
-  transition: all .6s;
+  transition: all .3s;
   backface-visibility: hidden;
   background-color: #1f1f1f !important; }
   @media only screen and (max-width: 31.25em) {
@@ -410,12 +410,8 @@ body {
       box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3; } }
 
 .Intro {
-  margin-top: 8rem;
   height: 100vh;
   background: transparent; }
-  @media only screen and (max-width: 56.25em) {
-    .Intro {
-      height: 80vh; } }
   .Intro__heading-main__box-content {
     font-family: 'Electrolize', sans-serif;
     font-size: 8rem;
@@ -485,18 +481,8 @@ body {
   height: 100%;
   width: 100%;
   z-index: 10;
-  opacity: 0.60;
-  overflow: hidden;
-  margin-top: 8rem; }
-  @media only screen and (max-width: 56.25em) {
-    .bg-video {
-      height: 80%; } }
-  @media only screen and (max-width: 31.25em) {
-    .bg-video {
-      height: 82.5%; } }
-  @media only screen and (max-width: 25.875em) {
-    .bg-video {
-      height: 83%; } }
+  opacity: 0.80;
+  overflow: hidden; }
   .bg-video__content {
     height: 100%;
     width: 100%;

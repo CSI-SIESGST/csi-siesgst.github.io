@@ -1,13 +1,13 @@
 .Intro {
-    margin-top: 8rem;
+    // margin-top: 8rem;
     height: 100vh;
     background: transparent;
 
 
-    @include respond(bp-5) {
-        height: 80vh;
+    // @include respond(bp-5) {
+    //     height: 80vh;
 
-    }
+    // }
 
     &__heading-main {
 
@@ -70,7 +70,6 @@
                 @include respond(iphone-6/7/8plus) {
                     font-size: 4rem;
                     line-height: 6.5rem;
-                    // font-weight: 700;
                 }
 
                 @include respond(iphone-6/7/8/10) {
@@ -100,21 +99,21 @@
     height: 100%;
     width: 100%;
     z-index: 10;
-    opacity: 0.60;
+    opacity: 0.80;
     overflow: hidden;
-    margin-top: 8rem;
+    // margin-top: 8rem;
 
-    @include respond(bp-5) {
-        height: 80%;
-    }
+    // @include respond(bp-5) {
+    //     height: 80%;
+    // }
 
-    @include respond(bp-1) {
-        height: 82.5%;
-    }
+    // @include respond(bp-1) {
+    //     height: 82.5%;
+    // }
 
-    @include respond(iphone-6/7/8plus) {
-        height: 83%;
-    }
+    // @include respond(iphone-6/7/8plus) {
+    //     height: 83%;
+    // }
 
     &__content {
         height: 100%;

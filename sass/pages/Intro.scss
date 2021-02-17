@@ -1,43 +1,43 @@
-.Intro{
+.Intro {
     margin-top: 8rem;
     height: 100vh;
     background: transparent;
-    
 
-    @include respond(bp-5){
+
+    @include respond(bp-5) {
         height: 80vh;
 
     }
 
-    &__heading-main{
+    &__heading-main {
 
-        &__box{
+        &__box {
 
             &-content {
-                font-family: 'Graduate',
-                cursive;
-                font-size: 7rem;
+                font-family: 'Electrolize', sans-serif;
+                font-size: 8rem;
                 color: $white-2;
                 text-align: center;
-                font-weight: 600;
+                font-weight: 700;
                 width: 90vw;
                 z-index: 20;
                 position: absolute;
                 top: 50%;
                 left: 50%;
                 transform: translate(-50%, -50%);
-                line-height: 15rem;
+                line-height: 11rem;
                 opacity: 0.80;
+                letter-spacing: 1rem;
 
-                @include respond(bp-8){
+                @include respond(bp-8) {
                     font-size: 5.5rem;
                 }
 
-                @include respond(bp-7){
+                @include respond(bp-7) {
                     font-size: 5rem;
                 }
 
-                @include respond(bp-5){
+                @include respond(bp-5) {
                     font-size: 4rem;
                     top: 50%;
                     left: 50%;
@@ -45,7 +45,7 @@
                     line-height: 10rem;
                 }
 
-                @include respond(bp-4){
+                @include respond(bp-4) {
                     font-size: 4.3rem;
                 }
 
@@ -57,32 +57,32 @@
                 @include respond(bp-2) {
                     font-size: 3rem;
                     line-height: 6rem;
+                    letter-spacing: 0rem;
                 }
 
                 @include respond(bp-1) {
                     font-size: 2.7rem;
                     font-weight: 700;
-                    font-family: 'Graduate',
-                    cursive;
+                    font-family: 'Electrolize', sans-serif;
                     line-height: 6rem;
                 }
 
                 @include respond(iphone-6/7/8plus) {
                     font-size: 4rem;
                     line-height: 6.5rem;
-                    font-weight: 500;
+                    // font-weight: 700;
                 }
 
                 @include respond(iphone-6/7/8/10) {
                     font-size: 3.7rem;
                 }
 
-                @include respond(galaxy-s5){
+                @include respond(galaxy-s5) {
                     font-size: 3.4rem;
                     line-height: 5.5rem;
                 }
 
-                @include respond(iphone-5se){
+                @include respond(iphone-5se) {
                     font-size: 3.1rem;
                     line-height: 5rem;
                 }
@@ -93,22 +93,22 @@
 
 }
 
-.bg-video{
+.bg-video {
     position: absolute;
     top: 0;
     left: 0;
     height: 100%;
     width: 100%;
     z-index: 10;
-    opacity: 0.80;
+    opacity: 0.60;
     overflow: hidden;
     margin-top: 8rem;
 
-    @include respond(bp-5){
+    @include respond(bp-5) {
         height: 80%;
     }
 
-    @include respond(bp-1){
+    @include respond(bp-1) {
         height: 82.5%;
     }
 
@@ -116,62 +116,11 @@
         height: 83%;
     }
 
-    &__content{
+    &__content {
         height: 100%;
         width: 100%;
         object-fit: cover;
 
-        // @include respond(bp-5) {
-        //     height: 80%;
-        // }
-
-        // @include respond(bp-1){
-        //     height: 70%;
-        // }
     }
 
-    // @include respond(bp-5){
-    //     padding:2rem 2rem 16rem 2rem;
-    // }
-
-    // @include respond(bp-4){
-    //     padding:2rem 2rem 16.5rem 2rem;
-    // }
-
-    // @include respond(bp-1){
-    //     padding: 0;
-    //     margin-top: 9.7rem;
-    // }
 }
-
-// .bg-img{
-
-//      position: absolute;
-//      top: 0;
-//      left: 0;
-//      height: 0%;
-//      width: 0%;
-//      overflow: hidden;
-//      z-index: 10;
-//      opacity: 0;
-//      padding: 1rem;
-//      margin-top: 10rem;
-//      visibility: hidden;
-
-//      @include respond(bp-1){
-//          height: 100%;
-//          width: 100%;
-//          opacity: 0.70;
-//         visibility: visible;
-//      }
-     
-//     &__content{
-//        height: 100%;
-//        width: 100%;
-//        object-fit: cover;
-
-//        @include respond(bp-1){
-//            height: 69%;
-//        }
-//     }
-// }

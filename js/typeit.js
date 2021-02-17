@@ -1,15 +1,12 @@
         $(function () {
             new TypeIt('.Intro__heading-main__box-content', {
-                    speed: 90,
+                    speed: 60,
                     loop: false,
-                //     waitUntilVisible: true
+                    waitUntilVisible: true
                 })
-                .type('Welcome to')
+                .type('WELCOME TO')
                 .pause(500)
                 .break()
-                .type('CSI-SIESGST')
-                // .pause(400)
-                // .delete(3)
-                // .type('20!')
-                // .pause(300)
+                .type('💻CSI-SIESGST💻')
+                .go()
         });

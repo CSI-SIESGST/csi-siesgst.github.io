@@ -115,7 +115,7 @@ bp-9 [1800+]=>[112.5em]
     .para-box__modifier {
       font-size: 1.1rem;
       line-height: 1.5rem;
-      font-weight: 200; } }
+      font-weight: 300; } }
   @media only screen and (max-width: 22.5em) {
     .para-box__modifier {
       font-size: 1.19rem;
@@ -351,14 +351,15 @@ body {
 .neon-btn {
   position: relative;
   display: inline-block;
-  color: #2196f3;
+  color: #125cca;
   overflow: hidden;
   transition: 0.2s;
-  border: 2px solid #2196f3; }
+  border: 0.3rem solid #125cca; }
   .neon-btn:hover {
-    color: #2e628f;
-    background: #5aabee;
-    box-shadow: 0 0 10px #5aabee, 0 0 40px #5aabee, 0 0 80px #5aabee; }
+    color: #eee;
+    background: #125cca;
+    box-shadow: 0 0 10px #125cca, 0 0 40px #125cca, 0 0 80px #125cca;
+    border: 0.3rem solid #125cca; }
   .neon-btn--read-more {
     padding: 1.2rem;
     border-radius: 0.4rem;
@@ -371,7 +372,6 @@ body {
     font-size: 1.6rem;
     font-weight: 700;
     text-transform: uppercase;
-    font-family: 'Poppins', sans-serif;
     letter-spacing: 0.1rem; }
     @media only screen and (max-width: 31.25em) {
       .neon-btn--read-more {
@@ -379,9 +379,9 @@ body {
         padding: 1rem; } }
   @media only screen and (max-width: 50em), only screen and (hover: none) {
     .neon-btn {
-      color: #2e628f;
-      background: #2196f3;
-      box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3; } }
+      color: #eee;
+      background: #125cca;
+      box-shadow: 0 0 10px #125cca, 0 0 40px #125cca, 0 0 80px #125cca; } }
 
 .Intro {
   height: 100vh;
@@ -984,49 +984,38 @@ body {
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center; }
-  @media only screen and (max-width: 56.25em) {
+  @media only screen and (max-width: 68.75em) {
     .magzine-main__sub {
       flex-direction: column-reverse; } }
+  .magzine-main__sub__details {
+    margin: 0rem; }
+    @media only screen and (max-width: 68.75em) {
+      .magzine-main__sub__details {
+        margin: 0rem 1.5rem; } }
   .magzine-main__sub__cover-page {
-    margin: 3rem 3rem 3rem 0rem; }
-    @media only screen and (max-width: 56.25em) {
+    margin-bottom: 0rem; }
+    @media only screen and (max-width: 68.75em) {
       .magzine-main__sub__cover-page {
-        margin: 3rem 0rem; } }
-    @media only screen and (max-width: 25.875em) {
-      .magzine-main__sub__cover-page {
-        margin: 1rem; } }
-    @media only screen and (max-width: 25.68em) {
-      .magzine-main__sub__cover-page {
-        margin: 1rem; } }
-    @media only screen and (max-width: 23.4375em) {
-      .magzine-main__sub__cover-page {
-        margin: 0rem; } }
+        margin-bottom: 1rem; } }
     .magzine-main__sub__cover-page--modifier {
-      border-radius: 0.3rem;
-      -webkit-border-radius: 0.3rem;
-      -moz-border-radius: 0.3rem;
-      -ms-border-radius: 0.3rem;
-      -o-border-radius: 0.3rem;
-      height: 75rem; }
-      @media only screen and (min-width: 80em) and (max-width: 100em) {
-        .magzine-main__sub__cover-page--modifier {
-          height: 55rem; } }
+      border-radius: 0.4rem;
+      -webkit-border-radius: 0.4rem;
+      -moz-border-radius: 0.4rem;
+      -ms-border-radius: 0.4rem;
+      -o-border-radius: 0.4rem;
+      height: 50rem; }
       @media only screen and (max-width: 75em) {
         .magzine-main__sub__cover-page--modifier {
-          height: 45rem; } }
-      @media only screen and (max-width: 25.875em) {
-        .magzine-main__sub__cover-page--modifier {
           height: 40rem; } }
-      @media only screen and (max-width: 23.4375em) {
+      @media only screen and (max-width: 68.75em) {
         .magzine-main__sub__cover-page--modifier {
           height: 35rem; } }
-      @media only screen and (max-width: 22.5em) {
+      @media only screen and (max-width: 25.875em) {
         .magzine-main__sub__cover-page--modifier {
           height: 30rem; } }
   .magzine-main__sub__details {
-    margin: 3.5rem;
-    flex-basis: 60%; }
-    @media only screen and (max-width: 56.25em) {
+    flex-basis: 55%; }
+    @media only screen and (max-width: 68.75em) {
       .magzine-main__sub__details {
         justify-content: center; } }
     @media only screen and (max-width: 31.25em) {
@@ -1035,7 +1024,7 @@ body {
     @media only screen and (max-width: 20em) {
       .magzine-main__sub__details {
         margin: 1rem; } }
-    @media only screen and (max-width: 56.25em) {
+    @media only screen and (max-width: 68.75em) {
       .magzine-main__sub__details__btn {
         display: flex;
         justify-content: center;

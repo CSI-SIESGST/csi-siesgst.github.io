@@ -1,17 +1,15 @@
 .about-content{
     display: flex;
     flex-direction: row;
-    justify-content: center;
     align-items: center;
 
     &__box1{
-        @include respond(bp-5){
+        @include respond(bp-6){
             margin-top: 0rem!important;
         }
         &__video{
 
             &__modifier{
-                box-shadow: 0.7rem 0.6rem 3.2rem -0.5rem rgba(0, 0, 0, 0.48);
                 border-radius: 0.5rem;
 
                 @include respond(bp-6){
@@ -20,6 +18,10 @@
 
             }
         }
+    }
+
+    &__box2{
+        //Modifications for about-content__box2 can be done here
     }
 
 }

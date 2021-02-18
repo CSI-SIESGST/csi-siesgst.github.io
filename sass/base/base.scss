@@ -71,16 +71,14 @@ html{
 body{
     box-sizing: border-box;
     scroll-behavior: smooth;
-    // padding: 2rem;
     background-color: $black;
-    font-family: 'Poppins',
-    sans-serif;
+    font-family: 'Electrolize', sans-serif;
 
     &::-webkit-scrollbar{
         display: none;
     }
 
-    @include respond(bp-1) {
-        padding: 0rem;
-    }
+    // @include respond(bp-1) {
+    //     padding: 0rem;
+    // }
 }

@@ -5,66 +5,60 @@
         justify-content: space-evenly;
         align-items: center;
 
-        @include respond(bp-5){
+        @include respond(bp-6){
             flex-direction: column-reverse;
+        }
+
+        &__details{
+            margin: 0rem;
+
+            @include respond(bp-6){
+                margin: 0rem 1.5rem;
+            }
         }
        
         &__cover-page {
 
-            margin: 3rem 3rem 3rem 0rem;
+            margin-bottom: 0rem;
 
-            @include respond(bp-5){
-                margin: 3rem 0rem;
+            @include respond(bp-6){
+                margin-bottom: 1rem;
             }
-
-            @include respond(iphone-6/7/8plus){
-                margin: 1rem;
-            }
-
-            @include respond(pixel-2/2xl){
-                margin: 1rem;
-            }
-
-            @include respond(iphone-6/7/8/10){
-                margin: 0rem;
-            }
-
             &--modifier{
-                border-radius: 0.3rem;
-                -webkit-border-radius: 0.3rem;
-                -moz-border-radius: 0.3rem;
-                -ms-border-radius: 0.3rem;
-                -o-border-radius: 0.3rem;
-                height: 75rem;
-
-                @include respond(bp-8){
-                    height: 55rem;
-                }
+                border-radius: 0.4rem;
+                -webkit-border-radius: 0.4rem;
+                -moz-border-radius: 0.4rem;
+                -ms-border-radius: 0.4rem;
+                -o-border-radius: 0.4rem;
+                height: 50rem;
 
                 @include respond(bp-7){
-                    height: 45rem;
-                }
-
-                @include respond(iphone-6/7/8plus){
                     height: 40rem;
                 }
 
-                @include respond(iphone-6/7/8/10){
+                @include respond(bp-6){
                     height: 35rem;
                 }
 
-                @include respond(galaxy-s5){
+                @include respond(iphone-6/7/8plus){
                     height: 30rem;
                 }
+
+                // @include respond(iphone-6/7/8/10){
+                //     height: 35rem;
+                // }
+
+                // @include respond(galaxy-s5){
+                //     height: 30rem;
+                // }
             }
 
         }
 
         &__details {
-            margin: 3.5rem;
-            flex-basis: 60%;
+            flex-basis: 55%;
 
-            @include respond(bp-5){
+            @include respond(bp-6){
                 justify-content: center;
             }
             
@@ -77,17 +71,12 @@
             }
 
             &__btn{
-                @include respond(bp-5){
+                @include respond(bp-6){
                     display: flex;
                     justify-content: center;
                     align-content: center;
                 }
             }
-
-            // @include respond(bp-5){
-            //     visibility: hidden;
-            //     display: none;
-            // }
         }
     }
 }

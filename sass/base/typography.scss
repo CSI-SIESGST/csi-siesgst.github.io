@@ -95,6 +95,10 @@
 
 .para-box{
 
+    &__border{
+        //Include borders here if needed
+    }
+
     &__modifier{
         font-size: 1.85rem;
         font-family: 'Roboto', sans-serif;
@@ -133,7 +137,7 @@
         @include respond(bp-1){
             font-size: 1.1rem;
             line-height: 1.5rem;
-            font-weight: 200;
+            font-weight: 300;
         }
 
         @include respond(galaxy-s5){

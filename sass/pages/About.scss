@@ -11,7 +11,6 @@
 
             &__modifier{
                 border-radius: 0.5rem;
-                // height: 45rem;
 
                 @include respond(bp-6){
                     box-shadow: none;

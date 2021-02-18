@@ -1,33 +1,30 @@
 .Past-memories{
 
-    // @include respond(bp-2){
-    //     margin: 6rem 0;
-    // }
-
     @include respond(galaxy-s5) {
         margin: 3rem 0;
     }
 }
 
 .past-memories-img{
-    padding: 0rem 30rem;
-    border-radius: 0.5rem!important;
+    // padding: 0rem 30rem;
+    border-radius: 0.4rem;
+    border: 0.2rem solid $primary-2;
 
-    @include respond(bp-7){
-        padding: 0 25rem;
-    }
+    // @include respond(bp-7){
+    //     padding: 0 25rem;
+    // }
 
-    @include respond(bp-5) {
-        padding: 0 15rem;
-    }
+    // @include respond(bp-5) {
+    //     padding: 0 15rem;
+    // }
 
-    @include respond(bp-4) {
-        padding: 0 10rem;
-    }
+    // @include respond(bp-4) {
+    //     padding: 0 10rem;
+    // }
 
-    @include respond(bp-2) {
-        padding: 0 2rem;
-    }
+    // @include respond(bp-2) {
+    //     padding: 0 2rem;
+    // }
 }
 
 .carousel-control-prev-icon,

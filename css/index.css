@@ -439,14 +439,14 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  height: 100%;
-  width: 100%;
+  height: 100vh;
+  width: 100vw;
   z-index: 10;
   opacity: 0.60;
   overflow: hidden; }
   .bg-video__content {
-    height: 100%;
-    width: 100%;
+    height: 100vh;
+    width: 100vw;
     object-fit: cover; }
 
 .about-content {
@@ -837,20 +837,8 @@ body {
     margin: 3rem 0; } }
 
 .past-memories-img {
-  padding: 0rem 30rem;
-  border-radius: 0.5rem !important; }
-  @media only screen and (max-width: 75em) {
-    .past-memories-img {
-      padding: 0 25rem; } }
-  @media only screen and (max-width: 56.25em) {
-    .past-memories-img {
-      padding: 0 15rem; } }
-  @media only screen and (max-width: 50em) {
-    .past-memories-img {
-      padding: 0 10rem; } }
-  @media only screen and (max-width: 37.5em) {
-    .past-memories-img {
-      padding: 0 2rem; } }
+  border-radius: 0.4rem;
+  border: 0.2rem solid #125cca; }
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
@@ -998,11 +986,11 @@ body {
       .magzine-main__sub__cover-page {
         margin-bottom: 1rem; } }
     .magzine-main__sub__cover-page--modifier {
-      border-radius: 0.4rem;
-      -webkit-border-radius: 0.4rem;
-      -moz-border-radius: 0.4rem;
-      -ms-border-radius: 0.4rem;
-      -o-border-radius: 0.4rem;
+      border-radius: 0.5rem;
+      -webkit-border-radius: 0.5rem;
+      -moz-border-radius: 0.5rem;
+      -ms-border-radius: 0.5rem;
+      -o-border-radius: 0.5rem;
       height: 50rem; }
       @media only screen and (max-width: 75em) {
         .magzine-main__sub__cover-page--modifier {

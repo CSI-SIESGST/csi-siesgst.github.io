@@ -98,12 +98,6 @@
 
 .navbar-brand-img{
     width: 7rem;
-
-    @include respond(bp-1) {
-      // width: 6rem;
-      // display: none;
-      // visibility: hidden;
-    }
 }
 
 .navbar-nav {

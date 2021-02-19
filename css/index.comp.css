@@ -439,14 +439,14 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  height: 100%;
-  width: 100%;
+  height: 100vh;
+  width: 100vw;
   z-index: 10;
   opacity: 0.60;
   overflow: hidden; }
   .bg-video__content {
-    height: 100%;
-    width: 100%;
+    height: 100vh;
+    width: 100vw;
     object-fit: cover; }
 
 .about-content {
@@ -832,57 +832,9 @@ body {
         font-size: 1.4rem;
         padding: 7px 13px; } }
 
-@media only screen and (max-width: 22.5em) {
-  .Past-memories {
-    margin: 3rem 0; } }
-
 .past-memories-img {
-  padding: 0rem 30rem;
-  border-radius: 0.5rem !important; }
-  @media only screen and (max-width: 75em) {
-    .past-memories-img {
-      padding: 0 25rem; } }
-  @media only screen and (max-width: 56.25em) {
-    .past-memories-img {
-      padding: 0 15rem; } }
-  @media only screen and (max-width: 50em) {
-    .past-memories-img {
-      padding: 0 10rem; } }
-  @media only screen and (max-width: 37.5em) {
-    .past-memories-img {
-      padding: 0 2rem; } }
-
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-  height: 5rem;
-  width: 5rem;
-  background-color: rgba(0, 0, 0, 0.3);
-  background-size: 60%, 60%;
-  border-radius: 10rem;
-  border: 1px solid rgba(0, 0, 0, 0.3); }
-  @media only screen and (max-width: 68.75em) {
-    .carousel-control-prev-icon,
-    .carousel-control-next-icon {
-      height: 4rem;
-      width: 4rem; } }
-  @media only screen and (max-width: 50em) {
-    .carousel-control-prev-icon,
-    .carousel-control-next-icon {
-      height: 3rem;
-      width: 3rem; } }
-  @media only screen and (max-width: 31.25em) {
-    .carousel-control-prev-icon,
-    .carousel-control-next-icon {
-      height: 2rem;
-      width: 2rem; } }
-
-@media only screen and (max-width: 23.4375em) {
-  .carousel-control-next,
-  .carousel-control-prev {
-    width: 20% !important; } }
-
-.carousel-indicators .active {
-  background-color: #1d75fc; }
+  border-radius: 0.4rem;
+  border: 0.2rem solid #125cca; }
 
 .card-content {
   border: 0.4rem solid #303f9f;
@@ -998,11 +950,11 @@ body {
       .magzine-main__sub__cover-page {
         margin-bottom: 1rem; } }
     .magzine-main__sub__cover-page--modifier {
-      border-radius: 0.4rem;
-      -webkit-border-radius: 0.4rem;
-      -moz-border-radius: 0.4rem;
-      -ms-border-radius: 0.4rem;
-      -o-border-radius: 0.4rem;
+      border-radius: 0.5rem;
+      -webkit-border-radius: 0.5rem;
+      -moz-border-radius: 0.5rem;
+      -ms-border-radius: 0.5rem;
+      -o-border-radius: 0.5rem;
       height: 50rem; }
       @media only screen and (max-width: 75em) {
         .magzine-main__sub__cover-page--modifier {

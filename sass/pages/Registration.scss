@@ -3,20 +3,12 @@
     @include respond(bp-4){
         padding: 1rem;
     }
-
-    // @include respond(bp-3){
-    // padding: 0.5rem;
-    // }
 }
 
 .Abstract{
     @include respond(bp-4){
         padding: 1rem;
     }
-
-    // @include respond(bp-3){
-    // padding: 0.5rem;
-    // }
 }
 .reg-abs-main{
     margin-top: 2rem;
@@ -56,10 +48,6 @@
             width: 100%;
             margin-left: auto;
         }
-
-        //  @include respond(iphone-6/7/8plus) {
-        //      width: 90vw;
-        //  }
 
         &--heading{
             font-size: 2.5rem;
@@ -171,7 +159,6 @@
             font-size: 1.8rem;
             font-weight: 500;
             color: $white-1;
-            // padding: 1rem;
             list-style: disc;
 
             @include respond(bp-8){
@@ -272,29 +259,8 @@
         &__img{
 
             &--modifier{
-                // height: 63rem;
                 height: 100%;
                 width: 100%;
-
-                // @include respond(bp-8){
-                //     height: 45rem;
-                // }
-
-                // @include respond(bp-7){
-                //     height: 42rem;
-                // }
-
-                // @include respond(bp-6){
-                //     height: 38rem;
-                // }
-
-                // @include respond(bp-5){
-                //     height: 30rem;
-                // }
-
-                // @include respond(bp-4) {
-                //     height: 25rem;
-                // }
 
                 @include respond(bp-3) {
                     display: none;
@@ -303,8 +269,6 @@
                     height: 0;
                 }
 
-                // @include respond(bp-2){
-                // }
             }
         }
 

@@ -1,0 +1,313 @@
+.Registration{
+    background-color: $black;
+    @include respond(bp-4){
+        padding: 1rem;
+    }
+
+    // @include respond(bp-3){
+    // padding: 0.5rem;
+    // }
+}
+
+.Abstract{
+    @include respond(bp-4){
+        padding: 1rem;
+    }
+
+    // @include respond(bp-3){
+    // padding: 0.5rem;
+    // }
+}
+.reg-abs-main{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: center;
+    margin-bottom: 5rem;
+
+    @include respond(bp-4){
+        margin-top: 0;
+    }
+
+    @include respond(bp-3){
+        margin-bottom: 2rem;
+    }
+
+    &__box1{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    &__reg-box,
+    &__abs-box{
+        width: 50vw;
+        border: none;
+        background-color: $black;
+        margin-left: 2rem;
+
+         @include respond(bp-4){
+             margin-left: 1rem;
+         }
+
+        @include respond(bp-3) {
+            width: 100%;
+            margin-left: auto;
+        }
+
+        //  @include respond(iphone-6/7/8plus) {
+        //      width: 90vw;
+        //  }
+
+        &--heading{
+            font-size: 2.5rem;
+            text-transform: uppercase;
+            font-weight: 600;
+            color: $primary-1!important;
+            font-family: 'Poppins',
+            sans-serif;
+
+            @include respond(bp-7){
+                font-size: 2.3rem;
+            }
+
+            @include respond(bp-4) {
+                font-size: 2rem;
+            }
+
+            @include respond(bp-3) {
+                font-size: 1.8rem;
+            }
+
+            @include respond(bp-1) {
+                text-align: center;
+                font-size: 1.6rem;
+            }
+
+            @include respond(iphone-6/7/8plus){
+                text-align: center;
+                font-size: 1.5rem;
+            }
+
+        }
+
+        &--list-collection{
+            padding: 1rem;
+            
+            @include respond(bp-8){
+                padding: 0;
+            }
+
+            @include respond(bp-5){
+                padding: 0;
+            }
+        }
+
+        &--list{
+            list-style: disc;
+            font-size: 1.8rem;
+            font-weight: 500;
+            color: $white-1;
+            text-align: justify;
+
+            &:not(:last-child){
+                margin-bottom: 1rem;
+            }
+
+            @include respond(bp-8){
+                font-size: 1.6rem;
+            }
+
+            @include respond(bp-7){
+                font-size: 1.5rem;
+            }
+
+            @include respond(bp-6){
+                font-size: 1.4rem;
+            }
+
+            @include respond(bp-5){
+                font-size: 1.3rem;
+            }
+
+            @include respond(bp-4){
+                font-size: 1.2rem;
+                &:not(:last-child) {
+                    margin-bottom: 0.8rem;
+                }
+            }
+
+            @include respond(bp-3){
+                font-size: 1.25rem;
+                text-align: justify;
+            }
+
+            @include respond(bp-2) {
+                font-size: 1.30rem;
+                font-weight: 400;
+            }
+
+            @include respond(bp-1){
+                text-align: justify;
+                line-height: normal;
+
+                &:not(:last-child) {
+                    margin-bottom: 0.8rem;
+                }
+            }
+
+            @include respond(iphone-6/7/8plus){
+                font-size: 1.2rem;
+            }
+
+            @include respond(iphone-5se){
+                font-size: 1.1rem;
+            }
+        }
+
+        &--sentence{
+            font-size: 1.8rem;
+            font-weight: 500;
+            color: $white-1;
+            // padding: 1rem;
+            list-style: disc;
+
+            @include respond(bp-8){
+                font-size: 1.6rem;
+            }
+
+            @include respond(bp-7){
+                font-size: 1.5rem;
+            }
+
+            @include respond(bp-6) {
+                font-size: 1.4rem;
+            }
+
+            @include respond(bp-5) {
+                font-size: 1.3rem;
+            }
+
+             @include respond(bp-4) {
+                 font-size: 1.2rem;
+             }
+
+             @include respond(bp-3){
+                font-size: 1.1rem;
+             }
+
+             @include respond(bp-2) {
+                 font-size: 1.3rem;
+             }
+
+            @include respond(iphone-6/7/8plus) {
+                line-height: normal;
+                font-weight: 400;
+
+                &:not(:last-child) {
+                    margin-bottom: 0.5rem;
+                }
+            }
+
+            @include respond(iphone-5se) {
+                font-size: 1.1rem;
+            }
+
+        }
+
+        &--btn1,
+        &--btn2{
+            font-size: 1.6rem;
+            width: 20rem;
+            height: 4rem;
+            margin-bottom: 5rem;
+            text-transform: uppercase;
+            font-weight: 500;
+            border-radius: .3rem;
+
+            @include respond(bp-8){
+                margin-bottom: 2rem;
+            }
+
+            @include respond(bp-7) {
+                margin-bottom: 2rem;
+            }
+
+            @include respond(bp-5){
+                font-size: 1.3rem;
+                width: 17rem;
+            }
+
+            @include respond(iphone-6/7/8plus){
+                font-size: 1.2rem;
+                width: 16rem;
+                align-self: center;
+            }
+
+            @include respond(iphone-5se){
+                font-size: 1.1rem;
+                width: 14rem;
+                height: 3rem;
+            }
+        }
+
+        &--btn2{
+            margin-bottom: 0rem;
+            margin-top: 2rem;
+
+            @include respond(bp-8){
+                margin-top: 1rem;
+            }
+
+            @include respond(bp-7) {
+                margin-top: 1rem;
+            }
+        }
+    }
+
+    &__box2{
+        overflow: hidden;
+        &__img{
+
+            &--modifier{
+                // height: 63rem;
+                height: 100%;
+                width: 100%;
+
+                // @include respond(bp-8){
+                //     height: 45rem;
+                // }
+
+                // @include respond(bp-7){
+                //     height: 42rem;
+                // }
+
+                // @include respond(bp-6){
+                //     height: 38rem;
+                // }
+
+                // @include respond(bp-5){
+                //     height: 30rem;
+                // }
+
+                // @include respond(bp-4) {
+                //     height: 25rem;
+                // }
+
+                @include respond(bp-3) {
+                    display: none;
+                    visibility: hidden;
+                    width: 0;
+                    height: 0;
+                }
+
+                // @include respond(bp-2){
+                // }
+            }
+        }
+
+    }
+
+}

@@ -1,0 +1,137 @@
+.Workshop{
+
+    @include respond(bp-3){
+        // margin: 5rem 0;
+    }
+}
+
+.card-content{
+
+    border: .4rem solid $secondary;
+    border-radius: 0.5rem;
+
+    @include respond(bp-3){
+        box-shadow: none;
+    }
+
+    &__img{
+
+    }
+
+    &__text-box{
+
+        background-color: $black-1;
+
+    }
+
+    &__title{
+        font-size: 2rem;
+        font-weight: 600;
+        text-align: center;
+        color: $primary-1;
+        text-transform: uppercase;
+
+        @include respond(bp-8){
+            font-size: 1.8rem;
+        }
+
+        @include respond(bp-7) {
+            font-size: 1.7rem;
+        }
+
+        @include respond(bp-5) {
+            font-size: 1.9rem;
+            font-weight: 500;
+        }
+
+        @include respond(galaxy-s5){
+            font-size: 1.5rem;
+            font-weight: 500;
+        }
+    }
+
+    &__text{
+        font-size: 1.5rem;
+        font-weight: 600;
+        text-align: justify;
+        letter-spacing: 1px;
+        font-family: 'Muli',
+        sans-serif;
+        color: $white-1;
+
+        @include respond(bp-8) {
+            font-size: 1.4rem;
+            letter-spacing: normal;
+        }
+
+        @include respond(bp-7) {
+            font-size: 1.3rem;
+            letter-spacing: normal;
+        }
+
+        @include respond(bp-5) {
+            font-size: 1.5rem;
+        }
+
+        @include respond(bp-4){
+            font-weight: 400;
+        }
+
+        @include respond(bp-1){
+            font-size: 1.3rem;
+            font-weight: 200;
+        }
+
+        @include respond(galaxy-s5) {
+            font-size: 1.3rem;
+        }
+    }
+}
+
+.stats .circle {
+    width: 15rem;
+    height: 15rem;
+    display: table-cell;
+    vertical-align: middle;
+    border-radius: 50%;
+
+    @include respond(galaxy-s5){
+        width: 13rem;
+        height: 13rem;
+    }
+}
+
+.stats .circle-text, .stats-text {
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Muli',
+    sans-serif;
+    font-weight: 600;
+    color: $primary-1;
+    text-transform: uppercase;
+    margin-top: 2rem;
+
+    @include respond(bp-5){
+        font-size: 1.7rem;
+    }
+
+    @include respond(bp-2) {
+        font-size: 1.5rem;
+    }
+
+    @include respond(bp-1) {
+        font-size: 1.4rem;
+    }
+}
+
+.value{
+    color: $white-2;
+
+    @include respond(bp-5){
+        font-size: 2rem;
+    }
+}
+
+.stats .value::after {
+    content: "+";
+}

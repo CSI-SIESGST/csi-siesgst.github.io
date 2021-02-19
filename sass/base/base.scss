@@ -1,0 +1,84 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html{
+    font-size: 62.5%!important;       //[1rem = 10px => 10px/16px(Browser-Default) = 0.625 i.e 62.5%]
+    scroll-behavior: smooth;
+    background-color: $black-1;
+
+    @include respond(bp-6){
+        font-size: 56.25%!important;
+    }
+
+    @include respond(bp-5) {
+        font-size: 56.25%!important;
+    }
+
+    @include respond(bp-4) {
+        font-size: 56.25%!important;
+    }
+
+    @include respond(bp-3) {
+        font-size: 50%!important;
+    }
+
+    @include respond(bp-2) {
+        font-size: 50%!important;
+    }
+
+    @include respond(bp-1) {
+        font-size: 50%!important;
+    }
+
+    @include respond(iphone-6/7/8plus){
+        font-size: 43.75%!important;
+    }
+
+    @include respond(pixel-2/2xl) {
+        font-size: 43.75%!important;
+    }
+
+    @include respond(iphone-6/7/8/10) {
+        font-size: 43.75%!important;
+    }
+
+    @include respond(galaxy-s5) {
+        font-size: 43.75%!important;
+    }
+
+    @include respond(iphone-5se) {
+        font-size: 43.75%!important;
+    }
+
+    @include respond(bp-7) {
+        font-size: 62.5%!important;
+    }
+
+    @include respond(bp-8) {
+        font-size: 62.5%!important;
+    }
+
+    @include respond(bp-9) {
+        font-size: 62.5%!important;
+    }
+}
+
+body{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    background-color: $black;
+    font-family: 'Electrolize', sans-serif;
+
+    &::-webkit-scrollbar{
+        display: none;
+    }
+
+    // @include respond(bp-1) {
+    //     padding: 0rem;
+    // }
+}

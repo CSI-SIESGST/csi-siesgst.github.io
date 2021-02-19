@@ -1,0 +1,66 @@
+.Past-memories{
+
+    @include respond(galaxy-s5) {
+        margin: 3rem 0;
+    }
+}
+
+.past-memories-img{
+    // padding: 0rem 30rem;
+    border-radius: 0.4rem;
+    border: 0.2rem solid $primary-2;
+
+    // @include respond(bp-7){
+    //     padding: 0 25rem;
+    // }
+
+    // @include respond(bp-5) {
+    //     padding: 0 15rem;
+    // }
+
+    // @include respond(bp-4) {
+    //     padding: 0 10rem;
+    // }
+
+    // @include respond(bp-2) {
+    //     padding: 0 2rem;
+    // }
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    height: 5rem;
+    width: 5rem;
+    background-color: rgba(0, 0, 0, 0.3);
+    background-size: 60%, 60%;
+    border-radius: 10rem;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+
+    @include respond(bp-6){
+        height: 4rem;
+        width: 4rem;
+    }
+
+    @include respond(bp-4) {
+        height: 3rem;
+        width: 3rem;
+    }
+
+    @include respond(bp-1) {
+        height: 2rem;
+        width: 2rem;
+    }
+
+}
+
+.carousel-control-next,
+.carousel-control-prev{
+
+     @include respond(iphone-6/7/8/10) {
+         width: 20%!important;
+     }
+}
+
+.carousel-indicators .active {
+    background-color: $primary-1;
+}

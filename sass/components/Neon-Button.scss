@@ -1,0 +1,52 @@
+.neon-btn{
+    position: relative;
+    display: inline-block;
+    color: $primary-2;
+    overflow: hidden;
+    transition: 0.2s;
+    border: 0.3rem solid $primary-2;
+
+
+    &:hover{
+        color: $white-1;
+        background: $primary-2;
+        box-shadow: 0 0 10px $primary-2,
+        0 0 40px $primary-2,
+        0 0 80px $primary-2;
+        border: 0.3rem solid $primary-2;
+    }
+
+    &--read-more{
+        padding: 1.2rem;
+        border-radius: 0.4rem;
+        -webkit-border-radius: 0.4rem;
+        -moz-border-radius: 0.4rem;
+        -ms-border-radius: 0.4rem;
+        -o-border-radius: 0.4rem;
+
+        margin-top: 2rem;
+        font-style: inherit;
+        font-size: 1.6rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.1rem;
+
+        @include respond(bp-1){
+            font-size: 1.3rem;
+            padding: 1rem;
+        }
+
+
+}
+
+    @media only screen and (max-width: 50em),
+    only screen and (hover: none){
+        color: $white-1;
+        background: $primary-2;
+        box-shadow: 0 0 10px $primary-2,
+        0 0 40px $primary-2,
+        0 0 80px $primary-2;
+
+    }
+
+}

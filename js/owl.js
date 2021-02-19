@@ -4,8 +4,11 @@ owl.owlCarousel({
     margin:15,
     nav:false,
     autoplay:true,
+    smartSpeed:2000,
     autoplayHoverPause:true,
-    autoplayTimeout:2000,
+    autoplayTimeout:2500,
+    // autoplaySpeed:4000,
+    // slideTransition:'linear',
     stagePadding:50,
     responsive:{
         0:{

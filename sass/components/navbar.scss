@@ -101,12 +101,12 @@
 }
 
 .navbar-nav {
-  font-size: 1.5rem;
+  font-size: 1.35rem;
   font-weight: 600;
   text-transform: uppercase;
 
   @include respond(bp-6){
-    font-size: 1.3rem;
+    font-size: 1.30rem;
   }
 
   @include respond(bp-1){
@@ -115,7 +115,7 @@
 }
 
 .nav-link{
-  margin-right: 0.7rem;
+  margin-right: 0.6rem;
   transition: all .1s;
   color: $white-1!important;
   

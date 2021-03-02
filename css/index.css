@@ -328,18 +328,18 @@ body {
   width: 7rem; }
 
 .navbar-nav {
-  font-size: 1.5rem;
+  font-size: 1.35rem;
   font-weight: 600;
   text-transform: uppercase; }
   @media only screen and (max-width: 68.75em) {
     .navbar-nav {
-      font-size: 1.3rem; } }
+      font-size: 1.30rem; } }
   @media only screen and (max-width: 31.25em) {
     .navbar-nav {
       font-size: 1.2rem; } }
 
 .nav-link {
-  margin-right: 0.7rem;
+  margin-right: 0.6rem;
   transition: all .1s;
   color: #eee !important; }
   .nav-link:hover {
@@ -837,11 +837,8 @@ body {
   border: 0.2rem solid #125cca; }
 
 .card-content {
-  border: 0.4rem solid #303f9f;
+  border: 0.2rem solid #1d75fc;
   border-radius: 0.5rem; }
-  @media only screen and (max-width: 43.75em) {
-    .card-content {
-      box-shadow: none; } }
   .card-content__text-box {
     background-color: #1f1f1f; }
   .card-content__title {
@@ -862,23 +859,19 @@ body {
         font-weight: 500; } }
     @media only screen and (max-width: 22.5em) {
       .card-content__title {
-        font-size: 1.5rem;
-        font-weight: 500; } }
+        font-size: 1.5rem; } }
   .card-content__text {
     font-size: 1.5rem;
-    font-weight: 600;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
     text-align: justify;
-    letter-spacing: 1px;
-    font-family: 'Muli', sans-serif;
     color: #eee; }
     @media only screen and (min-width: 80em) and (max-width: 100em) {
       .card-content__text {
-        font-size: 1.4rem;
-        letter-spacing: normal; } }
+        font-size: 1.4rem; } }
     @media only screen and (max-width: 75em) {
       .card-content__text {
-        font-size: 1.3rem;
-        letter-spacing: normal; } }
+        font-size: 1.3rem; } }
     @media only screen and (max-width: 56.25em) {
       .card-content__text {
         font-size: 1.5rem; } }
@@ -889,9 +882,6 @@ body {
       .card-content__text {
         font-size: 1.3rem;
         font-weight: 200; } }
-    @media only screen and (max-width: 22.5em) {
-      .card-content__text {
-        font-size: 1.3rem; } }
 
 .stats .circle {
   width: 15rem;
@@ -907,7 +897,6 @@ body {
 .stats .circle-text, .stats-text {
   text-align: center;
   font-size: 2rem;
-  font-family: 'Muli', sans-serif;
   font-weight: 600;
   color: #1d75fc;
   text-transform: uppercase;
@@ -930,6 +919,18 @@ body {
 
 .stats .value::after {
   content: "+"; }
+
+.sponsor-img {
+  height: 15rem;
+  width: 15rem; }
+  @media only screen and (max-width: 68.75em) {
+    .sponsor-img {
+      height: 11rem;
+      width: 11rem; } }
+  @media only screen and (max-width: 25.875em) {
+    .sponsor-img {
+      height: 8rem;
+      width: 8rem; } }
 
 .magzine-main__sub {
   display: flex;

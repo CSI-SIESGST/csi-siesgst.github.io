@@ -1,33 +1,24 @@
-.sponsor-logo {
+/* .sponsor-logo {
   width: 15em;
   border-radius: 2em;
   border: 1px solid white;
-}
+} */
 /* @media only screen and (min-width: 56.25em) {
   .sponsor-logo {
     width: 15em;
   }
 } */
 
-@media only screen and (max-width: 56.25em) {
-  .sponsor-logo {
-    width: 12em;
-  }
-}
+/* @media only screen and (max-width: 56.25em) {
+} */
 
 @media only screen and (max-width: 37.5em) {
-  .sponsor-logo {
-    width: 8em;
-  }
   .schedule {
     font-size: .6em;
   }
 }
 
 @media only screen and (max-width: 22.5em) {
-  .sponsor-logo {
-    width: 6.5em;
-  }
   .schedule {
     font-size: .5em;
   }

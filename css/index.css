@@ -921,16 +921,27 @@ body {
   content: "+"; }
 
 .sponsor-img {
-  height: 15rem;
-  width: 15rem;
-  border-radius: 2em; }
+  height: 10rem;
+  width: 10rem; }
   @media only screen and (max-width: 68.75em) {
     .sponsor-img {
-      height: 11rem;
-      width: 11rem; } }
+      height: 8rem;
+      width: 8rem; } }
   @media only screen and (max-width: 25.875em) {
     .sponsor-img {
+      height: 6rem;
+      width: 6rem; } }
+
+.sybgen-img {
+  height: 10rem;
+  width: 15rem; }
+  @media only screen and (max-width: 68.75em) {
+    .sybgen-img {
       height: 8rem;
+      width: 12rem; } }
+  @media only screen and (max-width: 25.875em) {
+    .sybgen-img {
+      height: 6rem;
       width: 8rem; } }
 
 .education-sponsor-img {

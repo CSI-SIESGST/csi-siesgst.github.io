@@ -615,7 +615,7 @@ body {
       text-transform: uppercase;
       font-weight: 600;
       color: #1d75fc !important;
-      font-family: 'Poppins', sans-serif; }
+      font-family: 'Poppins', sans-serif; }
       @media only screen and (max-width: 75em) {
         .reg-abs-main__reg-box--heading, .reg-abs-main__abs-box--heading {
           font-size: 2.3rem; } }
@@ -921,16 +921,41 @@ body {
   content: "+"; }
 
 .sponsor-img {
-  height: 15rem;
-  width: 15rem; }
+  height: 10rem;
+  width: 10rem; }
   @media only screen and (max-width: 68.75em) {
-    .sponsor-img {
-      height: 11rem;
-      width: 11rem; } }
-  @media only screen and (max-width: 25.875em) {
     .sponsor-img {
       height: 8rem;
       width: 8rem; } }
+  @media only screen and (max-width: 25.875em) {
+    .sponsor-img {
+      height: 6rem;
+      width: 6rem; } }
+
+.sybgen-img {
+  height: 10rem;
+  width: 15rem; }
+  @media only screen and (max-width: 68.75em) {
+    .sybgen-img {
+      height: 8rem;
+      width: 12rem; } }
+  @media only screen and (max-width: 25.875em) {
+    .sybgen-img {
+      height: 6rem;
+      width: 8rem; } }
+
+.education-sponsor-img {
+  height: 10rem;
+  width: 30rem;
+  border-radius: .8em; }
+  @media only screen and (max-width: 68.75em) {
+    .education-sponsor-img {
+      height: 8rem;
+      width: 20rem; } }
+  @media only screen and (max-width: 25.875em) {
+    .education-sponsor-img {
+      height: 5rem;
+      width: 15rem; } }
 
 .magzine-main__sub {
   display: flex;

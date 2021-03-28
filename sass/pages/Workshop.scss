@@ -161,3 +161,19 @@
         width: 15rem;
     }
 }
+
+.technical-sponsor-img{
+    height: 5rem;
+    width: 30rem;
+    border-radius: .8em;
+    
+    @include respond(bp-6) {
+        height: 4rem;
+        width: 20rem;
+    }
+
+    @include respond(iphone-6/7/8plus) {
+        height: 3rem;
+        width: 15rem;
+    }
+}

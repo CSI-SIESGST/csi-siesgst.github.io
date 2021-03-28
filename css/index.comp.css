@@ -957,6 +957,19 @@ body {
       height: 5rem;
       width: 15rem; } }
 
+.technical-sponsor-img {
+  height: 5rem;
+  width: 30rem;
+  border-radius: .8em; }
+  @media only screen and (max-width: 68.75em) {
+    .technical-sponsor-img {
+      height: 4rem;
+      width: 20rem; } }
+  @media only screen and (max-width: 25.875em) {
+    .technical-sponsor-img {
+      height: 3rem;
+      width: 15rem; } }
+
 .magzine-main__sub {
   display: flex;
   flex-direction: row;

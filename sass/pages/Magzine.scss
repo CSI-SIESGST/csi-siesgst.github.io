@@ -20,6 +20,8 @@
         &__cover-page {
 
             margin-bottom: 0rem;
+            border: 1px solid white;
+            border-radius: 0.5rem;
 
             @include respond(bp-6){
                 margin-bottom: 1rem;

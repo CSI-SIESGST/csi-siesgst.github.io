@@ -984,7 +984,9 @@ body {
       .magzine-main__sub__details {
         margin: 0rem 1.5rem; } }
   .magzine-main__sub__cover-page {
-    margin-bottom: 0rem; }
+    margin-bottom: 0rem;
+    border: 1px solid white;
+    border-radius: 0.5rem; }
     @media only screen and (max-width: 68.75em) {
       .magzine-main__sub__cover-page {
         margin-bottom: 1rem; } }
